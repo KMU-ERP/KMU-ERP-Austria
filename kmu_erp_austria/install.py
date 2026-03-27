@@ -6,6 +6,8 @@ import sys
 import click
 import frappe
 
+from kmu_erp_austria.setup.tax_templates import import_tax_templates
+
 
 def before_install():
 	if "erpnext" not in frappe.get_installed_apps():
@@ -26,6 +28,7 @@ def after_install():
 			"  HINWEIS: Setup-Wizard wurde bereits ausgeführt – importiere Kontenplan ...",
 			fg="yellow"))
 		import_chart_for_companies()
+		import_tax_templates()
 	else:
 		click.echo(click.style(
 			"  HINWEIS: Setup-Wizard noch nicht ausgeführt. "
