@@ -1049,7 +1049,7 @@
         "account_currency": "EUR"
       },
       "Kassenbestand in Euro": {
-        "account_number": "2899",
+        "account_number": "2700",
         "account_type": "Cash",
         "account_currency": "EUR"
       },
@@ -1116,6 +1116,11 @@
       "Schwebende Geldbewegungen": {
         "account_number": "2895",
         "account_type": "Current Asset",
+        "account_currency": "EUR"
+      },
+      "Kassenbestand in Euro_": {
+        "account_number": "2899",
+        "account_type": "Cash",
         "account_currency": "EUR"
       },
       "aktive Rechnungsabgrenzungsposten": {
