@@ -6,7 +6,12 @@ import sys
 import click
 import frappe
 
+from kmu_erp_austria.setup.tax_rules import import_tax_rules
 from kmu_erp_austria.setup.tax_templates import import_tax_templates
+from erpnext.accounts.doctype.account.chart_of_accounts.chart_of_accounts import create_charts
+from erpnext.accounts.doctype.chart_of_accounts_importer.chart_of_accounts_importer import (
+	unset_existing_data,
+)
 
 
 def before_install():
@@ -29,6 +34,7 @@ def after_install():
 			fg="yellow"))
 		import_chart_for_companies()
 		import_tax_templates()
+		import_tax_rules()
 	else:
 		click.echo(click.style(
 			"  HINWEIS: Setup-Wizard noch nicht ausgeführt. "
@@ -63,10 +69,7 @@ def import_chart_for_companies():
 		))
 		return
 
-	from erpnext.accounts.doctype.account.chart_of_accounts.chart_of_accounts import create_charts
-	from erpnext.accounts.doctype.chart_of_accounts_importer.chart_of_accounts_importer import (
-		unset_existing_data,
-	)
+
 
 	frappe.local.flags.allow_unverified_charts = True
 
