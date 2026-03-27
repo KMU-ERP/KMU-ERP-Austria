@@ -1,7 +1,7 @@
 app_name = "kmu_erp_austria"
 app_title = "Kmu Erp Austria"
 app_publisher = "RAN Soft GmbH & Co KG"
-app_description = "Frappe app with austrian default setting"
+app_description = "Frappe app with austrian default settings"
 app_email = "office@ransoft.at"
 app_license = "mit"
 
@@ -85,8 +85,8 @@ app_license = "mit"
 # Installation
 # ------------
 
-# before_install = "kmu_erp_austria.install.before_install"
-# after_install = "kmu_erp_austria.install.after_install"
+before_install = "kmu_erp_austria.install.before_install"
+after_install = "kmu_erp_austria.install.after_install"
 
 # Uninstallation
 # ------------

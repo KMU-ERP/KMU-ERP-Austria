@@ -1,0 +1,5608 @@
+{
+  "country_code": "at",
+  "name": "KMU Österreich - Standard Kontenplan",
+  "tree": {
+    "0 - Anlagevermögen": {
+      "account_currency": "EUR",
+      "root_type": "Asset",
+      "Konzessionen": {
+        "account_number": "0100",
+        "account_type": "Fixed Asset",
+        "account_currency": "EUR"
+      },
+      "kumulierte Abschreibungen zu Konzessionen": {
+        "account_number": "0109",
+        "account_type": "Accumulated Depreciation",
+        "account_currency": "EUR"
+      },
+      "Patentrechte": {
+        "account_number": "0110",
+        "account_type": "Fixed Asset",
+        "account_currency": "EUR"
+      },
+      "Lizenzen": {
+        "account_number": "0111",
+        "account_type": "Fixed Asset",
+        "account_currency": "EUR"
+      },
+      "kumulierte Abschreibungen zu Patentrechten": {
+        "account_number": "0118",
+        "account_type": "Accumulated Depreciation",
+        "account_currency": "EUR"
+      },
+      "kumulierte Abschreibungen zu Lizenzen": {
+        "account_number": "0119",
+        "account_type": "Accumulated Depreciation",
+        "account_currency": "EUR"
+      },
+      "Software": {
+        "account_number": "0120",
+        "account_type": "Fixed Asset",
+        "account_currency": "EUR"
+      },
+      "kumulierte Abschreibungen zu Software": {
+        "account_number": "0129",
+        "account_type": "Accumulated Depreciation",
+        "account_currency": "EUR"
+      },
+      "Marken": {
+        "account_number": "0130",
+        "account_type": "Fixed Asset",
+        "account_currency": "EUR"
+      },
+      "Warenzeichen": {
+        "account_number": "0131",
+        "account_type": "Fixed Asset",
+        "account_currency": "EUR"
+      },
+      "Musterschutzrechte": {
+        "account_number": "0132",
+        "account_type": "Fixed Asset",
+        "account_currency": "EUR"
+      },
+      "sonstige Urheberrechte": {
+        "account_number": "0133",
+        "account_type": "Fixed Asset",
+        "account_currency": "EUR"
+      },
+      "Pacht- und Mietrechte": {
+        "account_number": "0140",
+        "account_type": "Fixed Asset",
+        "account_currency": "EUR"
+      },
+      "kumulierte Abschreibungen zu Pacht- und Mietrechten": {
+        "account_number": "0148",
+        "account_type": "Accumulated Depreciation",
+        "account_currency": "EUR"
+      },
+      "kumulierte Abschreibungen zu gewerblichen Schutzrechten und ähnliche Rechten": {
+        "account_number": "0149",
+        "account_type": "Accumulated Depreciation",
+        "account_currency": "EUR"
+      },
+      "Geschäfts-(Firmen-)wert": {
+        "account_number": "0150",
+        "account_type": "Fixed Asset",
+        "account_currency": "EUR"
+      },
+      "kumulierte Abschreibungen zu Geschäfts-(Firmen-)wert": {
+        "account_number": "0159",
+        "account_type": "Accumulated Depreciation",
+        "account_currency": "EUR"
+      },
+      "Umgründungsmehrwert": {
+        "account_number": "0160",
+        "account_type": "Fixed Asset",
+        "account_currency": "EUR"
+      },
+      "kumulierte Abschreibungen zu Umgründungsmehrwert": {
+        "account_number": "0169",
+        "account_type": "Accumulated Depreciation",
+        "account_currency": "EUR"
+      },
+      "Unterschiedsbetrag Kapitalkonsolidierung": {
+        "account_number": "0170",
+        "account_type": "Fixed Asset",
+        "account_currency": "EUR"
+      },
+      "kumulierte Abschreibungen zu Unterschiedsbetrag aus der Kapitalkonsolidierung": {
+        "account_number": "0179",
+        "account_type": "Accumulated Depreciation",
+        "account_currency": "EUR"
+      },
+      "Anzahlungen für immaterielles Vermögen": {
+        "account_number": "0180",
+        "account_type": "Fixed Asset",
+        "account_currency": "EUR"
+      },
+      "unbebaute Grundstücke": {
+        "account_number": "0200",
+        "account_type": "Fixed Asset",
+        "account_currency": "EUR"
+      },
+      "Grundstücke mit Substanzverzehr": {
+        "account_number": "0205",
+        "account_type": "Fixed Asset",
+        "account_currency": "EUR"
+      },
+      "Grund- und Bodenanteil bei Gebäuden": {
+        "account_number": "0210",
+        "account_type": "Fixed Asset",
+        "account_currency": "EUR"
+      },
+      "kumulierte Abschreibungen zu Grundstücken": {
+        "account_number": "0219",
+        "account_type": "Accumulated Depreciation",
+        "account_currency": "EUR"
+      },
+      "grundstücksgleiche Rechte": {
+        "account_number": "0220",
+        "account_type": "Fixed Asset",
+        "account_currency": "EUR"
+      },
+      "kumulierte Abschreibungen zu grundstücksgleichen Rechten": {
+        "account_number": "0229",
+        "account_type": "Accumulated Depreciation",
+        "account_currency": "EUR"
+      },
+      "Betriebs- und Geschäftsgebäude": {
+        "account_number": "0300",
+        "account_type": "Fixed Asset",
+        "account_currency": "EUR"
+      },
+      "Wohn- und Sozialgebäude": {
+        "account_number": "0310",
+        "account_type": "Fixed Asset",
+        "account_currency": "EUR"
+      },
+      "Betriebs- und Geschäftsgebäude auf fremdem Grund": {
+        "account_number": "0320",
+        "account_type": "Fixed Asset",
+        "account_currency": "EUR"
+      },
+      "Wohn- und Sozialgebäude auf fremdem Grund": {
+        "account_number": "0330",
+        "account_type": "Fixed Asset",
+        "account_currency": "EUR"
+      },
+      "Grundstückseinrichtungen": {
+        "account_number": "0340",
+        "account_type": "Fixed Asset",
+        "account_currency": "EUR"
+      },
+      "kumulierte Abschreibungen zu Gebäuden": {
+        "account_number": "0349",
+        "account_type": "Accumulated Depreciation",
+        "account_currency": "EUR"
+      },
+      "Grundstückseinrichtungen auf fremdem Grund": {
+        "account_number": "0350",
+        "account_type": "Fixed Asset",
+        "account_currency": "EUR"
+      },
+      "kumulierte Abschreibungen zu Gebäuden auf fremdem Grund": {
+        "account_number": "0359",
+        "account_type": "Accumulated Depreciation",
+        "account_currency": "EUR"
+      },
+      "Investitionen in fremde Betriebsgebäude": {
+        "account_number": "0360",
+        "account_type": "Fixed Asset",
+        "account_currency": "EUR"
+      },
+      "Investitionen in fremde Wohngebäude": {
+        "account_number": "0370",
+        "account_type": "Fixed Asset",
+        "account_currency": "EUR"
+      },
+      "kumulierte Abschreibungen zu Investitionen in fremde Gebäude": {
+        "account_number": "0379",
+        "account_type": "Accumulated Depreciation",
+        "account_currency": "EUR"
+      },
+      "Instandsetzung 1/15 Abschreibung § 28 Abs. 2 EStG": {
+        "account_number": "0380",
+        "account_type": "Fixed Asset",
+        "account_currency": "EUR"
+      },
+      "Instandsetzung 1/15 Abschreibung § 28 Abs. 3 EStG": {
+        "account_number": "0381",
+        "account_type": "Fixed Asset",
+        "account_currency": "EUR"
+      },
+      "Instandsetzung 1/15 Abschreibung § 28 Abs. 4 EStG": {
+        "account_number": "0382",
+        "account_type": "Fixed Asset",
+        "account_currency": "EUR"
+      },
+      "Instandsetzung 1/15 Abschreibung § 4 Abs. 7 EStG": {
+        "account_number": "0385",
+        "account_type": "Fixed Asset",
+        "account_currency": "EUR"
+      },
+      "Fertigungsmaschinen": {
+        "account_number": "0400",
+        "account_type": "Fixed Asset",
+        "account_currency": "EUR"
+      },
+      "Antriebsmaschinen": {
+        "account_number": "0410",
+        "account_type": "Fixed Asset",
+        "account_currency": "EUR"
+      },
+      "Energieversorgungsanlagen": {
+        "account_number": "0420",
+        "account_type": "Fixed Asset",
+        "account_currency": "EUR"
+      },
+      "Transportanlagen": {
+        "account_number": "0430",
+        "account_type": "Fixed Asset",
+        "account_currency": "EUR"
+      },
+      "kumulierte Abschreibungen zu technischen Anlagen": {
+        "account_number": "0439",
+        "account_type": "Accumulated Depreciation",
+        "account_currency": "EUR"
+      },
+      "sonstige Maschinen": {
+        "account_number": "0440",
+        "account_type": "Fixed Asset",
+        "account_currency": "EUR"
+      },
+      "Maschinenwerkzeuge": {
+        "account_number": "0500",
+        "account_type": "Fixed Asset",
+        "account_currency": "EUR"
+      },
+      "allgemeine Werkzeuge und Handwerkzeuge": {
+        "account_number": "0510",
+        "account_type": "Fixed Asset",
+        "account_currency": "EUR"
+      },
+      "Vorrichtungen, Formen, Modelle": {
+        "account_number": "0520",
+        "account_type": "Fixed Asset",
+        "account_currency": "EUR"
+      },
+      "andere Erzeugungshilfsmittel": {
+        "account_number": "0530",
+        "account_type": "Fixed Asset",
+        "account_currency": "EUR"
+      },
+      "Hebezeuge und Montageanlagen": {
+        "account_number": "0540",
+        "account_type": "Fixed Asset",
+        "account_currency": "EUR"
+      },
+      "geringwertige Maschinen": {
+        "account_number": "0550",
+        "account_type": "Fixed Asset",
+        "account_currency": "EUR"
+      },
+      "Festwert Maschinen": {
+        "account_number": "0555",
+        "account_type": "Fixed Asset",
+        "account_currency": "EUR"
+      },
+      "kumulierte Abschreibungen zu Maschinen": {
+        "account_number": "0559",
+        "account_type": "Accumulated Depreciation",
+        "account_currency": "EUR"
+      },
+      "Betriebs- und Geschäftsausstattung": {
+        "account_number": "0600",
+        "account_type": "Fixed Asset",
+        "account_currency": "EUR"
+      },
+      "Beheizungs- und Beleuchtungsanlagen": {
+        "account_number": "0605",
+        "account_type": "Fixed Asset",
+        "account_currency": "EUR"
+      },
+      "andere Anlagen": {
+        "account_number": "0610",
+        "account_type": "Fixed Asset",
+        "account_currency": "EUR"
+      },
+      "Büromaschinen, EDV-Anlagen": {
+        "account_number": "0620",
+        "account_type": "Fixed Asset",
+        "account_currency": "EUR"
+      },
+      "PKW": {
+        "account_number": "0630",
+        "account_type": "Fixed Asset",
+        "account_currency": "EUR"
+      },
+      "LKW": {
+        "account_number": "0640",
+        "account_type": "Fixed Asset",
+        "account_currency": "EUR"
+      },
+      "Einbauten in Leasingfahrzeugen": {
+        "account_number": "0641",
+        "account_type": "Fixed Asset",
+        "account_currency": "EUR"
+      },
+      "andere Beförderungsmittel": {
+        "account_number": "0645",
+        "account_type": "Fixed Asset",
+        "account_currency": "EUR"
+      },
+      "kumulierte Abschreibungen zu Fahrzeugen und anderen Beförderungsmitteln": {
+        "account_number": "0649",
+        "account_type": "Accumulated Depreciation",
+        "account_currency": "EUR"
+      },
+      "kumulierte Abschreibungen zu andere Anlagen": {
+        "account_number": "0659",
+        "account_type": "Accumulated Depreciation",
+        "account_currency": "EUR"
+      },
+      "Gebinde": {
+        "account_number": "0670",
+        "account_type": "Fixed Asset",
+        "account_currency": "EUR"
+      },
+      "geringwertige Vermögensgegenstände, soweit nicht im Erzeugungsprozess verwendet": {
+        "account_number": "0680",
+        "account_type": "Fixed Asset",
+        "account_currency": "EUR"
+      },
+      "Festwert Betriebs- und Geschäftsausstattung": {
+        "account_number": "0685",
+        "account_type": "Fixed Asset",
+        "account_currency": "EUR"
+      },
+      "kumulierte Abschreibungen zu Betriebs- und Geschäftsausstattung": {
+        "account_number": "0689",
+        "account_type": "Accumulated Depreciation",
+        "account_currency": "EUR"
+      },
+      "vorläufige Abschreibungen": {
+        "account_number": "0690",
+        "account_type": "Accumulated Depreciation",
+        "account_currency": "EUR"
+      },
+      "Kumulierte Abschreibungen Sachanlagen": {
+        "account_number": "0695",
+        "account_type": "Accumulated Depreciation",
+        "account_currency": "EUR"
+      },
+      "Anzahlungen für Sachanlagen": {
+        "account_number": "0700",
+        "account_type": "Fixed Asset",
+        "account_currency": "EUR"
+      },
+      "Anlagen in Bau": {
+        "account_number": "0710",
+        "account_type": "Capital Work in Progress",
+        "account_currency": "EUR"
+      },
+      "Anteile an verbundenen Unternehmen": {
+        "account_number": "0800",
+        "account_currency": "EUR"
+      },
+      "kumulierte Abschreibungen zu Anteilen an verbundenen Unternehmen": {
+        "account_number": "0809",
+        "account_type": "Accumulated Depreciation",
+        "account_currency": "EUR"
+      },
+      "Beteiligungen an Kapitalgesellschaften": {
+        "account_number": "0810",
+        "account_currency": "EUR"
+      },
+      "Beteiligungen an Personengesellschaften": {
+        "account_number": "0820",
+        "account_currency": "EUR"
+      },
+      "eigene Anteile, Anteile an herrschenden oder mit Mehrheit beteiligten Unternehmen": {
+        "account_number": "0830",
+        "account_currency": "EUR"
+      },
+      "sonstige Beteiligungen": {
+        "account_number": "0840",
+        "account_currency": "EUR"
+      },
+      "kumulierte Abschreibungen zu Beteiligungen": {
+        "account_number": "0849",
+        "account_type": "Accumulated Depreciation",
+        "account_currency": "EUR"
+      },
+      "Ausleihungen an verbundene Unternehmen": {
+        "account_number": "0850",
+        "account_currency": "EUR"
+      },
+      "kumulierte Abschreibungen zu Ausleihungen an verbundene Unternehmen": {
+        "account_number": "0859",
+        "account_type": "Accumulated Depreciation",
+        "account_currency": "EUR"
+      },
+      "Ausleihungen an Unternehmen, mit denen ein Beteiligungsverhältnis besteht": {
+        "account_number": "0860",
+        "account_currency": "EUR"
+      },
+      "kumulierte Abschreibungen zu Ausleihungen an Unternehmen, mit denen ein\nBeteiligungsverhältnis besteht": {
+        "account_number": "0869",
+        "account_type": "Accumulated Depreciation",
+        "account_currency": "EUR"
+      },
+      "Ausleihungen an Gesellschafter": {
+        "account_number": "0870",
+        "account_currency": "EUR"
+      },
+      "sonstige Ausleihungen": {
+        "account_number": "0880",
+        "account_currency": "EUR"
+      },
+      "kumulierte Abschreibungen zu sonstigen Ausleihungen": {
+        "account_number": "0889",
+        "account_type": "Accumulated Depreciation",
+        "account_currency": "EUR"
+      },
+      "Anteile an Kapitalgesellschaften": {
+        "account_number": "0890",
+        "account_currency": "EUR"
+      },
+      "Anteile an Personengesellschaften": {
+        "account_number": "0900",
+        "account_currency": "EUR"
+      },
+      "Genossenschaftsanteile": {
+        "account_number": "0910",
+        "account_currency": "EUR"
+      },
+      "Anteile an Investmentfonds": {
+        "account_number": "0920",
+        "account_currency": "EUR"
+      },
+      "Festverzinsliche Wertpapiere des Anlagevermögens": {
+        "account_number": "0930",
+        "account_currency": "EUR"
+      },
+      "Wertpapiere (Tilgungsträger)": {
+        "account_number": "0935",
+        "account_currency": "EUR"
+      },
+      "sonstige Finanzanlagen, Wertrechte": {
+        "account_number": "0940",
+        "account_currency": "EUR"
+      },
+      "Anteile an Mutterunternehmen": {
+        "account_number": "0950",
+        "account_currency": "EUR"
+      },
+      "Anzahlungen für Finanzanlagen": {
+        "account_number": "0980",
+        "account_currency": "EUR"
+      },
+      "kumulierte Abschreibungen zu Wertpapieren (Wertrechten) des Anlagevermögens": {
+        "account_number": "0989",
+        "account_type": "Accumulated Depreciation",
+        "account_currency": "EUR"
+      }
+    },
+    "1 - Vorräte": {
+      "account_currency": "EUR",
+      "root_type": "Asset",
+      "Bezugsverrechnung": {
+        "account_number": "1000",
+        "account_currency": "EUR"
+      },
+      "Rohstoffe": {
+        "account_number": "1100",
+        "account_type": "Stock",
+        "account_currency": "EUR"
+      },
+      "Bezogene Teile": {
+        "account_number": "1200",
+        "account_type": "Stock",
+        "account_currency": "EUR"
+      },
+      "Hilfsstoffe": {
+        "account_number": "1300",
+        "account_type": "Stock",
+        "account_currency": "EUR"
+      },
+      "Betriebsstoffe": {
+        "account_number": "1350",
+        "account_type": "Stock",
+        "account_currency": "EUR"
+      },
+      "Heizmaterialvorrat": {
+        "account_number": "1360",
+        "account_type": "Stock",
+        "account_currency": "EUR"
+      },
+      "unfertige Erzeugnisse": {
+        "account_number": "1400",
+        "account_type": "Stock",
+        "account_currency": "EUR"
+      },
+      "fertige Erzeugnisse": {
+        "account_number": "1500",
+        "account_type": "Stock",
+        "account_currency": "EUR"
+      },
+      "Waren": {
+        "account_number": "1600",
+        "account_type": "Stock",
+        "account_currency": "EUR"
+      },
+      "noch nicht abrechenbare Leistungen": {
+        "account_number": "1700",
+        "account_type": "Stock",
+        "account_currency": "EUR"
+      },
+      "erhaltene Anzahlungen auf Roh-, Hilfs- und Betriebsstoffe": {
+        "account_number": "1750",
+        "account_currency": "EUR"
+      },
+      "erhaltene Anzahlungen auf unfertige Erzeugnisse": {
+        "account_number": "1751",
+        "account_currency": "EUR"
+      },
+      "erhaltene Anzahlungen auf fertige Erzeugnisse": {
+        "account_number": "1752",
+        "account_currency": "EUR"
+      },
+      "erhaltene Anzahlungen auf Waren": {
+        "account_number": "1753",
+        "account_currency": "EUR"
+      },
+      "erhaltene Anzahlungen auf noch nicht abrechenbare Leistungen": {
+        "account_number": "1754",
+        "account_currency": "EUR"
+      },
+      "erhaltene Anzahlungen auf geleistete Anzahlungen auf Vorräte": {
+        "account_number": "1755",
+        "account_currency": "EUR"
+      },
+      "geleistete Anzahlungen 20 %": {
+        "account_number": "1800",
+        "account_currency": "EUR"
+      },
+      "geleistete Anzahlungen 10 %": {
+        "account_number": "1801",
+        "account_currency": "EUR"
+      },
+      "geleistete Anzahlungen 0 %": {
+        "account_number": "1802",
+        "account_currency": "EUR"
+      },
+      "Wertberichtigungen zu Rohstoffen": {
+        "account_number": "1910",
+        "account_currency": "EUR"
+      },
+      "Wertberichtigungen zu Hilfsstoffen": {
+        "account_number": "1911",
+        "account_currency": "EUR"
+      },
+      "Wertberichtigungen zu Betriebsstoffen": {
+        "account_number": "1912",
+        "account_currency": "EUR"
+      },
+      "Wertberichtigungen zu unfertigen Erzeugnissen": {
+        "account_number": "1913",
+        "account_currency": "EUR"
+      },
+      "Wertberichtigungen zu fertigen Erzeugnissen": {
+        "account_number": "1914",
+        "account_currency": "EUR"
+      },
+      "Wertberichtigungen zu Waren": {
+        "account_number": "1915",
+        "account_currency": "EUR"
+      },
+      "Wertberichtigungen zu noch nicht abrechenbaren Leistungen": {
+        "account_number": "1916",
+        "account_currency": "EUR"
+      }
+    },
+    "2 - Sonstiges Umlaufvermögen, aktive Rechnungsabgrenzungsposten, aktive latente Steuern": {
+      "account_currency": "EUR",
+      "root_type": "Asset",
+      "Forderungen aus Lieferungen und Leistungen Inland": {
+        "account_number": "2000",
+        "account_type": "Receivable",
+        "account_currency": "EUR"
+      },
+      "Abgrenzungen Forderungen aus Lieferungen und Leistungen": {
+        "account_number": "2050",
+        "account_type": "Receivable",
+        "account_currency": "EUR"
+      },
+      "noch nicht fakturierte Lieferungen und Leistungen": {
+        "account_number": "2060",
+        "account_type": "Receivable",
+        "account_currency": "EUR"
+      },
+      "Forderungen Anzahlungsautomatik": {
+        "account_number": "2070",
+        "account_type": "Receivable",
+        "account_currency": "EUR"
+      },
+      "Einzelwertberichtigungen zu Forderungen aus Lieferungen und Leistungen Inland": {
+        "account_number": "2080",
+        "account_type": "Receivable",
+        "account_currency": "EUR"
+      },
+      "pauschale Wertberichtigungen zu Forderungen aus Lieferungen und Leistungen Inland": {
+        "account_number": "2090",
+        "account_type": "Receivable",
+        "account_currency": "EUR"
+      },
+      "Forderungen aus Lieferungen und Leistungen EU": {
+        "account_number": "2100",
+        "account_type": "Receivable",
+        "account_currency": "EUR"
+      },
+      "Einzelwertberichtigungen zu Forderungen aus Lieferungen und Leistungen EU": {
+        "account_number": "2130",
+        "account_type": "Receivable",
+        "account_currency": "EUR"
+      },
+      "pauschale Wertberichtigungen zu Forderungen aus Lieferungen und Leistungen EU": {
+        "account_number": "2140",
+        "account_type": "Receivable",
+        "account_currency": "EUR"
+      },
+      "Forderungen aus Lieferungen und Leistungen sonstiges Ausland": {
+        "account_number": "2150",
+        "account_type": "Receivable",
+        "account_currency": "EUR"
+      },
+      "Einzelwertberichtigungen zu Forderungen aus Lieferungen und Leistungen sonstiges Ausland": {
+        "account_number": "2180",
+        "account_type": "Receivable",
+        "account_currency": "EUR"
+      },
+      "pauschale Wertberichtigungen zu Forderungen aus Lieferungen und Leistungen sonstiges Ausland": {
+        "account_number": "2190",
+        "account_type": "Receivable",
+        "account_currency": "EUR"
+      },
+      "Forderungen aus Lieferungen und Leistungen gegenüber verbundenen Unternehmen": {
+        "account_number": "2200",
+        "account_type": "Receivable",
+        "account_currency": "EUR"
+      },
+      "andere Forderungen gegenüber verbundenen Unternehmen": {
+        "account_number": "2201",
+        "account_type": "Current Asset",
+        "account_currency": "EUR"
+      },
+      "Einzelwertberichtigungen zu Forderungen gegenüber verbundenen Unternehmen": {
+        "account_number": "2230",
+        "account_type": "Current Asset",
+        "account_currency": "EUR"
+      },
+      "pauschale Wertberichtigungen zu Forderungen gegenüber verbundenen Unternehmen": {
+        "account_number": "2240",
+        "account_type": "Current Asset",
+        "account_currency": "EUR"
+      },
+      "Forderungen aus Lieferungen und Leistungen gegenüber Unternehmen, mit denen ein Beteiligungsverhältnis besteht": {
+        "account_number": "2250",
+        "account_type": "Current Asset",
+        "account_currency": "EUR"
+      },
+      "andere Forderungen gegenüber Unternehmen, mit denen ein Beteiligungsverhältnis besteht": {
+        "account_number": "2251",
+        "account_type": "Current Asset",
+        "account_currency": "EUR"
+      },
+      "Einzelwertberichtigungen auf Forderungen aus LuL ggü. Unternehmen mit bestehendem Beteiligungsverhältnis": {
+        "account_number": "2260",
+        "account_type": "Current Asset",
+        "account_currency": "EUR"
+      },
+      "Einzelwertberichtigungen zu Finanzforderungen gegenüber Unternehmen, mit denen ein Beteiligungsverhältnis besteht": {
+        "account_number": "2270",
+        "account_type": "Current Asset",
+        "account_currency": "EUR"
+      },
+      "pauschale Wertberichtigungen zu Forderungen gegenüber Unternehmen, mit denen ein Beteiligungsverhältnis besteht": {
+        "account_number": "2280",
+        "account_type": "Current Asset",
+        "account_currency": "EUR"
+      },
+      "geleistete Anzahlungen nicht steuerbar": {
+        "account_number": "2289",
+        "account_type": "Current Asset",
+        "account_currency": "EUR"
+      },
+      "geleistete Anzahlungen 0 %": {
+        "account_number": "2290",
+        "account_type": "Current Asset",
+        "account_currency": "EUR"
+      },
+      "geleistete Anzahlungen 10 %": {
+        "account_number": "2291",
+        "account_type": "Current Asset",
+        "account_currency": "EUR"
+      },
+      "geleistete Anzahlungen 20 %": {
+        "account_number": "2292",
+        "account_type": "Current Asset",
+        "account_currency": "EUR"
+      },
+      "geleistete Anzahlungen 20 % Brutto": {
+        "account_number": "2293",
+        "account_type": "Current Asset",
+        "account_currency": "EUR"
+      },
+      "geleistete Anzahlungen Bau § 19/1a": {
+        "account_number": "2294",
+        "account_type": "Current Asset",
+        "account_currency": "EUR"
+      },
+      "Lohn- und Gehaltsvorschüsse": {
+        "account_number": "2295",
+        "account_type": "Current Asset",
+        "account_currency": "EUR"
+      },
+      "geleistete Anzahlungen sonstige Leistungen EU": {
+        "account_number": "2297",
+        "account_type": "Current Asset",
+        "account_currency": "EUR"
+      },
+      "geleistete Anzahlungen 5 %": {
+        "account_number": "2298",
+        "account_type": "Current Asset",
+        "account_currency": "EUR"
+      },
+      "geleistete Anzahlungen 13 %": {
+        "account_number": "2299",
+        "account_type": "Current Asset",
+        "account_currency": "EUR"
+      },
+      "Sonstige Forderungen": {
+        "account_number": "2300",
+        "account_type": "Current Asset",
+        "account_currency": "EUR"
+      },
+      "Forderungen aus Anlagenabgängen": {
+        "account_number": "2310",
+        "account_type": "Current Asset",
+        "account_currency": "EUR"
+      },
+      "Forderungen aus Finanzanlagenabgängen": {
+        "account_number": "2320",
+        "account_type": "Current Asset",
+        "account_currency": "EUR"
+      },
+      "sonstige Forderungen aus der Ertragssteuerverrechnung": {
+        "account_number": "2330",
+        "account_type": "Current Asset",
+        "account_currency": "EUR"
+      },
+      "gewährte Zuschüsse": {
+        "account_number": "2350",
+        "account_type": "Current Asset",
+        "account_currency": "EUR"
+      },
+      "Zufallsguthaben Lieferanten": {
+        "account_number": "2360",
+        "account_type": "Current Asset",
+        "account_currency": "EUR"
+      },
+      "Verrechnungskonto Einwegpfand": {
+        "account_number": "2361",
+        "account_type": "Current Asset",
+        "account_currency": "EUR"
+      },
+      "eingeforderte, noch nicht eingezahlte Einlagen": {
+        "account_number": "2470",
+        "account_type": "Current Asset",
+        "account_currency": "EUR"
+      },
+      "Einzelwertberichtigungen zu sonstigen Forderungen": {
+        "account_number": "2480",
+        "account_type": "Current Asset",
+        "account_currency": "EUR"
+      },
+      "pauschale Wertberichtigungen zu sonstigen Forderungen": {
+        "account_number": "2490",
+        "account_type": "Current Asset",
+        "account_currency": "EUR"
+      },
+      "Vorsteuer": {
+        "account_number": "2500",
+        "account_type": "Tax",
+        "account_currency": "EUR"
+      },
+      "Vorsteuer aus ig. Erwerb": {
+        "account_number": "2501",
+        "account_type": "Tax",
+        "account_currency": "EUR"
+      },
+      "Vorsteuer § 19/Art 19 (Reverse Charge)": {
+        "account_number": "2502",
+        "account_type": "Tax",
+        "account_currency": "EUR"
+      },
+      "Vorsteuer aus Bauleistungen § 19/1a": {
+        "account_number": "2504",
+        "account_type": "Tax",
+        "account_currency": "EUR"
+      },
+      "Vorsteuer § 19/1b": {
+        "account_number": "2505",
+        "account_type": "Tax",
+        "account_currency": "EUR"
+      },
+      "Vorsteuer § 19/1d": {
+        "account_number": "2506",
+        "account_type": "Tax",
+        "account_currency": "EUR"
+      },
+      "Vorsteuer § 19/1c": {
+        "account_number": "2507",
+        "account_type": "Tax",
+        "account_currency": "EUR"
+      },
+      "Vorsteuer sonstige Leistungen EU": {
+        "account_number": "2508",
+        "account_type": "Tax",
+        "account_currency": "EUR"
+      },
+      "EUSt (Abgabenart EU) Forderung": {
+        "account_number": "2509",
+        "account_type": "Current Asset",
+        "account_currency": "EUR"
+      },
+      "Einfuhrumsatzsteuer": {
+        "account_number": "2510",
+        "account_type": "Tax",
+        "account_currency": "EUR"
+      },
+      "Vorsteuer Deutschland": {
+        "account_number": "2511",
+        "account_type": "Tax",
+        "account_currency": "EUR"
+      },
+      "Vorsteuer Italien": {
+        "account_number": "2512",
+        "account_type": "Tax",
+        "account_currency": "EUR"
+      },
+      "Vorsteuer Frankreich": {
+        "account_number": "2513",
+        "account_type": "Tax",
+        "account_currency": "EUR"
+      },
+      "Vorsteuer § 19/1e": {
+        "account_number": "2514",
+        "account_type": "Tax",
+        "account_currency": "EUR"
+      },
+      "VSt-Evidenzkonto für geleistete Anzahlungen": {
+        "account_number": "2515",
+        "account_type": "Current Asset",
+        "account_currency": "EUR"
+      },
+      "Vorsteuer in Folgejahr": {
+        "account_number": "2516",
+        "account_type": "Tax",
+        "account_currency": "EUR"
+      },
+      "Vorsteuer Art. 25/5": {
+        "account_number": "2517",
+        "account_type": "Tax",
+        "account_currency": "EUR"
+      },
+      "Vorsteuer übrige EU-Länder": {
+        "account_number": "2518",
+        "account_type": "Tax",
+        "account_currency": "EUR"
+      },
+      "noch nicht fällige EUSt, Vorsteuer": {
+        "account_number": "2519",
+        "account_type": "Tax",
+        "account_currency": "EUR"
+      },
+      "Noch nicht verrechenbare Vorsteuer": {
+        "account_number": "2520",
+        "account_type": "Tax",
+        "account_currency": "EUR"
+      },
+      "Vorsteuer teilabzugsfähig": {
+        "account_number": "2521",
+        "account_type": "Tax",
+        "account_currency": "EUR"
+      },
+      "Vorsteuer nicht abzugsfähig": {
+        "account_number": "2522",
+        "account_type": "Tax",
+        "account_currency": "EUR"
+      },
+      "Vorsteuer § 12/3 iVm Abs. 4 und 5": {
+        "account_number": "2523",
+        "account_type": "Tax",
+        "account_currency": "EUR"
+      },
+      "Vorsteuer f. ig. L. neuer Fahrzeuge gem. Art. 2": {
+        "account_number": "2524",
+        "account_type": "Tax",
+        "account_currency": "EUR"
+      },
+      "Vorsteuer Berichtigung § 12/10 u. 11": {
+        "account_number": "2525",
+        "account_type": "Tax",
+        "account_currency": "EUR"
+      },
+      "Vorsteuer Berichtigung § 16": {
+        "account_number": "2526",
+        "account_type": "Tax",
+        "account_currency": "EUR"
+      },
+      "Pauschal ermittelte Vorsteuer": {
+        "account_number": "2527",
+        "account_type": "Tax",
+        "account_currency": "EUR"
+      },
+      "Vorsteuer Berichtigung KFZ § 12/10 u. 11": {
+        "account_number": "2528",
+        "account_type": "Tax",
+        "account_currency": "EUR"
+      },
+      "Vorauszahlung Körperschaftsteuer": {
+        "account_number": "2560",
+        "account_type": "Current Asset",
+        "account_currency": "EUR"
+      },
+      "Aktivierung Körperschaftsteuer": {
+        "account_number": "2565",
+        "account_type": "Current Asset",
+        "account_currency": "EUR"
+      },
+      "Aktivierung GSVG": {
+        "account_number": "2567",
+        "account_type": "Current Asset",
+        "account_currency": "EUR"
+      },
+      "Forderungen gegenüber Vereinsmitgliedern": {
+        "account_number": "2570",
+        "account_type": "Current Asset",
+        "account_currency": "EUR"
+      },
+      "Gesellschafterdarlehen": {
+        "account_number": "2573",
+        "account_type": "Current Asset",
+        "account_currency": "EUR"
+      },
+      "Verrechnungskonto Gesellschafter": {
+        "account_number": "2575",
+        "account_type": "Current Asset",
+        "account_currency": "EUR"
+      },
+      "Forderungen aus der Verlustüberrechnung": {
+        "account_number": "2576",
+        "account_type": "Current Asset",
+        "account_currency": "EUR"
+      },
+      "Dienstnehmerdarlehen": {
+        "account_number": "2577",
+        "account_type": "Current Asset",
+        "account_currency": "EUR"
+      },
+      "Kostenvorschüsse": {
+        "account_number": "2580",
+        "account_type": "Current Asset",
+        "account_currency": "EUR"
+      },
+      "Darlehensforderungen": {
+        "account_number": "2582",
+        "account_type": "Current Asset",
+        "account_currency": "EUR"
+      },
+      "Kautionen": {
+        "account_number": "2584",
+        "account_type": "Current Asset",
+        "account_currency": "EUR"
+      },
+      "Leasing, Depotzahlungen": {
+        "account_number": "2586",
+        "account_type": "Current Asset",
+        "account_currency": "EUR"
+      },
+      "Versicherungsaktivierungen": {
+        "account_number": "2590",
+        "account_type": "Current Asset",
+        "account_currency": "EUR"
+      },
+      "Anteile an Mutterunternehmen": {
+        "account_number": "2605",
+        "account_type": "Current Asset",
+        "account_currency": "EUR"
+      },
+      "Anteile an verbundenen Unternehmen": {
+        "account_number": "2610",
+        "account_type": "Current Asset",
+        "account_currency": "EUR"
+      },
+      "Wertberichtigungen zu Anteilen an verbundenen Unternehmen": {
+        "account_number": "2612",
+        "account_type": "Current Asset",
+        "account_currency": "EUR"
+      },
+      "Sonstige Anteile": {
+        "account_number": "2620",
+        "account_type": "Current Asset",
+        "account_currency": "EUR"
+      },
+      "Sonstige Wertpapiere": {
+        "account_number": "2630",
+        "account_type": "Current Asset",
+        "account_currency": "EUR"
+      },
+      "Besitzwechsel": {
+        "account_number": "2680",
+        "account_type": "Current Asset",
+        "account_currency": "EUR"
+      },
+      "Wertberichtigungen zu Wertpapieren des Umlaufvermögens": {
+        "account_number": "2690",
+        "account_type": "Current Asset",
+        "account_currency": "EUR"
+      },
+      "Kassenbestand in Euro": {
+        "account_number": "2899",
+        "account_type": "Cash",
+        "account_currency": "EUR"
+      },
+      "Postwertzeichen": {
+        "account_number": "2740",
+        "account_type": "Current Asset",
+        "account_currency": "EUR"
+      },
+      "Kassenbestand in Fremdwährungen": {
+        "account_number": "2750",
+        "account_type": "Cash",
+        "account_currency": "EUR"
+      },
+      "Schecks in Euro": {
+        "account_number": "2780",
+        "account_type": "Current Asset",
+        "account_currency": "EUR"
+      },
+      "Schecks in Fremdwährungen": {
+        "account_number": "2790",
+        "account_type": "Current Asset",
+        "account_currency": "EUR"
+      },
+      "Guthaben bei Kreditinstituten": {
+        "account_number": "2800",
+        "account_type": "Current Asset",
+        "account_currency": "EUR"
+      },
+      "Bank Austria": {
+        "account_number": "2810",
+        "account_type": "Bank",
+        "account_currency": "EUR"
+      },
+      "Raiffeisenbank": {
+        "account_number": "2820",
+        "account_type": "Bank",
+        "account_currency": "EUR"
+      },
+      "Volksbank": {
+        "account_number": "2830",
+        "account_type": "Bank",
+        "account_currency": "EUR"
+      },
+      "Oberbank": {
+        "account_number": "2840",
+        "account_type": "Bank",
+        "account_currency": "EUR"
+      },
+      "Sparkasse": {
+        "account_number": "2850",
+        "account_type": "Cash",
+        "account_currency": "EUR"
+      },
+      "Volkskreditbank": {
+        "account_number": "2860",
+        "account_type": "Bank",
+        "account_currency": "EUR"
+      },
+      "Telebanking Verrechnungskonto": {
+        "account_number": "2890",
+        "account_type": "Bank",
+        "account_currency": "EUR"
+      },
+      "Schwebende Geldbewegungen": {
+        "account_number": "2895",
+        "account_type": "Current Asset",
+        "account_currency": "EUR"
+      },
+      "aktive Rechnungsabgrenzungsposten": {
+        "account_number": "2900",
+        "account_type": "Current Asset",
+        "account_currency": "EUR"
+      },
+      "Mietvorauszahlungen": {
+        "account_number": "2930",
+        "account_type": "Current Asset",
+        "account_currency": "EUR"
+      },
+      "Aktivposten Leasing KFZ": {
+        "account_number": "2940",
+        "account_type": "Current Asset",
+        "account_currency": "EUR"
+      },
+      "Leasingvorauszahlung": {
+        "account_number": "2941",
+        "account_type": "Current Asset",
+        "account_currency": "EUR"
+      },
+      "Disagio": {
+        "account_number": "2950",
+        "account_type": "Current Asset",
+        "account_currency": "EUR"
+      },
+      "Unterschiedsbetrag zur Pensionsrückstellung": {
+        "account_number": "2960",
+        "account_type": "Current Asset",
+        "account_currency": "EUR"
+      },
+      "Unterschiedsbetrag gemäß Pensionskassengesetz": {
+        "account_number": "2970",
+        "account_type": "Cash",
+        "account_currency": "EUR"
+      },
+      "Aktive latente Steuern kurzfristig": {
+        "account_number": "2980",
+        "account_type": "Current Asset",
+        "account_currency": "EUR"
+      },
+      "Aktive latente Steuern langfristig": {
+        "account_number": "2981",
+        "account_type": "Current Asset",
+        "account_currency": "EUR"
+      },
+      "Treuhandvermögen": {
+        "account_number": "2985",
+        "account_type": "Current Asset",
+        "account_currency": "EUR"
+      }
+    },
+    "3 - Rückstellungen, Verbindlichkeiten, passive Rechnungsabgrenzungsposten": {
+      "account_currency": "EUR",
+      "root_type": "Liability",
+      "Rückstellungen für Abfertigungen": {
+        "account_number": "3000",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "Rückstellungen für Pensionen": {
+        "account_number": "3010",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "Rückstellung für Körperschaftsteuer": {
+        "account_number": "3020",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "Rückstellung für latente Steuern § 198 (9) UGB": {
+        "account_number": "3030",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "Rückstellungen für sonstige Steuern": {
+        "account_number": "3035",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "Rückstellungen für GSVG": {
+        "account_number": "3039",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "sonstige Rückstellungen": {
+        "account_number": "3040",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "Rückstellungen für nicht konsumierte Urlaube": {
+        "account_number": "3041",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "Rückstellungen für Sonderzahlungen": {
+        "account_number": "3042",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "Rückstellungen für Jubiläumsgelder": {
+        "account_number": "3043",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "Rückstellungen für Prämien": {
+        "account_number": "3044",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "Rückstellungen für Gutstunden": {
+        "account_number": "3045",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "Rückstellungen für Zeitausgleich": {
+        "account_number": "3046",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "Rückstellungen für Altersteilzeit": {
+        "account_number": "3047",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "Rückstellungen für Sabbatical": {
+        "account_number": "3048",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "Rückstellungen für Beratungskosten": {
+        "account_number": "3050",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "Rückstellungen für WT-Honorar": {
+        "account_number": "3051",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "Rückstellungen für Prozesskosten": {
+        "account_number": "3052",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "Rückstellungen für Produkthaftung": {
+        "account_number": "3060",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "Rückstellungen für Gewährleistungen": {
+        "account_number": "3061",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "Rückstellungen für Garantien": {
+        "account_number": "3062",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "Rückstellungen für Wechselobligo": {
+        "account_number": "3070",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "Rückstellungen für Bürgschaften": {
+        "account_number": "3071",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "Rückstellungen für drohende Verluste aus schwebenden Geschäften": {
+        "account_number": "3080",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "Rückstellungen für Erlösminderungen": {
+        "account_number": "3085",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "Verrechnungskonto Wareneingang": {
+        "account_number": "3087",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "Anleihen": {
+        "account_number": "3100",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "Anleihen (konvertibel)": {
+        "account_number": "3105",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "Verbindlichkeiten gegenüber Kreditinstituten (kurzfristig)": {
+        "account_number": "3110",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "Bank Austria": {
+        "account_number": "3115",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "Raiffeisenbank": {
+        "account_number": "3120",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "Volksbank": {
+        "account_number": "3125",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "Oberbank": {
+        "account_number": "3130",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "Sparkasse": {
+        "account_number": "3135",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "Volkskreditbank": {
+        "account_number": "3140",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "Verbindlichkeiten gegenüber Kreditinstituten (langfristig)": {
+        "account_number": "3150",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "Verbindlichkeiten gegenüber Finanzinstituten": {
+        "account_number": "3180",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "Verbindlichkeiten nicht erbrachte Leistungen ": {
+        "account_number": "3200",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "Verbindlichkeiten Anzahlungsautomatik": {
+        "account_number": "3270",
+        "account_type": "Payable",
+        "account_currency": "EUR"
+      },
+      "Anzahlungen von Kunden 5 %": {
+        "account_number": "3288",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "Anzahlungen von Kunden nicht steuerbar": {
+        "account_number": "3289",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "Anzahlungen von Kunden 0 %": {
+        "account_number": "3290",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "Anzahlungen von Kunden 10 %": {
+        "account_number": "3291",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "Anzahlungen von Kunden 20 %": {
+        "account_number": "3292",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "Anzahlungen von Kunden 20 % Brutto": {
+        "account_number": "3293",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "Anzahlungen von Kunden § 19 Abs. 1a": {
+        "account_number": "3294",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "Anzahlungen von Kunden ig. Lieferung": {
+        "account_number": "3295",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "Anzahlungen von Kunden grenzüberschreitende Dienstleistungen": {
+        "account_number": "3296",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "Anzahlungen von Kunden sonstige Leistungen EU": {
+        "account_number": "3297",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "Anzahlungen (nicht von Vorräten absetzbar)": {
+        "account_number": "3298",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "Anzahlungen von Kunden 13 %": {
+        "account_number": "3299",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "Verbindlichkeiten aus Lieferungen und Leistungen Inland": {
+        "account_number": "3300",
+        "account_type": "Payable",
+        "account_currency": "EUR"
+      },
+      "Abgrenzungen von Verbindlichkeiten aus Lieferungen und Leistungen": {
+        "account_number": "3350",
+        "account_type": "Payable",
+        "account_currency": "EUR"
+      },
+      "Verbindlichkeiten aus Lieferungen und Leistungen EU": {
+        "account_number": "3360",
+        "account_type": "Payable",
+        "account_currency": "EUR"
+      },
+      "Verbindlichkeiten aus Lieferungen und Leistungen sonstiges Ausland": {
+        "account_number": "3370",
+        "account_type": "Payable",
+        "account_currency": "EUR"
+      },
+      "Verbindlichkeiten aus der Annahme gezogener Wechsel": {
+        "account_number": "3380",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "Verbindlichkeiten aus der Ausstellung eigener Wechsel": {
+        "account_number": "3381",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "Verbindlichkeiten Werkverträge": {
+        "account_number": "3390",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "Verbindlichkeiten aus Lieferungen und Leistungen gegenüber verbundenen Unternehmen": {
+        "account_number": "3400",
+        "account_type": "Payable",
+        "account_currency": "EUR"
+      },
+      "Finanzverbindlichkeiten gegenüber verbundenen Unternehmen": {
+        "account_number": "3401",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "Verbindlichkeiten aus Lieferungen und Leistungen gegenüber Unternehmen, mit denen ein Beteiligungsverhältnis besteht": {
+        "account_number": "3440",
+        "account_type": "Payable",
+        "account_currency": "EUR"
+      },
+      "Finanzverbindlichkeiten gegenüber Unternehmen, mit denen ein Beteiligungsverhältnis besteht": {
+        "account_number": "3441",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "Verbindlichkeiten aus Zweckbindung (Verein)": {
+        "account_number": "3450",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "nachrangiges Genussrechtskapital (Verbindlichkeit)": {
+        "account_number": "3455",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "Verbindlichkeiten gegenüber Vereinsmitgliedern": {
+        "account_number": "3456",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "Verbindlichkeiten aus Anlagenzugang": {
+        "account_number": "3458",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "Verrechnungskonto Gesellschafter": {
+        "account_number": "3460",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "Gewinnanteile": {
+        "account_number": "3470",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "Gesellschafterdarlehen": {
+        "account_number": "3480",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "Einlagen stiller Gesellschafter": {
+        "account_number": "3490",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "Gewinnanteile stiller Gesellschafter": {
+        "account_number": "3491",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "Verlustanteile stiller Gesellschafter": {
+        "account_number": "3492",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "Verbindlichkeiten aus der Gewinnüberrechnung": {
+        "account_number": "3499",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "Umsatzsteuer": {
+        "account_number": "3500",
+        "account_type": "Tax",
+        "account_currency": "EUR"
+      },
+      "Umsatzsteuer aus ig. Erwerb": {
+        "account_number": "3501",
+        "account_type": "Tax",
+        "account_currency": "EUR"
+      },
+      "Umsatzsteuer § 19/Art 19 (Reverse Charge)": {
+        "account_number": "3502",
+        "account_type": "Tax",
+        "account_currency": "EUR"
+      },
+      "Umsatzsteuer aus im Inland steuerpflichtigen EU-Lieferungen": {
+        "account_number": "3503",
+        "account_type": "Tax",
+        "account_currency": "EUR"
+      },
+      "Umsatzsteuer Bauleistungen § 19/1a": {
+        "account_number": "3504",
+        "account_type": "Tax",
+        "account_currency": "EUR"
+      },
+      "Umsatzsteuer § 19/1b": {
+        "account_number": "3505",
+        "account_type": "Tax",
+        "account_currency": "EUR"
+      },
+      "Umsatzsteuer § 19/1d": {
+        "account_number": "3506",
+        "account_type": "Tax",
+        "account_currency": "EUR"
+      },
+      "Umsatzsteuer § 19/1c": {
+        "account_number": "3507",
+        "account_type": "Tax",
+        "account_currency": "EUR"
+      },
+      "Umsatzsteuer sonstige Leistungen EU": {
+        "account_number": "3508",
+        "account_type": "Tax",
+        "account_currency": "EUR"
+      },
+      "Einfuhrumsatzsteuer (Abgabenart EU)": {
+        "account_number": "3509",
+        "account_type": "Tax",
+        "account_currency": "EUR"
+      },
+      "noch nicht geschuldete Umsatzsteuer": {
+        "account_number": "3510",
+        "account_type": "Tax",
+        "account_currency": "EUR"
+      },
+      "Umsatzsteuer in anderem EU-Land": {
+        "account_number": "3511",
+        "account_type": "Tax",
+        "account_currency": "EUR"
+      },
+      "Umsatzsteuer § 19/1e": {
+        "account_number": "3514",
+        "account_type": "Tax",
+        "account_currency": "EUR"
+      },
+      "Umsatzsteuer-Evidenzkonto für erhaltene Anzahlungen": {
+        "account_number": "3515",
+        "account_type": "Tax",
+        "account_currency": "EUR"
+      },
+      "Umsatzsteuer in Folgejahr": {
+        "account_number": "3516",
+        "account_type": "Tax",
+        "account_currency": "EUR"
+      },
+      "Umsatzsteuer Art. 25/5": {
+        "account_number": "3517",
+        "account_type": "Tax",
+        "account_currency": "EUR"
+      },
+      "Umsatzsteuer gem. §11 Abs.12 und 14, §16 Abs.2, sowie gemäß Art.7 Abs.4": {
+        "account_number": "3519",
+        "account_type": "Tax",
+        "account_currency": "EUR"
+      },
+      "Umsatzsteuer-Zahllast": {
+        "account_number": "3520",
+        "account_type": "Tax",
+        "account_currency": "EUR"
+      },
+      "Umsatzsteuer-Zahllast Vorjahr": {
+        "account_number": "3521",
+        "account_type": "Tax",
+        "account_currency": "EUR"
+      },
+      "Umsatzsteuer zu Skonto Anzahlungsautomatik ": {
+        "account_number": "3528",
+        "account_type": "Tax",
+        "account_currency": "EUR"
+      },
+      "Umsatzsteuer Anzahlungsautomatik": {
+        "account_number": "3529",
+        "account_type": "Tax",
+        "account_currency": "EUR"
+      },
+      "Verrechnung Finanzamt": {
+        "account_number": "3530",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "Ausgesetzte Konkursforderungen Finanzamt ": {
+        "account_number": "3535",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "Umbuchung/Finanzverwahrnisse": {
+        "account_number": "3536",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "Verrechnung Lohnsteuer": {
+        "account_number": "3540",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "Verrechnung Dienstgeberbeitrag": {
+        "account_number": "3541",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "Verrechnung Dienstgeberzuschlag": {
+        "account_number": "3542",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "Verrechnung fiktive Lohnsteuer (Auslandsbeschäftigung)": {
+        "account_number": "3545",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "Verrechnung Kommunalsteuer": {
+        "account_number": "3550",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "Verrechnung Wiener Dienstgeberabgabe": {
+        "account_number": "3551",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "Verrechnung Gewerkschaftsbeitrag": {
+        "account_number": "3554",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "Verrechnung Betriebsratsumlage": {
+        "account_number": "3556",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "Verrechnung Zukunftssicherung": {
+        "account_number": "3557",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "sonstige kurzfristige Steuern": {
+        "account_number": "3560",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "Körperschaftsteuer": {
+        "account_number": "3590",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "Sozialversicherungsanstalten": {
+        "account_number": "3600",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "UEL Verrechnung ÖGK": {
+        "account_number": "3601",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "Arbeitsstiftungen": {
+        "account_number": "3610",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "Verrechnung Pensions- und Unterstützungskassen": {
+        "account_number": "3620",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "übrige Verbindlichkeiten im Rahmen der sozialen Sicherheit": {
+        "account_number": "3630",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "Verrechnung Löhne und Gehälter": {
+        "account_number": "3640",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "Verrechnung Kurzarbeit Abzug": {
+        "account_number": "3641",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "Verrechnung Bauarbeiter Urlaubskassa": {
+        "account_number": "3650",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "AGH Verrechnungskonto": {
+        "account_number": "3660",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "Zufallsguthaben Kunden": {
+        "account_number": "3690",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "Verbindlichkeiten Personalaufwand (Finanzplan)": {
+        "account_number": "3699",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "übrige sonstige Verbindlichkeiten": {
+        "account_number": "3700",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "Darlehen": {
+        "account_number": "3750",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "Kautionen": {
+        "account_number": "3760",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "Gewinnausschüttung": {
+        "account_number": "3800",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "Passive Rechnungsabgrenzungsposten": {
+        "account_number": "3900",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "Passive Rechnungsabgrenzungsposten (langfristig)": {
+        "account_number": "3901",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "Zuschreibungsrücklage": {
+        "account_number": "3910",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "Treuhandvermögen": {
+        "account_number": "3985",
+        "account_type": "Liability",
+        "account_currency": "EUR"
+      },
+      "Zölle und Steuern": {
+        "account_type": "Tax",
+        "VAT": {
+          "account_type": "Tax",
+          "tax_rate": 20
+        }
+      }
+    },
+    "4 - Betriebliche Erträge": {
+      "account_currency": "EUR",
+      "root_type": "Income",
+      "Erlöse 20 %": {
+        "account_number": "4000",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Erlöse 10 %": {
+        "account_number": "4030",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Erlöse 13 %": {
+        "account_number": "4043",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Erlöse 5 %": {
+        "account_number": "4045",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Erlöse 0 % Ausfuhrlieferungen": {
+        "account_number": "4050",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Erlöse 0 % Lohnveredelung": {
+        "account_number": "4052",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Erlöse 0 % Personenbeförderung": {
+        "account_number": "4054",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Erlöse 0 %  Photovoltaik": {
+        "account_number": "4056",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Erlöse 0 % Grundstücksumsätze": {
+        "account_number": "4060",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Erlöse 0 % Kleinunternehmer": {
+        "account_number": "4062",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "übrige steuerfreie Umsätze ohne VSt-Abzug": {
+        "account_number": "4064",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Erlöse § 19/1b": {
+        "account_number": "4066",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Erlöse § 19/1e": {
+        "account_number": "4067",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Erlöse § 19/1c Gas/Elektrizitätsleistungen": {
+        "account_number": "4068",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Erlöse § 19/1d": {
+        "account_number": "4069",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Erlöse Bauleistungen 0 % gemäß § 19 Abs. 1a": {
+        "account_number": "4070",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Erlöse Teilrechnungen noch nicht fällige Umsatzsteuer": {
+        "account_number": "4080",
+        "account_type": "Tax",
+        "account_currency": "EUR"
+      },
+      "Erlöse Teilrechnungen gemäß § 19/1a ohne USt": {
+        "account_number": "4084",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Leistungen gemäß § 109a": {
+        "account_number": "4090",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Erlöse § 19/1 zweiter Satz": {
+        "account_number": "4091",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Leistungen gemäß § 109a 20 %": {
+        "account_number": "4092",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Erlöse Einwegpfand (nicht steuerbar)": {
+        "account_number": "4093",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Honorare 0 %": {
+        "account_number": "4095",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Honorare 20 %": {
+        "account_number": "4096",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Hausapotheke (nicht 20 %)": {
+        "account_number": "4097",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Hausapotheke 20 %": {
+        "account_number": "4098",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "sonstige Nebenerlöse (nicht steuerbar)": {
+        "account_number": "4099",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Erlöse ig. Lieferungen (steuerfrei)": {
+        "account_number": "4100",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Erlöse ig. Lieferungen (Dreiecksgeschäfte)": {
+        "account_number": "4110",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Erlöse grenzüberschreitende Dienstleistungen": {
+        "account_number": "4111",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Erlöse grenzüberschreitende Dienstleistungen (nicht steuerbar)": {
+        "account_number": "4112",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Erlöse sonstige Leistungen EU": {
+        "account_number": "4113",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Erlöse ig. Lieferungen Neufahrzeuge Art.6/1": {
+        "account_number": "4120",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Erlöse, steuerpflichtig in anderem EU-Land": {
+        "account_number": "4200",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "nicht steuerbare Auslandsumsätze": {
+        "account_number": "4210",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Erlöse Kultur- und Publikationsbereich 5 %": {
+        "account_number": "4280",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Erlöse 20 % werbeabgabepflichtig 5 %": {
+        "account_number": "4290",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Erlöse Küche 10 %": {
+        "account_number": "4300",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Erlöse Wein 20 %": {
+        "account_number": "4301",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Erlöse Bier 20 %": {
+        "account_number": "4302",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Erlöse Kaffee, Tee 20 %": {
+        "account_number": "4303",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Erlöse alkoholfreie Getränke 20 %": {
+        "account_number": "4304",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Erlöse Spirituosen 20 %": {
+        "account_number": "4305",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Erlöse Eis 10 %": {
+        "account_number": "4306",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Erlöse Sekt 20 %": {
+        "account_number": "4307",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Erlöse Rauchwaren 20 %": {
+        "account_number": "4308",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Automatenerlöse 20 %": {
+        "account_number": "4309",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Beherbergungserlöse 10 %": {
+        "account_number": "4310",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Beherbergungserlöse 5 %": {
+        "account_number": "4311",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Beherbergungserlöse 13 %": {
+        "account_number": "4313",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Erlöse alkoholfreie Getränke 10 %": {
+        "account_number": "4314",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Erlöse Kaffee, Tee 10 %": {
+        "account_number": "4315",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Erlöse Küche 5 %": {
+        "account_number": "4316",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Erlöse Getränke 5 %": {
+        "account_number": "4317",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Erlösabgrenzungen": {
+        "account_number": "4326",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Mitgliedsbeiträge": {
+        "account_number": "4350",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Spenden": {
+        "account_number": "4352",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "gewidmete Spenden": {
+        "account_number": "4353",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "sonstige Vermögenserwerbe des Vereins": {
+        "account_number": "4354",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "öffentliche Zuschüsse": {
+        "account_number": "4356",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "sonstige Vereinserlöse": {
+        "account_number": "4358",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Bildung Ausgleichsposten": {
+        "account_number": "4360",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Auflösung Ausgleichsposten": {
+        "account_number": "4362",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Umwidmung zweckgebundene Verpflichtungen": {
+        "account_number": "4364",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Skontoaufwand 20 %": {
+        "account_number": "4400",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Skontoaufwand 10 %": {
+        "account_number": "4401",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Skontoaufwand 13 %": {
+        "account_number": "4402",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Skontoaufwand 0 %": {
+        "account_number": "4404",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Skontoaufwand 0 % Ausfuhrlieferungen": {
+        "account_number": "4405",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Skontoaufwand 0 % Teilrechnungen": {
+        "account_number": "4406",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Skontoaufwand Bauleistungen §19 1a": {
+        "account_number": "4407",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Skontoaufwand 5 %": {
+        "account_number": "4408",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Skontoaufwand ig. Lieferungen": {
+        "account_number": "4410",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Skontoaufwand Dreiecksgeschäft": {
+        "account_number": "4411",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Skontoaufwand grenzüberschreitende Dienstleistungen": {
+        "account_number": "4412",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Skontoaufwand sonstige Leistungen EU": {
+        "account_number": "4413",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Skontoaufwand steuerpflichtig in anderem EU-Land": {
+        "account_number": "4420",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Skontoaufwand 0 % Lohnveredelung": {
+        "account_number": "4450",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Skontoaufwand nicht steuerbare Auslandsumsätze": {
+        "account_number": "4451",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Skontoaufwand 0 % Personenbeförderung": {
+        "account_number": "4452",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Skontoaufwand 0 % Kleinunternehmer": {
+        "account_number": "4453",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Skontoaufwand Art. 6 Abs.1 (Fahrzeuglieferungen EU)": {
+        "account_number": "4454",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Skontoaufwand 0 % Grundstücksumsätze": {
+        "account_number": "4455",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Skontoaufwand übrige Umsätze ohne VSt-Abzug": {
+        "account_number": "4456",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Skontoaufwand § 19/1b": {
+        "account_number": "4457",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Skontoaufwand § 19/1d": {
+        "account_number": "4458",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Skontoaufwand § 19/1c": {
+        "account_number": "4459",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Skontoaufwand § 19/1e": {
+        "account_number": "4460",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Skontoaufwand § 19/1 zweiter Satz": {
+        "account_number": "4461",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Kundenboni und Rabatte 20 %": {
+        "account_number": "4480",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Kundenboni und Rabatte 10 %": {
+        "account_number": "4481",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Kundenboni und Rabatte 0 %": {
+        "account_number": "4483",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Kundenboni und Rabatte 13 %": {
+        "account_number": "4484",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "andere Erlösminderungen 20 %": {
+        "account_number": "4490",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "andere Erlösminderungen 10 %": {
+        "account_number": "4491",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "andere Erlösminderungen 0 %": {
+        "account_number": "4493",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "andere Erlösminderungen 13 %": {
+        "account_number": "4494",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Erlösberichtigung Road-Pricing": {
+        "account_number": "4495",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Bestandsveränderungen fertige Erzeugnisse": {
+        "account_number": "4500",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Bestandsveränderungen unfertige Erzeugnisse": {
+        "account_number": "4510",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Bestandsveränderungen noch nicht abrechenbare Leistungen": {
+        "account_number": "4520",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "andere aktivierte Eigenleistungen": {
+        "account_number": "4580",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Erlöse aus dem Abgang von Anlagen (+)": {
+        "account_number": "4600",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Erlöse aus dem Abgang von Immobilien (+)": {
+        "account_number": "4601",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Erlöse aus dem Abgang von Immobilien (-)": {
+        "account_number": "4602",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Erlöse aus dem Abgang von Anlagen (-)": {
+        "account_number": "4625",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Erträge aus der Zuschreibung zum Anlagevermögen": {
+        "account_number": "4660",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Erträge aus der Zuschreibung zu Immobilien": {
+        "account_number": "4670",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Auflösung Abfertigungsrückstellungen": {
+        "account_number": "4700",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Auflösung Pensionsrückstellungen": {
+        "account_number": "4701",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Auflösung Jubiläumsrückstellungen": {
+        "account_number": "4702",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Auflösung Steuerrückstellungen": {
+        "account_number": "4705",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Auflösung sonstige Rückstellungen": {
+        "account_number": "4709",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Sonstige betriebliche Erträge 20 %": {
+        "account_number": "4800",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Sonstige betriebliche Erträge 10 %": {
+        "account_number": "4810",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Sonstige betriebliche Erträge 13 %": {
+        "account_number": "4823",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Sonstige betriebliche Erträge 0 %": {
+        "account_number": "4830",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "sonstige betriebliche Erträge (nicht steuerbar)": {
+        "account_number": "4831",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Ortstaxe": {
+        "account_number": "4832",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Provisionen": {
+        "account_number": "4835",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Erlöse aus Patenten": {
+        "account_number": "4840",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Erlöse aus Lizenzen": {
+        "account_number": "4841",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Miet- und Pachterlöse 20 %": {
+        "account_number": "4850",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Miet- und Pachterlöse 10 %": {
+        "account_number": "4851",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Miet- und Pachterlöse 0 %": {
+        "account_number": "4852",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Nebenerlöse 20 %": {
+        "account_number": "4855",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Nebenerlöse 10 %": {
+        "account_number": "4856",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Nebenerlöse 0 %": {
+        "account_number": "4857",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Kursgewinne Fremdwährungstransaktionen": {
+        "account_number": "4860",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Zuwendungen aus öffentlichen Mitteln": {
+        "account_number": "4865",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Zuschüsse aus dem Härtefonds (COVID-19)": {
+        "account_number": "4866",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Lockdown-Umsatzersatz": {
+        "account_number": "4867",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Fixkostenzuschüsse Corona-Hilfsfonds (mit Aufwandskürzung) steuerfrei gem. §20(2)\nEStG": {
+        "account_number": "4868",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Fixkostenzuschüsse Corona-Hilfsfonds (ohne Aufwandskürzung) steuerfrei gem. §20(2)\nEStG": {
+        "account_number": "4869",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Schuldnachlässe": {
+        "account_number": "4870",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Entschädigung gem. § 32 EpiG": {
+        "account_number": "4871",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Ausfallsbonus": {
+        "account_number": "4872",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Verlustersatz": {
+        "account_number": "4873",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Energiekostenzuschuss": {
+        "account_number": "4874",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Auflösung Einzelwertberichtigungen zu Forderungen": {
+        "account_number": "4875",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Auflösung pauschale Wertberichtigungen zu Forderungen": {
+        "account_number": "4876",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Schadenersatz": {
+        "account_number": "4880",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Versicherungsvergütungen": {
+        "account_number": "4881",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Zuschreibungen zum Umlaufvermögen": {
+        "account_number": "4885",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Eigenverbrauch 20 %": {
+        "account_number": "4900",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Eigenverbrauch 10 %": {
+        "account_number": "4910",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Eigenverbrauch 13 %": {
+        "account_number": "4923",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Eigenverbrauch 0 % (steuerfrei)": {
+        "account_number": "4930",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Eigenverbrauch 0 % (nicht steuerbar)": {
+        "account_number": "4931",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Eigenverbrauch 5 %": {
+        "account_number": "4935",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Privatanteil (nicht steuerbar)": {
+        "account_number": "4940",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Privatanteil Luxustangente PKW": {
+        "account_number": "4941",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Nutzungsentnahme 20 %": {
+        "account_number": "4942",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Nutzungsentnahme 10 %": {
+        "account_number": "4943",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Nutzungsentnahme 0 % (steuerfrei)": {
+        "account_number": "4944",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Privatanteil 20 %": {
+        "account_number": "4950",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Privatanteil 10 %": {
+        "account_number": "4960",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Sachbezüge 20 %": {
+        "account_number": "4970",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Personal": {
+        "account_number": "4971",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Sachbezüge 10 %": {
+        "account_number": "4980",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Sachbezüge 0 %": {
+        "account_number": "4991",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Sachbezüge 13 %": {
+        "account_number": "4993",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Auflösung Investitionszuschüsse": {
+        "account_number": "4995",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Auflösung Investitionsprämie COVID-19": {
+        "account_number": "4996",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "nicht cashwirksame übrige betriebliche Erträge": {
+        "account_number": "4999",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      }
+    },
+    "5 - Materialaufwand und sonstige bezogene Herstellungsleistungen": {
+      "account_currency": "EUR",
+      "root_type": "Expense",
+      "Wareneinkauf 20 %": {
+        "account_number": "5000",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Wareneinkauf 10 %": {
+        "account_number": "5030",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Wareneinkauf 13 %": {
+        "account_number": "5033",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Wareneinkauf 0 %": {
+        "account_number": "5040",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Wareneinkauf 5 %": {
+        "account_number": "5045",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Wareneinsatz": {
+        "account_number": "5050",
+        "account_type": "Cost of Goods Sold",
+        "account_currency": "EUR"
+      },
+      "Ordinations- und Laboraufwand": {
+        "account_number": "5060",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Erhaltene Teilrechnungen": {
+        "account_number": "5080",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Erhaltene Teilrechnungen § 19/1a": {
+        "account_number": "5084",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Aufwand Einwegpfand (nicht steuerbar)": {
+        "account_number": "5093",
+        "account_type": "Cost of Goods Sold",
+        "account_currency": "EUR"
+      },
+      "Rohstoffverbrauch": {
+        "account_number": "5100",
+        "account_type": "Cost of Goods Sold",
+        "account_currency": "EUR"
+      },
+      "bezogene Fertigteile": {
+        "account_number": "5200",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Hilfsstoffverbrauch": {
+        "account_number": "5300",
+        "account_type": "Cost of Goods Sold",
+        "account_currency": "EUR"
+      },
+      "Wareneinkauf ig. Erwerb 10 % (mit VSt)": {
+        "account_number": "5310",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Wareneinkauf ig. Erwerb 20 % (mit VSt)": {
+        "account_number": "5320",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Wareneinkauf ig. Erwerb 13 % (mit VSt)": {
+        "account_number": "5330",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Vorräte per 1.1.": {
+        "account_number": "5396",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Vorräte per 31.12.": {
+        "account_number": "5397",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Betriebsstoffverbrauch": {
+        "account_number": "5400",
+        "account_type": "Cost of Goods Sold",
+        "account_currency": "EUR"
+      },
+      "Einkauf Küche 10 %": {
+        "account_number": "5410",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Einkauf Wein 20 %": {
+        "account_number": "5411",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Einkauf Bier 20 %": {
+        "account_number": "5412",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Einkauf Kaffee, Tee 20 %": {
+        "account_number": "5413",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Einkauf alkoholfreie Getränke 20 %": {
+        "account_number": "5414",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Einkauf Spirituosen 20 %": {
+        "account_number": "5415",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Einkauf Eis 10 %": {
+        "account_number": "5416",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Einkauf Sekt 20 %": {
+        "account_number": "5417",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Einkauf Rauchwaren 20 %": {
+        "account_number": "5418",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Einkauf Emballagen 20 %": {
+        "account_number": "5419",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Bezugskosten": {
+        "account_number": "5440",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Verpackungsmaterial": {
+        "account_number": "5450",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Dekorationsmaterial": {
+        "account_number": "5460",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Reinigungsmaterial": {
+        "account_number": "5470",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Werkzeuge und andere Erzeugungshilfsmittel": {
+        "account_number": "5500",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Treibstoffe PKW": {
+        "account_number": "5600",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Treibstoffe LKW": {
+        "account_number": "5601",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Reifen LKW": {
+        "account_number": "5602",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Reparatur LKW": {
+        "account_number": "5603",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Mautgebühren": {
+        "account_number": "5604",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Strom": {
+        "account_number": "5610",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Heizung, Gas, Energie": {
+        "account_number": "5615",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Wasser und Kanalgebühren": {
+        "account_number": "5620",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Abfallentsorgung": {
+        "account_number": "5621",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Weiterverrechnung Road Pricing": {
+        "account_number": "5662",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Road Pricing": {
+        "account_number": "5663",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Fremdleistungen": {
+        "account_number": "5700",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Fremdleistungen Ausland Reverse Charge": {
+        "account_number": "5750",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Sonstige Leistungen EU 20 % Reverse Charge": {
+        "account_number": "5755",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Aufwand Art. 25/5, 20 % (mit VSt)": {
+        "account_number": "5757",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Bauleistungen von Subunternehmen gemäß § 19 Abs.1a": {
+        "account_number": "5770",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Aufwand § 19/1b Vorbehaltskauf, Sicherungsübereignung": {
+        "account_number": "5772",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Aufwand § 19/1e": {
+        "account_number": "5773",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Aufwand § 19/1c Gas/Elektrizitätsleistungen": {
+        "account_number": "5774",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Aufwand § 19/1d": {
+        "account_number": "5775",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Aufwand für satzungsmäßige Aufgabenerfüllung": {
+        "account_number": "5780",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Skontoertrag 20 %": {
+        "account_number": "5800",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Skontoertrag 10 %": {
+        "account_number": "5801",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Skontoertrag 13 %": {
+        "account_number": "5802",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Skontoertrag 0 %": {
+        "account_number": "5805",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Skontoertrag 0 % Teilrechnungen": {
+        "account_number": "5806",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Skontoertrag 5 %": {
+        "account_number": "5808",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Skontoertrag ig. Erwerb 0 % (mit VSt)": {
+        "account_number": "5810",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Skontoertrag ig. Erwerb 10 % (mit VSt)": {
+        "account_number": "5811",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Skontoertrag ig. Erwerb 20 % (mit VSt)": {
+        "account_number": "5812",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Skontoertrag ig. Erwerb 13 % (mit VSt)": {
+        "account_number": "5813",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Skontoertrag ig. Erwerb 5 % (mit VSt)": {
+        "account_number": "5814",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Skontoertrag ig. Erwerb 5 % (ohne VSt)": {
+        "account_number": "5819",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Skontoertrag ig. Erwerb 0 % (ohne VSt)": {
+        "account_number": "5820",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Skontoertrag ig. Erwerb 10 % (ohne VSt)": {
+        "account_number": "5821",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Skontoertrag ig. Erwerb 20 % (ohne VSt)": {
+        "account_number": "5822",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Skontoertrag ig. Erwerb 13 % (ohne VSt)": {
+        "account_number": "5823",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Skontoertrag Erwerbe gem. Art. 3/8": {
+        "account_number": "5824",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Skontoertrag Erwerbe gem. Art. 3/8, Art. 25/2": {
+        "account_number": "5825",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Skontoertrag 20 % bezogene Leistungen": {
+        "account_number": "5830",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Skontoertrag 10 % bezogene Leistungen": {
+        "account_number": "5831",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Skontoertrag 20 % Reverse Charge Leistungen": {
+        "account_number": "5834",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Skontoertrag 10 % Reverse Charge Leistungen": {
+        "account_number": "5835",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Skontoertrag 20 % sonstige Leistungen EU": {
+        "account_number": "5836",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Skontoertrag Bauleistungen gemäß § 19/1a": {
+        "account_number": "5840",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Skontoertrag § 19/1b": {
+        "account_number": "5842",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Skontoertrag § 19/1e": {
+        "account_number": "5843",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Skontoertrag § 19/1d": {
+        "account_number": "5844",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Skontoertrag § 19/1c": {
+        "account_number": "5845",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Skontoertrag Art. 25/5": {
+        "account_number": "5847",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Skontoertrag Berichtigung KFZ § 12/10 u. 11": {
+        "account_number": "5848",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Lieferantenboni 20 %": {
+        "account_number": "5850",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Lieferantenboni 10 %": {
+        "account_number": "5851",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Lieferantenboni 0 %": {
+        "account_number": "5853",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Lieferantenboni 13 %": {
+        "account_number": "5854",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Lieferantenrabatte 20 %": {
+        "account_number": "5855",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Lieferantenrabatte 10 %": {
+        "account_number": "5856",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Lieferantenrabatte 0 %": {
+        "account_number": "5858",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Lieferantenrabatte 13 %": {
+        "account_number": "5859",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Kursverluste Fremdwährungstransaktionen": {
+        "account_number": "5860",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      }
+    },
+    "6 - Personalaufwand": {
+      "account_currency": "EUR",
+      "root_type": "Expense",
+      "Löhne": {
+        "account_number": "6000",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Lehrlingseinkommen (Arbeiter)": {
+        "account_number": "6005",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Überstunden (Arbeiter)": {
+        "account_number": "6010",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Hilfslöhne": {
+        "account_number": "6015",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Nichtleistungslöhne": {
+        "account_number": "6020",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Zulagen (Arbeiter)": {
+        "account_number": "6025",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Prämien (Arbeiter)": {
+        "account_number": "6030",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Sonderzahlungen (Arbeiter)": {
+        "account_number": "6040",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Jubiläumsaufwendungen (Arbeiter)": {
+        "account_number": "6050",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "freiwillige Fahrt- und Verpflegungszuschüsse": {
+        "account_number": "6260",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Sachbezüge (Arbeiter)": {
+        "account_number": "6070",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Urlaubsersatzleistungen/-ablösen (Arbeiter)": {
+        "account_number": "6090",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Kurzarbeitsunterstützung (Arbeiter)": {
+        "account_number": "6095",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Personalaufwand (Verein)": {
+        "account_number": "6100",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Gehälter": {
+        "account_number": "6200",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Lehrlingseinkommen (Angestellte)": {
+        "account_number": "6205",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Überstunden (Angestellte)": {
+        "account_number": "6210",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Nichtleistungsgehälter": {
+        "account_number": "6220",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Zulagen (Angestellte)": {
+        "account_number": "6225",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Prämien und Provisionen (Angestellte)": {
+        "account_number": "6230",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Sonderzahlungen (Angestellte)": {
+        "account_number": "6240",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Jubiläumsaufwendungen (Angestellte)": {
+        "account_number": "6250",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Sachbezüge (Angestellte)": {
+        "account_number": "6270",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Urlaubsersatzleistungen/-ablösen (Angestellte)": {
+        "account_number": "6290",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Kurzarbeitsunterstützung (Angestellte)": {
+        "account_number": "6295",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Abfertigungsaufwand (Arbeiter)": {
+        "account_number": "6400",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Pensionsaufwand (Arbeiter)": {
+        "account_number": "6401",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Betriebliche Vorsorgekasse (BVK) Arbeiter": {
+        "account_number": "6402",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Abfertigungsaufwand (Angestellte)": {
+        "account_number": "6405",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Pensionsaufwand (Angestellte)": {
+        "account_number": "6406",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Betriebliche Vorsorgekasse (BVK) Angestellte": {
+        "account_number": "6407",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Veränderung Abfertigungsrückstellungen (Arbeiter)": {
+        "account_number": "6410",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Veränderung Pensionsrückstellungen (Arbeiter)": {
+        "account_number": "6411",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Veränderung Jubiläumsrückstellungen (Arbeiter)": {
+        "account_number": "6412",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Veränderung Urlaubsrückstellungen (Arbeiter)": {
+        "account_number": "6413",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Veränderung Abfertigungsrückstellungen (Angestellte)": {
+        "account_number": "6415",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Veränderung Pensionsrückstellungen (Angestellte)": {
+        "account_number": "6416",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Veränderung Jubiläumsrückstellungen (Angestellte)": {
+        "account_number": "6417",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Veränderung Urlaubsrückstellungen (Angestellte)": {
+        "account_number": "6418",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Veränderung Gutstundenrückstellungen (Arbeiter)": {
+        "account_number": "6419",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Veränderung Gutstundenrückstellungen (Angestellte)": {
+        "account_number": "6420",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Veränderung Sonderzahlungsrückstellungen (Arbeiter)": {
+        "account_number": "6421",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Veränderung Sonderzahlungsrückstellungen (Angestellte)": {
+        "account_number": "6422",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Veränderung Altersteilzeitrückstellungen (Arbeiter)": {
+        "account_number": "6423",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Veränderung Altersteilzeitrückstellungen (Angestellte)": {
+        "account_number": "6424",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Veränderung Prämienrückstellungen (Arbeiter)": {
+        "account_number": "6425",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Veränderung Prämienrückstellungen (Angestellte)": {
+        "account_number": "6426",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Veränderung Sabbaticalrückstellungen (Arbeiter)": {
+        "account_number": "6427",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Veränderung Sabbaticalrückstellungen (Angestellte)": {
+        "account_number": "6428",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Zahlungen an Pensionskasse": {
+        "account_number": "6430",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "sonstige Beiträge für die Altersversorgung": {
+        "account_number": "6435",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Abfertigungsversicherungen": {
+        "account_number": "6440",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "gesetzlicher Sozialaufwand (Arbeiter)": {
+        "account_number": "6600",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "gesetzlicher Sozialaufwand (Angestellte)": {
+        "account_number": "6605",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Lohnsteuer": {
+        "account_number": "6610",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Dienstgeberbeitrag (Arbeiter)": {
+        "account_number": "6620",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Dienstgeberbeitrag (Angestellte)": {
+        "account_number": "6621",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Dienstgeberzuschlag (Arbeiter)": {
+        "account_number": "6630",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Dienstgeberzuschlag (Angestellte)": {
+        "account_number": "6631",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Kommunalsteuer (Arbeiter)": {
+        "account_number": "6640",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Kommunalsteuer (Angestellte)": {
+        "account_number": "6641",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Wiener Dienstgeberabgabe (U-Bahn Arbeiter)": {
+        "account_number": "6650",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Wiener Dienstgeberabgabe (U-Bahn Angestellte)": {
+        "account_number": "6651",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Vergütung Entgeltfortzahlung (Arbeiter)": {
+        "account_number": "6660",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Vergütung Entgeltfortzahlung (Angestellte)": {
+        "account_number": "6661",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Vorschreibung BUAK": {
+        "account_number": "6665",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Wohnbauförderungsbeitrag": {
+        "account_number": "6670",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Centausgleich": {
+        "account_number": "6680",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Zuwendung an den Betriebsratsfonds": {
+        "account_number": "6700",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Zuwendung an Unterstützungskassen": {
+        "account_number": "6710",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Aufwendungen für Betriebsausflüge": {
+        "account_number": "6720",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Weihnachtsgeschenke Arbeitnehmer": {
+        "account_number": "6730",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Betriebsveranstaltungen": {
+        "account_number": "6740",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Arbeitskleidung": {
+        "account_number": "6750",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "freiwilliger Sozialaufwand": {
+        "account_number": "6790",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "AMF Beihilfe": {
+        "account_number": "6800",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Kurzarbeitsbeihilfe (Arbeiter)": {
+        "account_number": "6810",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Kurzarbeitsbeihilfe (Angestellte)": {
+        "account_number": "6811",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Vergütung Verdienstentgang (EpidemieG) (Arbeiter)": {
+        "account_number": "6812",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Vergütung Verdienstentgang (EpidemieG) (Angestellte)": {
+        "account_number": "6813",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      }
+    },
+    "7 - Abschreibungen und sonstige betriebliche Aufwendungen": {
+      "account_currency": "EUR",
+      "root_type": "Expense",
+      "Abschreibungen auf immaterielles Anlagevermögen": {
+        "account_number": "7010",
+        "account_type": "Depreciation",
+        "account_currency": "EUR"
+      },
+      "Sofortabschreibungen auf geringwertiges immaterielles Anlagevermögen": {
+        "account_number": "7011",
+        "account_type": "Depreciation",
+        "account_currency": "EUR"
+      },
+      "Degr. Abschreibungen auf immaterielles Anlagevermögen": {
+        "account_number": "7012",
+        "account_type": "Depreciation",
+        "account_currency": "EUR"
+      },
+      "außerplanmäßige Abschreibungen auf immaterielles Anlagevermögen": {
+        "account_number": "7019",
+        "account_type": "Depreciation",
+        "account_currency": "EUR"
+      },
+      "Abschreibungen auf Sachanlagen": {
+        "account_number": "7020",
+        "account_type": "Depreciation",
+        "account_currency": "EUR"
+      },
+      "Sofortabschreibungen auf geringwertige Sachanlagen": {
+        "account_number": "7021",
+        "account_type": "Depreciation",
+        "account_currency": "EUR"
+      },
+      "Degr. Abschreibungen auf Sachanlagen": {
+        "account_number": "7022",
+        "account_type": "Depreciation",
+        "account_currency": "EUR"
+      },
+      "Beschleunigte Abschreibungen auf Immobilien": {
+        "account_number": "7023",
+        "account_type": "Depreciation",
+        "account_currency": "EUR"
+      },
+      "Abschreibungen auf Immobilien": {
+        "account_number": "7024",
+        "account_type": "Depreciation",
+        "account_currency": "EUR"
+      },
+      "Abschreibungen auf PKW Unternehmer": {
+        "account_number": "7025",
+        "account_type": "Depreciation",
+        "account_currency": "EUR"
+      },
+      "außerplanmäßige Abschreibungen auf Immobilien": {
+        "account_number": "7028",
+        "account_type": "Depreciation",
+        "account_currency": "EUR"
+      },
+      "außerplanmäßige Abschreibungen auf Sachanlagen": {
+        "account_number": "7029",
+        "account_type": "Depreciation",
+        "account_currency": "EUR"
+      },
+      "außerplanmäßige Abschreibungen auf PKW Unternehmer": {
+        "account_number": "7030",
+        "account_type": "Depreciation",
+        "account_currency": "EUR"
+      },
+      "Auflösung Investitionszuschüsse für immaterielle Vermögensgegenstände": {
+        "account_number": "7040",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Auflösung Investitionszuschüsse für Sachanlagen": {
+        "account_number": "7041",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Auflösung Investitionsprämie COVID-19 für immaterielle Vermögensgegenstände": {
+        "account_number": "7045",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Auflösung Investitionsprämie COVID-19 für Sachanlagen": {
+        "account_number": "7046",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Abschreibungen auf das Umlaufvermögen, soweit diese die im Unternehmen üblichen\nAbschreibungen übersteigen": {
+        "account_number": "7070",
+        "account_type": "Depreciation",
+        "account_currency": "EUR"
+      },
+      "Nicht abzugsfähige Vorsteuer (VStK)": {
+        "account_number": "7100",
+        "account_type": "Tax",
+        "account_currency": "EUR"
+      },
+      "Vergnügungssteuer": {
+        "account_number": "7120",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Gesellschaftsteuer": {
+        "account_number": "7130",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "sonstige Steuern": {
+        "account_number": "7140",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Grundsteuer": {
+        "account_number": "7150",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Beförderungssteuer": {
+        "account_number": "7160",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "LKW-Maut": {
+        "account_number": "7162",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "AKM und Lustbarkeitsabgabe": {
+        "account_number": "7170",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Fremdenverkehrsabgabe": {
+        "account_number": "7171",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Ortstaxe": {
+        "account_number": "7172",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Sonstige Gebühren und Abgaben": {
+        "account_number": "7180",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Instandhaltung": {
+        "account_number": "7200",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Instandhaltung Gebäude": {
+        "account_number": "7201",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Instandhaltung technische Anlagen": {
+        "account_number": "7202",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Instandhaltung Maschinen": {
+        "account_number": "7203",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Instandhaltung andere Anlagen": {
+        "account_number": "7204",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Instandhaltung Betriebs- und Geschäftsausstattung": {
+        "account_number": "7205",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Software Wartung": {
+        "account_number": "7206",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "absetzbare Aufwendungen § 28 Abs. 2 EStG": {
+        "account_number": "7207",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "absetzbare Aufwendungen § 28 Abs. 3 EStG": {
+        "account_number": "7208",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "absetzbare Aufwendungen § 28 Abs. 4 EStG": {
+        "account_number": "7209",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Reinigung durch Dritte": {
+        "account_number": "7210",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Reinigungsmaterial": {
+        "account_number": "7215",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "absetzbare Aufwendungen § 4 Abs.7 EStG": {
+        "account_number": "7216",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Wasser und Kanalgebühren": {
+        "account_number": "7220",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Abfallentsorgung": {
+        "account_number": "7225",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Strom": {
+        "account_number": "7230",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Heizung, Gas, Energie": {
+        "account_number": "7235",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Nutzungseinlage": {
+        "account_number": "7236",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Öko-Zuschlag Wohngebäude (§ 124b Z 452 lit. b), 15 % der zugrunde liegenden Aufwendungen": {
+        "account_number": "7240",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Öko-Zuschlag Wohngebäude (§ 124b Z 452 lit. b), 15 % des auf das Veranlagungsjahr entfallenden Aufwands": {
+        "account_number": "7241",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Transporte durch Dritte": {
+        "account_number": "7300",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Instandhaltung LKW": {
+        "account_number": "7320",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Instandhaltung PKW": {
+        "account_number": "7321",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Betriebsstoffverbrauch LKW": {
+        "account_number": "7322",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Betriebsstoffverbrauch PKW": {
+        "account_number": "7323",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Reparatur- und Serviceaufwand LKW": {
+        "account_number": "7324",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Reparatur- und Serviceaufwand PKW": {
+        "account_number": "7325",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Instandhaltung PKW Unternehmer": {
+        "account_number": "7326",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Betriebsstoffverbrauch PKW Unternehmer": {
+        "account_number": "7327",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Reparatur- und Serviceaufwand PKW Unternehmer": {
+        "account_number": "7328",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Kostenersatz E-Mobilität": {
+        "account_number": "7329",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Kfz-Versicherungen": {
+        "account_number": "7330",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Kfz-Versicherungen Unternehmer": {
+        "account_number": "7331",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Kfz-Steuer": {
+        "account_number": "7332",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Kfz-Steuer Unternehmer": {
+        "account_number": "7333",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "sonstiger Aufwand LKW": {
+        "account_number": "7334",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "sonstiger Aufwand PKW": {
+        "account_number": "7335",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "sonstiger Aufwand PKW Unternehmer": {
+        "account_number": "7336",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Versicherung LKW ": {
+        "account_number": "7337",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Reisespesen": {
+        "account_number": "7340",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Reisespesen Unternehmer": {
+        "account_number": "7341",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Reisespesen Weiterbildung Dienstnehmer": {
+        "account_number": "7342",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Kilometergelder": {
+        "account_number": "7345",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Kilometergelder Unternehmer": {
+        "account_number": "7346",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Kilometergelder Weiterbildung Dienstnehmer": {
+        "account_number": "7347",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Diäten Inland": {
+        "account_number": "7350",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Diäten Ausland Weiterbildung Dienstnehmer": {
+        "account_number": "7352",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Diäten Ausland": {
+        "account_number": "7355",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Diäten Inland Unternehmer": {
+        "account_number": "7356",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Diäten Inland Weiterbildung Dienstnehmer": {
+        "account_number": "7357",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Taggelder 10 %": {
+        "account_number": "7360",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Diäten Ausland Unternehmer": {
+        "account_number": "7361",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Nächtigungsgelder 10 %": {
+        "account_number": "7370",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Nächtigungsgelder 13 %": {
+        "account_number": "7373",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Pauschale von 50% des Öffi-Tickets (abzugsfähig)": {
+        "account_number": "7375",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Telefon": {
+        "account_number": "7380",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Internet": {
+        "account_number": "7381",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Mobiltelefon": {
+        "account_number": "7382",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Miete und Wartung Telefonanlage": {
+        "account_number": "7385",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Postgebühren": {
+        "account_number": "7390",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Mietaufwand unbewegliche Wirtschaftsgüter 20 %": {
+        "account_number": "7400",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Mietaufwand unbewegliche Wirtschaftsgüter 10 %": {
+        "account_number": "7401",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Mietaufwand unbewegliche Wirtschaftsgüter 0 %": {
+        "account_number": "7402",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Mietaufwand bewegliche WG 20 %": {
+        "account_number": "7403",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Mietaufwand bewegliche WG 10 %": {
+        "account_number": "7404",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Mietaufwand bewegliche WG 0 %": {
+        "account_number": "7405",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Pachtaufwand 20 %": {
+        "account_number": "7410",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Pachtaufwand 10 %": {
+        "account_number": "7411",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Pachtaufwand 0 %": {
+        "account_number": "7412",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Leasingaufwand bewegliche Wirtschaftsgüter": {
+        "account_number": "7440",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Leasingaufwand unbewegliche Wirtschaftsgüter": {
+        "account_number": "7441",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "PKW Leasingaufwand": {
+        "account_number": "7450",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "LKW Leasingaufwand": {
+        "account_number": "7451",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "PKW Leasingaufwand Unternehmer": {
+        "account_number": "7452",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Fahrrad Leasingaufwand": {
+        "account_number": "7453",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Zahlung für Substanzabgeltung bei Vorbehaltsfruchtgenuss": {
+        "account_number": "7460",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Lizenzgebühren": {
+        "account_number": "7480",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Patentgebühren": {
+        "account_number": "7490",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Aufwand für beigestelltes Personal": {
+        "account_number": "7500",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Provisionen an Dritte": {
+        "account_number": "7540",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Verbrauchsmaterial": {
+        "account_number": "7550",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Aufsichtsratsvergütungen": {
+        "account_number": "7580",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Geschäftsführerbezug": {
+        "account_number": "7585",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Lohnnebenkosten Geschäftsführer": {
+        "account_number": "7586",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Sachbezüge (Geschäftsführer)": {
+        "account_number": "7587",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Büromaterial und Drucksorten": {
+        "account_number": "7600",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Druckerzeugnisse und Vervielfältigung": {
+        "account_number": "7610",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Fachliteratur und Zeitungen": {
+        "account_number": "7630",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Gästeunterhaltung": {
+        "account_number": "7634",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Aufwand für Arbeitszimmer im Wohnungsverband": {
+        "account_number": "7640",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Kleines Arbeitsplatzpauschale": {
+        "account_number": "7641",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Ausgaben/Aufwendungen für ergonomisch geeignetes Mobiliar": {
+        "account_number": "7642",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Großes Arbeitsplatzpauschale": {
+        "account_number": "7643",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Werbung": {
+        "account_number": "7650",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Inserate und Prospekte": {
+        "account_number": "7651",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Messen und Ausstellungen": {
+        "account_number": "7652",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Dekorationsmaterial": {
+        "account_number": "7653",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Werbung Online": {
+        "account_number": "7654",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Repräsentationsaufwand": {
+        "account_number": "7660",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Repräsentation nicht abzugsfähig": {
+        "account_number": "7661",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Anzeigen- und Ankündigungsabgaben": {
+        "account_number": "7685",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Spenden an Sporteinrichtungen": {
+        "account_number": "7686",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Spenden an Kindergärten": {
+        "account_number": "7687",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Spenden an Schulen": {
+        "account_number": "7688",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Spenden an andere von den Kennzahlen 9243 bis 9208 nicht erfasste begünstige Einrichtungen": {
+        "account_number": "7689",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Spenden": {
+        "account_number": "7690",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Spenden an begünstigte Institutionen": {
+        "account_number": "7691",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Spenden an mildtätige Organisationen": {
+        "account_number": "7692",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Spenden an Umweltschutzorganisationen und Tierheime": {
+        "account_number": "7693",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Spenden an freiwillige Feuerwehren und Landesfeuerwehrverbände": {
+        "account_number": "7694",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Strafen": {
+        "account_number": "7695",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Säumnis- und Verspätungszuschläge": {
+        "account_number": "7696",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Trinkgelder": {
+        "account_number": "7697",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Zuwendungen an die Innovationsstiftung für Bildung": {
+        "account_number": "7698",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Zuwendungen zur Vermögensausstattung einer gemeinnützigen Stiftung": {
+        "account_number": "7699",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Sachversicherungen": {
+        "account_number": "7700",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Lebensversicherungen": {
+        "account_number": "7710",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Unfallversicherungen": {
+        "account_number": "7720",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "liegenschaftsbezogene Versicherungen": {
+        "account_number": "7730",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Steuerberatungsaufwand": {
+        "account_number": "7740",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Gründungskosten": {
+        "account_number": "7745",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Rechts- und Beratungsaufwand": {
+        "account_number": "7750",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Buchhaltungsaufwand": {
+        "account_number": "7755",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Prüfungsaufwand": {
+        "account_number": "7758",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Unternehmensberatung": {
+        "account_number": "7760",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Lohnverrechnungsaufwand": {
+        "account_number": "7765",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Aus- und Weiterbildung": {
+        "account_number": "7770",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Aus- und Weiterbildung Unternehmer": {
+        "account_number": "7771",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Forschung und Entwicklung": {
+        "account_number": "7775",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "gesetzliche Pflichtbeiträge": {
+        "account_number": "7780",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Selbständigenvorsorgebeitrag": {
+        "account_number": "7781",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Kammerumlage": {
+        "account_number": "7782",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "GSVG-Beiträge aus Vorjahren": {
+        "account_number": "7783",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Mitgliedsbeiträge": {
+        "account_number": "7785",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Spesen des Geldverkehrs": {
+        "account_number": "7790",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Transaktionskosten (Hobex)": {
+        "account_number": "7795",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Schadensfälle": {
+        "account_number": "7800",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Abschreibungen auf Vorräte": {
+        "account_number": "7801",
+        "account_type": "Depreciation",
+        "account_currency": "EUR"
+      },
+      "Abschreibungen auf Forderungen 20 %": {
+        "account_number": "7802",
+        "account_type": "Depreciation",
+        "account_currency": "EUR"
+      },
+      "Abschreibungen auf Forderungen 10 %": {
+        "account_number": "7803",
+        "account_type": "Depreciation",
+        "account_currency": "EUR"
+      },
+      "Abschreibungen auf Forderungen 0 %": {
+        "account_number": "7805",
+        "account_type": "Depreciation",
+        "account_currency": "EUR"
+      },
+      "Abschreibungen auf Forderungen (EU)": {
+        "account_number": "7806",
+        "account_type": "Depreciation",
+        "account_currency": "EUR"
+      },
+      "Abschreibungen auf Forderungen (Drittland)": {
+        "account_number": "7807",
+        "account_type": "Depreciation",
+        "account_currency": "EUR"
+      },
+      "Abschreibungen auf Forderungen aus Bauleistungen": {
+        "account_number": "7808",
+        "account_type": "Depreciation",
+        "account_currency": "EUR"
+      },
+      "Abschreibungen auf Forderungen 13 %": {
+        "account_number": "7809",
+        "account_type": "Depreciation",
+        "account_currency": "EUR"
+      },
+      "Zuweisung pauschale Wertberichtigungen zu Forderungen": {
+        "account_number": "7810",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Zuweisung pauschale Wertberichtigungen zu Exportforderungen": {
+        "account_number": "7811",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Zuweisung Einzelwertberichtigungen zu Forderungen": {
+        "account_number": "7815",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Zuweisung Einzelwertberichtigungen zu Exportforderungen": {
+        "account_number": "7816",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Buchwert abgegangener Anlagen": {
+        "account_number": "7820",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Buchwert verkaufter Anlagen (+)": {
+        "account_number": "7825",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Buchwert verkaufter Immobilien (+)": {
+        "account_number": "7826",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Buchwert verkaufter Immobilien (-)": {
+        "account_number": "7827",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Buchwert verkaufter Anlagen (-)": {
+        "account_number": "7830",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "sonstige betriebliche Aufwendungen": {
+        "account_number": "7840",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Kursdifferenzen": {
+        "account_number": "7850",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Abschreibungen auf den nächsten Zukunftswert": {
+        "account_number": "7860",
+        "account_type": "Depreciation",
+        "account_currency": "EUR"
+      },
+      "nicht abzugsfähige Aufwendungen": {
+        "account_number": "7870",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Skontoerträge auf sonstige betriebliche Aufwendungen": {
+        "account_number": "7890",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "nicht cashwirksame sonstige betriebliche Aufwendungen": {
+        "account_number": "7999",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      }
+    },
+    "8 - Finanzerträge/-aufwendungen, Ertragsteuern, Rücklagenbewegung": {
+      "account_currency": "EUR",
+      "root_type": "Equity",
+      "Gewinnanteil Personengesellschaft": {
+        "account_number": "8000",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Ausschüttung Kapitalgesellschaft": {
+        "account_number": "8010",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Ausschüttung Genossenschaft": {
+        "account_number": "8020",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "steuerpflichtige Beteiligungserträge gem. § 10a Abs. 7 KStG": {
+        "account_number": "8025",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "steuerpflichtige Beteiligungserträge gem. § 10 Abs. 5 KStG": {
+        "account_number": "8026",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Erträge aus betrieblich gehaltenen Beteiligungen an Mitunternehmerschaften": {
+        "account_number": "8027",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Gewinnüberrechnung / Ergebnisabführung": {
+        "account_number": "8030",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Beteiligungserträge aus verbundenen Unternehmen": {
+        "account_number": "8040",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Erträge assoziierte Unternehmen": {
+        "account_number": "8045",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Erträge aus anderen Wertpapieren": {
+        "account_number": "8050",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Ausschüttungsgleiche Erträge aus thesaurierenden Fonds (Anlagevermögen)": {
+        "account_number": "8051",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Erträge aus Ausleihungen des Finanzanlagevermögens": {
+        "account_number": "8052",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Erträge aus anderen Wertpapieren von verbundenen Unternehmen": {
+        "account_number": "8055",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Erträge aus Ausleihungen des Finanzanlagevermögens an verbundene Unternehmen": {
+        "account_number": "8056",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Zinserträge festverzinsliche Wertpapiere": {
+        "account_number": "8060",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Ausschüttungsgleiche Erträge aus thesaurierenden Fonds (Umlaufvermögen)": {
+        "account_number": "8065",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Dividendenerträge": {
+        "account_number": "8070",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Zinsen und Dividenden von verbundenen Unternehmen": {
+        "account_number": "8080",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Zinserträge aus Bankguthaben": {
+        "account_number": "8100",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Zinserträge sonstige gewährte Kredite": {
+        "account_number": "8101",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Zinsen und ähnliche Erträge von verbundenen Unternehmen": {
+        "account_number": "8110",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Verlustanteil stiller Gesellschafter": {
+        "account_number": "8115",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Kundenverzugszinsen 0 %": {
+        "account_number": "8120",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Kundenverzugszinsen 10 %": {
+        "account_number": "8121",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Kundenverzugszinsen 20 %": {
+        "account_number": "8122",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Mahngebühren": {
+        "account_number": "8125",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Anspruchszinsen (Gutschriftszinsen)": {
+        "account_number": "8130",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Umsatzsteuerzinsen (Gutschriftszinsen)": {
+        "account_number": "8135",
+        "account_type": "Tax",
+        "account_currency": "EUR"
+      },
+      "Erlöse aus dem Abgang von Beteiligungen (-)": {
+        "account_number": "8140",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Erlöse aus dem Abgang von Beteiligungen an verbundenen Unternehmen (-)": {
+        "account_number": "8141",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Erlöse aus dem Abgang sonstiger Finanzanlagen (-)": {
+        "account_number": "8150",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Erlöse aus dem Abgang von Wertpapieren des Umlaufvermögens (-)": {
+        "account_number": "8160",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Buchwert abgegangener Beteiligungen (+)": {
+        "account_number": "8170",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Buchwert abgegangener Beteiligungen (-)": {
+        "account_number": "8171",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Buchwert abgegangener Beteiligungen an verbundenen Unternehmen (+)": {
+        "account_number": "8172",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Buchwert abgegangener Beteiligungen an verbundenen Unternehmen (-)": {
+        "account_number": "8173",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Buchwert abgegangener sonstiger Finanzanlagen (+)": {
+        "account_number": "8180",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Buchwert abgegangener sonstiger Finanzanlagen (-)": {
+        "account_number": "8181",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Buchwert abgegangener Wertpapiere des Umlaufvermögens (+)": {
+        "account_number": "8190",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Buchwert abgegangener Wertpapiere des Umlaufvermögens (-)": {
+        "account_number": "8191",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Erlöse aus dem Abgang von Beteiligungen (+)": {
+        "account_number": "8200",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Zuschreibungen zu Beteiligungen": {
+        "account_number": "8201",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Zuschreibungen zu Beteiligungen an verbundenen Unternehmen": {
+        "account_number": "8202",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Erlöse aus dem Abgang von Beteiligungen an verbundenen Unternehmen (+)": {
+        "account_number": "8205",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Erlöse aus dem Abgang sonstiger Finanzanlagen (+)": {
+        "account_number": "8210",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Zuschreibungen sonstige Finanzanlagen": {
+        "account_number": "8211",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Erlöse aus dem Abgang von Wertpapieren des Umlaufvermögens (+)": {
+        "account_number": "8220",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Zuschreibungen zu Wertpapieren des Umlaufvermögens": {
+        "account_number": "8221",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Verlustüberrechnung / Ergebnisabführung": {
+        "account_number": "8230",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Abschreibungen auf Finanzanlagen": {
+        "account_number": "8231",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Abschreibungen auf Wertpapiere des Umlaufvermögens": {
+        "account_number": "8232",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Abschreibungen auf Beteiligungen": {
+        "account_number": "8233",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Abschreibungen auf Beteiligungen an verbundenen Unternehmen": {
+        "account_number": "8234",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Abschreibungen auf andere Finanzanlagen verbundene Unternehmen": {
+        "account_number": "8235",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Aufwendungen aus Finanzanlagen verbundene Unternehmen": {
+        "account_number": "8260",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Aufwendungen aus Wertpapieren des Umlaufvermögens verbundener Unternehmen": {
+        "account_number": "8261",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "sonstige Aufwendungen aus Wertpapieren des Umlaufvermögens": {
+        "account_number": "8270",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "sonstige Aufwendungen aus Finanzanlagen": {
+        "account_number": "8271",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Zinsen für Bankkredite": {
+        "account_number": "8280",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Zinsenzuschüsse": {
+        "account_number": "8281",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Zinsen für Darlehen": {
+        "account_number": "8290",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Zinsen und ähnliche Aufwendungen für Immobilien": {
+        "account_number": "8291",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Gewinnanteil stiller Gesellschafter": {
+        "account_number": "8295",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Bereitstellungsprovisionen": {
+        "account_number": "8300",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Überziehungsprovisionen": {
+        "account_number": "8310",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Stundungsgebühren": {
+        "account_number": "8320",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Anspruchszinsen (Nachforderungszinsen)": {
+        "account_number": "8330",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Umsatzsteuerzinsen (Nachforderungszinsen)": {
+        "account_number": "8335",
+        "account_type": "Tax",
+        "account_currency": "EUR"
+      },
+      "Lieferantenzinsen": {
+        "account_number": "8340",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "nicht ausgenützte Lieferantenskonti": {
+        "account_number": "8350",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Zinsaufwand betreffend verbundene Unternehmen": {
+        "account_number": "8360",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Steuern vom Einkommen und vom Ertrag": {
+        "account_number": "8400",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Körperschaftsteuer": {
+        "account_number": "8500",
+        "account_type": "Tax",
+        "account_currency": "EUR"
+      },
+      "Zuweisung Rückstellung für Körperschaftsteuer": {
+        "account_number": "8510",
+        "account_type": "Tax",
+        "account_currency": "EUR"
+      },
+      "Auflösung Rückstellung für Körperschaftsteuer": {
+        "account_number": "8520",
+        "account_type": "Tax",
+        "account_currency": "EUR"
+      },
+      "Aktivierung Körperschaftsteuer": {
+        "account_number": "8521",
+        "account_type": "Tax",
+        "account_currency": "EUR"
+      },
+      "Körperschaftsteuer aus Vorperioden": {
+        "account_number": "8530",
+        "account_type": "Tax",
+        "account_currency": "EUR"
+      },
+      "Kapitalertragsteuer": {
+        "account_number": "8540",
+        "account_type": "Tax",
+        "account_currency": "EUR"
+      },
+      "sonstige Steuern vom Einkommen und vom Ertrag": {
+        "account_number": "8550",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Erträge aus Steuergutschriften": {
+        "account_number": "8560",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Erträge aus der Auflösung von nicht bestimmungsgemäß verwendeten\nSteuerrückstellungen": {
+        "account_number": "8570",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Körperschaftsteuer aus Gruppenbesteuerung": {
+        "account_number": "8580",
+        "account_type": "Tax",
+        "account_currency": "EUR"
+      },
+      "an Gruppenmitglieder weiterbelastete Körperschaftsteuer": {
+        "account_number": "8581",
+        "account_type": "Tax",
+        "account_currency": "EUR"
+      },
+      "Steuererstattung an Gruppenmitglieder": {
+        "account_number": "8582",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "vom Gruppenträger weiterverrechnete Körperschaftsteuer": {
+        "account_number": "8586",
+        "account_type": "Tax",
+        "account_currency": "EUR"
+      },
+      "vom Gruppenträger weiterverrechnete Gutschrift": {
+        "account_number": "8587",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Zuweisung Rückstellung für latente Steuern": {
+        "account_number": "8590",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Auflösung Rückstellung für latente Steuern": {
+        "account_number": "8591",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Veränderung aktive latente Steuern": {
+        "account_number": "8595",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      },
+      "Auflösung gebundener Kapitalrücklage": {
+        "account_number": "8700",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "Auflösung Rücklage für eigene Anteile": {
+        "account_number": "8710",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "Auflösung nicht gebundene Kapitalrücklage": {
+        "account_number": "8720",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "Auflösung gesetzliche Rücklage": {
+        "account_number": "8750",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "Auflösung satzungsmäßige Rücklage": {
+        "account_number": "8760",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "Auflösung andere (freie) Rücklage": {
+        "account_number": "8770",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "Zuweisung gesetzliche Rücklagen": {
+        "account_number": "8900",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "Zuweisung satzungsmäßige Rücklagen": {
+        "account_number": "8910",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "Zuweisung andere (freie) Rücklagen": {
+        "account_number": "8920",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "Gewinnanteile atypisch stiller Gesellschafter": {
+        "account_number": "8930",
+        "account_type": "Income Account",
+        "account_currency": "EUR"
+      },
+      "Verlustanteile atypisch stiller Gesellschafter": {
+        "account_number": "8940",
+        "account_type": "Expense Account",
+        "account_currency": "EUR"
+      }
+    },
+    "9 - Eigenkapital, Einlagen unechter stiller Gesellschafter, Abschluss- und Evidenzkonten": {
+      "account_currency": "EUR",
+      "root_type": "Equity",
+      "Kapital": {
+        "account_number": "9000",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "vereinbarte Einlage (1. Gesellschafter OG)": {
+        "account_number": "9001",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "vereinbarte Einlage (2. Gesellschafter OG)": {
+        "account_number": "9002",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "vereinbarte Einlage (3. Gesellschafter OG)": {
+        "account_number": "9003",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "vereinbarte Einlage (4. Gesellschafter OG)": {
+        "account_number": "9004",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "vereinbarte Einlage (5. Gesellschafter OG)": {
+        "account_number": "9005",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "Kapitaländerungen nach Betriebsprüfung": {
+        "account_number": "9009",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "übernommenes Stammkapital": {
+        "account_number": "9010",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "Gründungsprivilegierte Minderung des Stammkapitals": {
+        "account_number": "9020",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "übernommenes Grundkapital": {
+        "account_number": "9030",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "Kapitalerhöhung (AG)": {
+        "account_number": "9034",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "Kapitalerhöhung (GmbH)": {
+        "account_number": "9035",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "eigene Anteile": {
+        "account_number": "9036",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "eigene Aktien": {
+        "account_number": "9037",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "vereinbarte Einlagen": {
+        "account_number": "9040",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "nicht eingeforderte ausstehende Einlagen": {
+        "account_number": "9045",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "genehmigte Entnahmen": {
+        "account_number": "9050",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "Bedungene Einlage (1. Kommanditist)": {
+        "account_number": "9060",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "Bedungene Einlage (2. Kommanditist)": {
+        "account_number": "9061",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "Bedungene Einlage (3. Kommanditist)": {
+        "account_number": "9062",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "Verlustanteil (1. Kommanditist)": {
+        "account_number": "9080",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "Verlustanteil (2. Kommanditist)": {
+        "account_number": "9081",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "Verlustanteil (3. Kommanditist)": {
+        "account_number": "9082",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "nicht durch bedungene Einlage gedeckte Verlustanteile (1. Kommanditist)": {
+        "account_number": "9090",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "nicht durch bedungene Einlage gedeckte Verlustanteile (2. Kommanditist)": {
+        "account_number": "9091",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "nicht durch bedungene Einlage gedeckte Verlustanteile (3. Kommanditist)": {
+        "account_number": "9092",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "nicht eingeforderte ausstehende Stammeinlagen": {
+        "account_number": "9100",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "nicht eingeforderte Einlage (1. Kommanditist)": {
+        "account_number": "9110",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "nicht eingeforderte Einlage (2. Kommanditist)": {
+        "account_number": "9111",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "nicht eingeforderte Einlage (3. Kommanditist)": {
+        "account_number": "9112",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "nicht eingefordertes ausstehendes Grundkapital": {
+        "account_number": "9120",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "Stiftungskapital": {
+        "account_number": "9130",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "Gewinnrücklagen gemäß Stiftungsurkunde": {
+        "account_number": "9135",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "Ergebnisvortrag aus Vorjahren": {
+        "account_number": "9136",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "Jahresergebnis": {
+        "account_number": "9137",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "Zuwendungen an Begünstigte": {
+        "account_number": "9138",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "nicht durch Ergebnis gedeckte Zuwendungen": {
+        "account_number": "9139",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "Nettovereinsvermögen": {
+        "account_number": "9140",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "gewidmete Rücklagen (Verein)": {
+        "account_number": "9150",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "Einlagen stiller Gesellschafter (Eigenkapital)": {
+        "account_number": "9160",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "Verlustanteile stiller Gesellschafter (Eigenkapital)": {
+        "account_number": "9162",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "gebundene Rücklagen": {
+        "account_number": "9200",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "Rücklage für eigene Anteile": {
+        "account_number": "9310",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "Rücklage für Anteile an herrschenden Unternehmen": {
+        "account_number": "9320",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "nicht gebundene Rücklagen": {
+        "account_number": "9240",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "gesetzliche Rücklagen": {
+        "account_number": "9300",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "satzungsmäßige Rücklagen": {
+        "account_number": "9330",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "andere Rücklagen (freie Rücklagen)": {
+        "account_number": "9340",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "freie Rücklage aus Auflösung IFB": {
+        "account_number": "9345",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "Jahresgewinn/-verlust": {
+        "account_number": "9350",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "nicht eingeforderte Einlage (1. Gesellschafter OG)": {
+        "account_number": "9351",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "nicht eingeforderte Einlage (2. Gesellschafter OG)": {
+        "account_number": "9352",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "nicht eingeforderte Einlage (3. Gesellschafter OG)": {
+        "account_number": "9353",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "nicht eingeforderte Einlage (4. Gesellschafter OG)": {
+        "account_number": "9354",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "nicht eingeforderte Einlage (5. Gesellschafter OG)": {
+        "account_number": "9355",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "genehmigte Entnahmen (1. Gesellschafter OG)": {
+        "account_number": "9356",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "genehmigte Entnahmen (2. Gesellschafter OG)": {
+        "account_number": "9357",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "genehmigte Entnahmen (3. Gesellschafter OG)": {
+        "account_number": "9358",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "genehmigte Entnahmen (4. Gesellschafter OG)": {
+        "account_number": "9359",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "genehmigte Entnahmen (5. Gesellschafter OG)": {
+        "account_number": "9360",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "genehmigte Entnahmen aus Vorjahren (1. Gesellschafter OG)": {
+        "account_number": "9361",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "genehmigte Entnahmen aus Vorjahren (2. Gesellschafter OG)": {
+        "account_number": "9362",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "genehmigte Entnahmen aus Vorjahren (3. Gesellschafter OG)": {
+        "account_number": "9363",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "genehmigte Entnahmen aus Vorjahren (4. Gesellschafter OG)": {
+        "account_number": "9364",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "genehmigte Entnahmen aus Vorjahren (5. Gesellschafter OG)": {
+        "account_number": "9365",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "Jahresgewinn": {
+        "account_number": "9370",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "Jahresverlust": {
+        "account_number": "9371",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "Verlustanteile": {
+        "account_number": "9374",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "Gewinn-/Verlustanteil (1. Gesellschafter OG)": {
+        "account_number": "9375",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "Gewinn-/Verlustanteil (2. Gesellschafter OG)": {
+        "account_number": "9376",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "Gewinn-/Verlustanteil (3. Gesellschafter OG)": {
+        "account_number": "9377",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "Gewinn-/Verlustanteil (4. Gesellschafter OG)": {
+        "account_number": "9378",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "Gewinn-/Verlustanteil (5. Gesellschafter OG)": {
+        "account_number": "9379",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "Gewinnvortrag aus Vorjahren": {
+        "account_number": "9380",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "Verlustvortrag aus Vorjahren": {
+        "account_number": "9381",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "Gewinnausschüttung": {
+        "account_number": "9385",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "Entnahmen/-einlagen (1. Gesellschafter OG)": {
+        "account_number": "9390",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "Entnahmen/-einlagen (2. Gesellschafter OG)": {
+        "account_number": "9391",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "Entnahmen/-einlagen (3. Gesellschafter OG)": {
+        "account_number": "9392",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "Entnahmen/-einlagen (4. Gesellschafter OG)": {
+        "account_number": "9393",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "Entnahmen/-einlagen (5. Gesellschafter OG)": {
+        "account_number": "9394",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "nicht entnommene Gewinne aus Vorjahren (1. Gesellschafter OG)": {
+        "account_number": "9395",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "nicht entnommene Gewinne aus Vorjahren (2. Gesellschafter OG)": {
+        "account_number": "9396",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "nicht entnommene Gewinne aus Vorjahren (3. Gesellschafter OG)": {
+        "account_number": "9397",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "nicht entnommene Gewinne aus Vorjahren (4. Gesellschafter OG)": {
+        "account_number": "9398",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "nicht entnommene Gewinne aus Vorjahren (5. Gesellschafter OG)": {
+        "account_number": "9399",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "Investitionszuschüsse": {
+        "account_number": "9550",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "Investitionsprämie COVID-19": {
+        "account_number": "9555",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "Unterschiedsbetrag aus der Kapitalkonsolidierung": {
+        "account_number": "9570",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "Genussrechtskapital": {
+        "account_number": "9580",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "Aufgeld": {
+        "account_number": "9581",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "Abgeld": {
+        "account_number": "9582",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "Nennbetrag eigener Anteile": {
+        "account_number": "9583",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "Substanzgenussrechte": {
+        "account_number": "9585",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "Privat": {
+        "account_number": "9691",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "Verlustanteile aus Vorjahren (1. Gesellschafter OG)": {
+        "account_number": "9601",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "Verlustanteile aus Vorjahren (2. Gesellschafter OG)": {
+        "account_number": "9602",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "Verlustanteile aus Vorjahren (3. Gesellschafter OG)": {
+        "account_number": "9603",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "Verlustanteile aus Vorjahren (4. Gesellschafter OG)": {
+        "account_number": "9604",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "Verlustanteile aus Vorjahren (5. Gesellschafter OG)": {
+        "account_number": "9605",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "Privatentnahmen": {
+        "account_number": "9610",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "Warenentnahmen": {
+        "account_number": "9611",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "Privatanteile": {
+        "account_number": "9612",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "Sonderausgaben, außergewöhnliche Belastungen": {
+        "account_number": "9613",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "Private Steuern": {
+        "account_number": "9614",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "Privateinlagen": {
+        "account_number": "9618",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "genehmigte Entnahmen (1. Kommanditist)": {
+        "account_number": "9620",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "genehmigte Entnahmen (2. Kommanditist)": {
+        "account_number": "9621",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "genehmigte Entnahmen (3. Kommanditist)": {
+        "account_number": "9622",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "Anteile anderer Gesellschafter": {
+        "account_number": "9630",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "Sacheinlagen (Einzelunternehmen)": {
+        "account_number": "9640",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "Sacheinlagen (1. Gesellschafter OG)": {
+        "account_number": "9641",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "Sacheinlagen (2. Gesellschafter OG)": {
+        "account_number": "9642",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "Sacheinlagen (3. Gesellschafter OG)": {
+        "account_number": "9643",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "Sacheinlagen (4. Gesellschafter OG)": {
+        "account_number": "9644",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "Sacheinlagen (5. Gesellschafter OG)": {
+        "account_number": "9645",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "Verrechnungskonto Privat": {
+        "account_number": "9700",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "Eröffnungsbilanzkonto": {
+        "account_number": "9800",
+        "account_type": "Temporary",
+        "account_currency": "EUR"
+      },
+      "Saldenübernahme": {
+        "account_number": "9810",
+        "account_type": "Temporary",
+        "account_currency": "EUR"
+      },
+      "Gewinn aktuelles Jahr (ausgegliedertes Gegenkonto GuV)": {
+        "account_number": "9890",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "Verlust aktuelles Jahr (ausgegliedertes Gegenkonto GuV)": {
+        "account_number": "9891",
+        "account_type": "Equity",
+        "account_currency": "EUR"
+      },
+      "technisches Gegenkonto": {
+        "account_number": "9900",
+        "account_type": "Temporary",
+        "account_currency": "EUR"
+      },
+      "E/A-Verrechnungskonto Kunden": {
+        "account_number": "9910",
+        "account_type": "Temporary",
+        "account_currency": "EUR"
+      },
+      "E/A-Verrechnungskonto Lieferanten": {
+        "account_number": "9911",
+        "account_type": "Temporary",
+        "account_currency": "EUR"
+      },
+      "Unklare Buchungsfälle": {
+        "account_number": "9990",
+        "account_type": "Temporary",
+        "account_currency": "EUR"
+      }
+    }
+  }
+}
