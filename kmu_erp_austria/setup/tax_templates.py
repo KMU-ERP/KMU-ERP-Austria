@@ -1,19 +1,19 @@
 import click
 import frappe
 
-# ──────────────────────────────────────────────────────────────────────────────
-# Österreich – Steuersätze gemäß UStG (Umsatzsteuergesetz)
-# ──────────────────────────────────────────────────────────────────────────────
-#   20 % – Normalsteuersatz        §10 Abs. 1 UStG
-#   13 % – Besonderer Steuersatz   §10 Abs. 3 UStG  (z.B. Beherbergung, Kunst)
-#   10 % – Ermäßigter Steuersatz   §10 Abs. 2 UStG  (z.B. Lebensmittel, Bücher)
-#    0 % – Steuerfrei              §6 UStG
+# ─────────────────────────────────────────────────────────────────────────────────────────────────
+# Austria – VAT rates according to UStG (VAT Act)
+# ─────────────────────────────────────────────────────────────────────────────────────────────────
+#   20 % – Standard rate (Normalsteuersatz)         §10 para. 1 UStG
+#   13 % – Special rate (Besonderer Steuersatz)     §10 para. 3 UStG  (e.g. accommodation, art)
+#   10 % – Reduced rate (Ermäßigter Steuersatz)     §10 para. 2 UStG  (e.g. food, books)
+#    0 % – Tax exempt (Steuerfrei)             		§6 UStG
 #
-# Deutschland – Steuersätze gemäß UStG (für DE-Firmen oder EU-Geschäfte)
-# ──────────────────────────────────────────────────────────────────────────────
-#   19 % – Regelsteuersatz         §12 Abs. 1 UStG
-#    7 % – Ermäßigter Steuersatz   §12 Abs. 2 UStG
-# ──────────────────────────────────────────────────────────────────────────────
+# Germany – VAT rates according to UStG (for DE companies or EU transactions)
+# ─────────────────────────────────────────────────────────────────────────────────────────────────
+#   19 % – Standard rate (Regelsteuersatz)          §12 para. 1 UStG
+#    7 % – Reduced rate (Ermäßigter Steuersatz)     §12 para. 2 UStG
+# ─────────────────────────────────────────────────────────────────────────────────────────────────
 
 AT_SALES_TEMPLATES = [
 	{"title": "AT USt 20% – Normalsteuersatz",        "rate": 20, "account_number": "3500"},
@@ -59,14 +59,13 @@ def import_tax_templates():
 	companies = frappe.get_all("Company", pluck="name")
 
 	if not companies:
-		click.echo(click.style("  HINWEIS: Keine Firma gefunden – Steuervorlagen übersprungen.", fg="yellow"))
+		click.echo(click.style("  NOTE: No company found – tax templates skipped.", fg="yellow"))
 		return
 
 	for company in companies:
-		click.echo(f"  Erstelle Steuervorlagen für '{company}' ...")
+		click.echo(f"  Creating tax templates for '{company}' ...")
 		_create_templates_for_company(company)
-		frappe.db.commit()
-		click.echo(click.style(f"  Steuervorlagen für '{company}' erfolgreich erstellt.", fg="green"))
+		click.echo(click.style(f"  Tax templates for '{company}' successfully created.", fg="green"))
 
 
 def _create_templates_for_company(company):
