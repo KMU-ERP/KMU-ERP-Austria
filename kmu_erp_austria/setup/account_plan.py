@@ -16,7 +16,7 @@ def register_account_plan_in_wizard():
 		"erpnext", "accounts", "doctype", "account", "chart_of_accounts", "verified"
 	)
 	shutil.copy(chart_path, os.path.join(dest_dir, "at_kmu_standard_kontenplan.json"))
-	click.echo(click.style("  Kontenplan in Wizard-Auswahl registriert.", fg="green"))
+	click.echo(click.style("  Charts of Accounts registered in wizard selection.", fg="green"))
 
 
 def import_account_plan_for_companies():
@@ -29,8 +29,8 @@ def import_account_plan_for_companies():
 
 	if not companies:
 		click.echo(click.style(
-			"HINWEIS: Kein Unternehmen gefunden. "
-			"Bitte nach dem Anlegen einer Firma 'bench execute kmu_erp_austria.setup.account_plan.import_account_plan_for_companies' ausführen.",
+			"NOTE: No company found. "
+			"Please run 'bench execute kmu_erp_austria.setup.account_plan.import_account_plan_for_companies' after creating a company.",
 			fg="yellow"
 		))
 		return
@@ -39,12 +39,11 @@ def import_account_plan_for_companies():
 
 	for company in companies:
 		if frappe.db.exists("Account", {"company": company}):
-			click.echo(f"  Bestehende Konten für '{company}' werden ersetzt ...")
+			click.echo(f"  Replacing existing accounts for '{company}' ...")
 			unset_existing_data(company)
 
-		click.echo(f"  Importiere Kontenplan für '{company}' ...")
+		click.echo(f"  Importing Chart of Accounts for '{company}' ...")
 		create_charts(company, custom_chart=chart["tree"])
-		frappe.db.commit()
-		click.echo(click.style(f"  Kontenplan für '{company}' erfolgreich importiert.", fg="green"))
+		click.echo(click.style(f"  Chart of Account for '{company}' successfully imported.", fg="green"))
 
 	frappe.local.flags.allow_unverified_charts = False

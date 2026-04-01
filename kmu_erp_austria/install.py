@@ -7,30 +7,32 @@ from kmu_erp_austria.setup.account_plan import import_account_plan_for_companies
 from kmu_erp_austria.setup.payment_terms import import_payment_terms
 from kmu_erp_austria.setup.tax_rules import import_tax_rules
 from kmu_erp_austria.setup.tax_templates import import_tax_templates
+from kmu_erp_austria.setup.letter_head import import_letter_head
 
 
 def before_install():
 	if "erpnext" not in frappe.get_installed_apps():
-		click.echo(click.style("FEHLER: ERPNext muss vor kmu_erp_austria installiert sein.", fg="red", bold=True))
-		click.echo(click.style("Bitte zuerst 'bench get-app erpnext --branch <VERSION>' ausführen.", fg="red"))
-		click.echo(click.style("Danach 'bench --site <SITE-NAME> install-app erpnext' ausführen.", fg="red"))
+		click.echo(click.style("ERROR: ERPNext must be installed before kmu_erp_austria.", fg="red", bold=True))
+		click.echo(click.style("Please run 'bench get-app erpnext --branch <VERSION>' first.", fg="red"))
+		click.echo(click.style("Then run 'bench --site <SITE-NAME> install-app erpnext'.", fg="red"))
 		sys.exit(1)
 
 
 def after_install():
 	if frappe.is_setup_complete():
 		click.echo(click.style(
-			"  HINWEIS: Setup-Wizard wurde bereits ausgeführt – importiere Kontenplan ...",
+			"  NOTE: Setup wizard has already been completed – importing Chart of Accounts ...",
 			fg="yellow"
 		))
 		import_account_plan_for_companies()
 		import_tax_templates()
 		import_tax_rules()
 		import_payment_terms()
+		import_letter_head()
 	else:
 		click.echo(click.style(
-			"  HINWEIS: Setup-Wizard noch nicht ausgeführt. "
-			"Stelle Kontenplan in Wizard zur Verfügung ...",
+			"  NOTE: Setup wizard has not been completed yet. "
+			"Making Chart of Accounts available in wizard ...",
 			fg="yellow"
 		))
 		register_account_plan_in_wizard()

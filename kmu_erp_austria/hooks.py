@@ -132,13 +132,11 @@ after_install = "kmu_erp_austria.install.after_install"
 # ---------------
 # Hook on document methods and events
 
-# doc_events = {
-# 	"*": {
-# 		"on_update": "method",
-# 		"on_cancel": "method",
-# 		"on_trash": "method"
-# 	}
-# }
+doc_events = {
+ 	"Company": {
+ 		"on_update": "kmu_erp_austria.setup.letter_head.on_company_update"
+ 	}
+}
 
 # Scheduled Tasks
 # ---------------

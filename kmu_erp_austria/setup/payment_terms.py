@@ -2,20 +2,20 @@ import click
 import frappe
 
 # ──────────────────────────────────────────────────────────────────────────────
-# Zahlungskonditionen für Österreich und Deutschland
+# Payment terms for Austria and Germany
 #
-# Aufbau:
-#   Payment Term    – einzelne Zahlungsbedingung (Frist, Skonto)
-#   Payment Terms Template – Vorlage mit einer oder mehreren Payment Terms
+# Structure:
+#   Payment Term    – single payment condition (due date, discount)
+#   Payment Terms Template – template with one or more Payment Terms
 #
-# Übliche Konditionen in AT/DE:
-#   Sofortzahlung          – fällig bei Rechnungserhalt
-#   7 / 14 / 30 / 60 Tage – klassische Netto-Fristen
-#   Vorkasse               – Vorauszahlung vor Lieferung
-#   Monatsende             – fällig am Monatsende
-#   30 Tage nach Monatsende
-#   14 Tage 2% Skonto / 30 Tage netto  – Standard-Skonto AT/DE
-#   10 Tage 2% Skonto / 30 Tage netto
+# Common terms in AT/DE:
+#   Immediate payment (Sofortzahlung)     – due upon receipt of invoice
+#   7 / 14 / 30 / 60 days 				  – standard net due dates
+#   Advance payment (Vorauskasse)         – prepayment before delivery
+#   End of month (Ende Monatszahlung)     – due at end of invoice month
+#   30 days after end of month
+#   14 days 2% discount / 30 days net  	  – standard discount AT/DE
+#   10 days 2% discount / 30 days net
 # ──────────────────────────────────────────────────────────────────────────────
 
 PAYMENT_TERMS = [
@@ -101,14 +101,13 @@ PAYMENT_TERMS = [
 
 
 def import_payment_terms():
-	click.echo("  Erstelle Zahlungskonditionen ...")
+	click.echo("  Creating payment terms ...")
 
 	for term in PAYMENT_TERMS:
 		_create_payment_term(term)
 		_create_payment_terms_template(term)
 
-	frappe.db.commit()
-	click.echo(click.style("  Zahlungskonditionen erfolgreich erstellt.", fg="green"))
+	click.echo(click.style("  Payment terms successfully created.", fg="green"))
 
 
 def _create_payment_term(term):

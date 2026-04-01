@@ -2,17 +2,17 @@ import click
 import frappe
 
 # ──────────────────────────────────────────────────────────────────────────────
-# Tax Rules – automatische Steuervorlagenwahl
+# Tax Rules – automatic tax template selection
 #
-# Logik: Je mehr Felder ausgefüllt, desto spezifischer die Regel.
-# Leere Felder = Wildcard (gilt für alle Werte).
-# Bei gleicher Spezifität entscheidet die Priorität (höher = bevorzugt).
+# Logic: The more fields filled in, the more specific the rule.
+# Empty fields = wildcard (applies to all values).
+# At equal specificity, priority decides (higher = preferred).
 #
-# Inland (Österreich):
+# Domestic (Austria):
 #   Sales    + Austria  → AT USt 20% – Normalsteuersatz
 #   Purchase + Austria  → AT VSt 20% – Normalsteuersatz
 #
-# EU-Ausland (Deutschland):
+# EU abroad (Germany):
 #   Sales    + Germany  → DE MwSt 19% – Regelsteuersatz
 #   Purchase + Germany  → DE VSt 19% – Regelsteuersatz
 # ──────────────────────────────────────────────────────────────────────────────
@@ -53,14 +53,13 @@ def import_tax_rules():
 	companies = frappe.get_all("Company", pluck="name")
 
 	if not companies:
-		click.echo(click.style("  HINWEIS: Keine Firma gefunden – Steuerregeln übersprungen.", fg="yellow"))
+		click.echo(click.style("  NOTE: No company found – tax rules skipped.", fg="yellow"))
 		return
 
 	for company in companies:
-		click.echo(f"  Erstelle Steuerregeln für '{company}' ...")
+		click.echo(f"  Creating tax rules for '{company}' ...")
 		_create_rules_for_company(company)
-		frappe.db.commit()
-		click.echo(click.style(f"  Steuerregeln für '{company}' erfolgreich erstellt.", fg="green"))
+		click.echo(click.style(f"  Tax rules for '{company}' successfully created.", fg="green"))
 
 
 def _create_rules_for_company(company):
@@ -70,7 +69,7 @@ def _create_rules_for_company(company):
 
 		if not template_name:
 			click.echo(click.style(
-				f"    Vorlage '{template_title}' nicht gefunden – Tax Rule übersprungen.",
+				f"    Template '{template_title}' not found – tax rule skipped.",
 				fg="yellow"
 			))
 			continue
