@@ -5,6 +5,15 @@ app_description = "Frappe app with austrian default settings"
 app_email = "office@ransoft.at"
 app_license = "mit"
 
+
+# Fixtures
+
+fixtures = [
+	{"dt": "Print Format", "filters": [["name", "in", ["Angebot - KMU ERP Austria", "Auftragsbestätigung - KMU ERP Austria",  "Lieferschein - KMU ERP Austria", "Ausgangsrechnung - KMU ERP Austria"]]]}
+]
+
+
+
 # Apps
 # ------------------
 
