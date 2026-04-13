@@ -8,6 +8,7 @@ from kmu_erp_austria.setup.payment_terms import import_payment_terms
 from kmu_erp_austria.setup.tax_rules import import_tax_rules
 from kmu_erp_austria.setup.tax_templates import import_tax_templates
 from kmu_erp_austria.setup.letter_head import import_letter_head
+from kmu_erp_austria.setup.item_group_accounts_assignment import import_item_group_accounts_assignment
 
 
 def before_install():
@@ -36,3 +37,11 @@ def after_install():
 			fg="yellow"
 		))
 		register_account_plan_in_wizard()
+
+def after_sync():
+	if frappe.is_setup_complete():
+		import_item_group_accounts_assignment()
+
+def after_migrate():
+	if frappe.is_setup_complete():
+		import_item_group_accounts_assignment()

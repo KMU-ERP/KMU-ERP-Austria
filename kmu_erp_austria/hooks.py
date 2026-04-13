@@ -9,7 +9,9 @@ app_license = "mit"
 # Fixtures
 
 fixtures = [
-	{"dt": "Print Format", "filters": [["name", "in", ["Angebot - KMU ERP Austria", "Auftragsbestätigung - KMU ERP Austria",  "Lieferschein - KMU ERP Austria", "Ausgangsrechnung - KMU ERP Austria"]]]}
+	{"dt": "Print Format", "filters": [["name", "in", ["Angebot - KMU ERP Austria", "Auftragsbestätigung - KMU ERP Austria",  "Lieferschein - KMU ERP Austria", "Ausgangsrechnung - KMU ERP Austria"]]]},
+	"Item Group",
+	"Tax Category"
 ]
 
 
@@ -96,6 +98,8 @@ fixtures = [
 
 before_install = "kmu_erp_austria.install.before_install"
 after_install = "kmu_erp_austria.install.after_install"
+after_sync = ["kmu_erp_austria.install.after_sync"]
+after_migrate = ["kmu_erp_austria.install.after_migrate"]
 
 # Uninstallation
 # ------------
