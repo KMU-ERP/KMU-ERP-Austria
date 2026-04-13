@@ -1,0 +1,11 @@
+[
+ {
+  "country": "Austria",
+  "docstatus": 0,
+  "doctype": "Address Template",
+  "is_default": 1,
+  "modified": "2026-04-13 14:07:41.344716",
+  "name": "Austria",
+  "template": "{{ address_line1 }}<br>\n{% if address_line2 %}{{ address_line2 }}<br>{% endif -%}\n{% if pincode %}{{ pincode }}, {% endif -%}{{ city }}<br>\n{% if state %}{{ state }}<br>{% endif -%}\n{{ _(country) }}\n"
+ }
+]

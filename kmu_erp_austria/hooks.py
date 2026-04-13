@@ -11,7 +11,8 @@ app_license = "mit"
 fixtures = [
 	{"dt": "Print Format", "filters": [["name", "in", ["Angebot - KMU ERP Austria", "Auftragsbestätigung - KMU ERP Austria",  "Lieferschein - KMU ERP Austria", "Ausgangsrechnung - KMU ERP Austria"]]]},
 	"Item Group",
-	"Tax Category"
+	"Tax Category",
+	"Address Template"
 ]
 
 
