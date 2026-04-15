@@ -10,6 +10,8 @@ from kmu_erp_austria.setup.tax_rules import import_tax_rules
 from kmu_erp_austria.setup.tax_templates import import_tax_templates
 from kmu_erp_austria.setup.letter_head import import_letter_head
 from kmu_erp_austria.setup.item_group_accounts_assignment import import_item_group_accounts_assignment
+from kmu_erp_austria.setup.company_address import create_company_address
+from kmu_erp_austria.setup.default_settings import import_default_settings
 
 def auto_erpnext_setup(args):
 	"""
@@ -25,10 +27,26 @@ def auto_erpnext_setup(args):
 		sys.exit(1)
 
 	register_account_plan_in_wizard()
+	click.echo("  Filling out the wizard ...")
 	setup_complete(args)
+	click.echo(click.style("  Wizard completed successfully.", fg="green"))
+
+	company_name = args.get("company_name")
+
+	click.echo(f"  Setting tax id for company '{company_name}' ...")
+	if args.get("tax_id") and company_name:
+		frappe.db.set_value("Company", company_name, "tax_id", args.get("tax_id"))
+		frappe.db.commit()
+		click.echo(click.style(f"  Tax id for company '{company_name}' set successfully.", fg="green"))
+
+	create_company_address(args, company_name)
+
 	_import_configurations()
 
 def app_setup():
+	"""
+	Handles app setup after completion of the wizard. For the use case that the app is installed after some time using ERPNext.
+	"""
 	_import_account_plan()
 	_import_configurations()
 
@@ -38,11 +56,18 @@ def _import_configurations():
 	import_payment_terms()
 	import_letter_head()
 	import_item_group_accounts_assignment()
+	import_default_settings()
 
 def _import_account_plan():
 	register_account_plan_in_wizard()
 	import_account_plan_for_companies()
 
 def after_migrate():
+	"""
+	Important for fixtures. If the bench command `bench migrate` is used, the system will automatically
+	take the json files of the fixtures as they are and import them. The json file of the Item Groups does not have
+	the revenue and expense accounts, as they are assigned later. So it is important to import Item Group Accounts Assignment
+	after the migration.
+	"""
 	if frappe.is_setup_complete():
 		import_item_group_accounts_assignment()
