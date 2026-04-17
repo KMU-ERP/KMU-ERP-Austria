@@ -86,10 +86,10 @@ fixtures = [
 # ----------
 
 # add methods and filters to jinja environment
-jinja = {
- 	"methods": "kmu_erp_austria.utils.get_tax_breakup",
+# jinja = {
+# 	"methods": "kmu_erp_austria.utils.jinja_methods",
 # 	"filters": "kmu_erp_austria.utils.jinja_filters"
-}
+# }
 
 # Installation
 # ------------

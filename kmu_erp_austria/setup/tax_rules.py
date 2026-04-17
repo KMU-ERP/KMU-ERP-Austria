@@ -19,31 +19,35 @@ import frappe
 
 TAX_RULES = [
 	{
-		"name":                 "Verkauf AT USt 20% – Normalsteuersatz",
+		"name":                 "Österreich - Verkaufssteuerregel",
 		"tax_type":             "Sales",
 		"billing_country":      "Austria",
-		"sales_tax_template":   "AT USt 20% – Normalsteuersatz",
+		"tax_category":         "Österreich",
+		"sales_tax_template":   "Österreich - Verkauf",
 		"priority":             1,
 	},
 	{
-		"name":                 "Einkauf AT VSt 20% – Normalsteuersatz",
+		"name":                 "Österreich - Einkaufssteuerregel",
 		"tax_type":             "Purchase",
 		"billing_country":      "Austria",
-		"purchase_tax_template": "AT VSt 20% – Normalsteuersatz",
+		"tax_category":         "Österreich",
+		"purchase_tax_template": "Österreich - Einkauf",
 		"priority":             1,
 	},
 	{
-		"name":                 "Verkauf DE MwSt 19% – Regelsteuersatz",
+		"name":                 "Deutschland - Verkaufssteuerregel",
 		"tax_type":             "Sales",
 		"billing_country":      "Germany",
-		"sales_tax_template":   "DE MwSt 19% – Regelsteuersatz",
+		"tax_category":         "Deutschland",
+		"sales_tax_template":   "Deutschland - Verkauf",
 		"priority":             1,
 	},
 	{
-		"name":                 "Einkauf DE VSt 19% – Regelsteuersatz",
+		"name":                 "Deutschland - Einkaufssteuerregel",
 		"tax_type":             "Purchase",
 		"billing_country":      "Germany",
-		"purchase_tax_template": "DE VSt 19% – Regelsteuersatz",
+		"tax_category":         "Deutschland",
+		"purchase_tax_template": "Deutschland - Einkauf",
 		"priority":             1,
 	},
 ]
