@@ -81,22 +81,7 @@
     "name": "Dienstleistung Normalsteuersatz",
     "old_parent": "Services",
     "parent_item_group": "Services",
-    "taxes": [
-      {
-        "item_tax_template": "AT USt 20% - TC",
-        "maximum_net_rate": 0.0,
-        "minimum_net_rate": 0.0,
-        "tax_category": "Österreich",
-        "valid_from": null
-      },
-      {
-        "item_tax_template": "DE MwSt 19% - TC",
-        "maximum_net_rate": 0.0,
-        "minimum_net_rate": 0.0,
-        "tax_category": "Deutschland",
-        "valid_from": null
-      }
-    ]
+    "taxes": []
   },
   {
     "docstatus": 0,
@@ -108,22 +93,7 @@
     "name": "Grundnahrungsmittel",
     "old_parent": "Products",
     "parent_item_group": "Products",
-    "taxes": [
-      {
-        "item_tax_template": "AT USt 10% - TC",
-        "maximum_net_rate": 0.0,
-        "minimum_net_rate": 0.0,
-        "tax_category": "Österreich",
-        "valid_from": null
-      },
-      {
-        "item_tax_template": "DE MwSt 7% - TC",
-        "maximum_net_rate": 0.0,
-        "minimum_net_rate": 0.0,
-        "tax_category": "Deutschland",
-        "valid_from": null
-      }
-    ]
+    "taxes": []
   },
   {
     "docstatus": 0,
@@ -131,26 +101,11 @@
     "image": null,
     "is_group": 0,
     "item_group_name": "Arzneimittel",
-    "modified": "2026-04-13 08:55:57.891060",
+    "modified": "2026-04-13 08:55:57.881060",
     "name": "Arzneimittel",
     "old_parent": "Products",
     "parent_item_group": "Products",
-    "taxes": [
-      {
-        "item_tax_template": "AT USt 10% - TC",
-        "maximum_net_rate": 0.0,
-        "minimum_net_rate": 0.0,
-        "tax_category": "Österreich",
-        "valid_from": null
-      },
-      {
-        "item_tax_template": "DE MwSt 19% - TC",
-        "maximum_net_rate": 0.0,
-        "minimum_net_rate": 0.0,
-        "tax_category": "Deutschland",
-        "valid_from": null
-      }
-    ]
+    "taxes": []
   },
   {
     "docstatus": 0,
@@ -162,22 +117,7 @@
     "name": "Beherbergung",
     "old_parent": "Services",
     "parent_item_group": "Services",
-    "taxes": [
-      {
-        "item_tax_template": "AT USt 10% - TC",
-        "maximum_net_rate": 0.0,
-        "minimum_net_rate": 0.0,
-        "tax_category": "Österreich",
-        "valid_from": null
-      },
-      {
-        "item_tax_template": "DE MwSt 7% - TC",
-        "maximum_net_rate": 0.0,
-        "minimum_net_rate": 0.0,
-        "tax_category": "Deutschland",
-        "valid_from": null
-      }
-    ]
+    "taxes": []
   },
   {
     "docstatus": 0,
@@ -189,15 +129,7 @@
     "name": "Personenbeförderung Inland",
     "old_parent": "Services",
     "parent_item_group": "Services",
-    "taxes": [
-      {
-        "item_tax_template": "AT USt 10% - TC",
-        "maximum_net_rate": 0.0,
-        "minimum_net_rate": 0.0,
-        "tax_category": null,
-        "valid_from": null
-      }
-    ]
+    "taxes": []
   },
   {
     "docstatus": 0,
@@ -209,22 +141,7 @@
     "name": "Müllbeseitigung & Abfallentsorgung",
     "old_parent": "Services",
     "parent_item_group": "Services",
-    "taxes": [
-      {
-        "item_tax_template": "AT USt 10% - TC",
-        "maximum_net_rate": 0.0,
-        "minimum_net_rate": 0.0,
-        "tax_category": null,
-        "valid_from": null
-      },
-      {
-        "item_tax_template": "DE MwSt 0% - TC",
-        "maximum_net_rate": 0.0,
-        "minimum_net_rate": 0.0,
-        "tax_category": null,
-        "valid_from": null
-      }
-    ]
+    "taxes": []
   },
   {
     "docstatus": 0,
@@ -236,22 +153,7 @@
     "name": "Inland Luftbeförderung",
     "old_parent": "Services",
     "parent_item_group": "Services",
-    "taxes": [
-      {
-        "item_tax_template": "AT USt 13% - TC",
-        "maximum_net_rate": 0.0,
-        "minimum_net_rate": 0.0,
-        "tax_category": null,
-        "valid_from": null
-      },
-      {
-        "item_tax_template": "DE MwSt 19% - TC",
-        "maximum_net_rate": 0.0,
-        "minimum_net_rate": 0.0,
-        "tax_category": null,
-        "valid_from": null
-      }
-    ]
+    "taxes": []
   },
   {
     "docstatus": 0,
@@ -263,22 +165,7 @@
     "name": "Kulturelle Leistungen Theater Museum",
     "old_parent": "Services",
     "parent_item_group": "Services",
-    "taxes": [
-      {
-        "item_tax_template": "AT USt 13% - TC",
-        "maximum_net_rate": 0.0,
-        "minimum_net_rate": 0.0,
-        "tax_category": null,
-        "valid_from": null
-      },
-      {
-        "item_tax_template": "DE MwSt 7% - TC",
-        "maximum_net_rate": 0.0,
-        "minimum_net_rate": 0.0,
-        "tax_category": null,
-        "valid_from": null
-      }
-    ]
+    "taxes": []
   },
   {
     "docstatus": 0,
@@ -286,26 +173,11 @@
     "image": null,
     "is_group": 0,
     "item_group_name": "Lebende Tiere & Pflanzen",
-    "modified": "2026-04-10 10:30:47.407086",
+    "modified": "2026-04-10 10:30:47.406095",
     "name": "Lebende Tiere & Pflanzen",
     "old_parent": "Products",
     "parent_item_group": "Products",
-    "taxes": [
-      {
-        "item_tax_template": "AT USt 13% - TC",
-        "maximum_net_rate": 0.0,
-        "minimum_net_rate": 0.0,
-        "tax_category": "Österreich",
-        "valid_from": null
-      },
-      {
-        "item_tax_template": "DE MwSt 7% - TC",
-        "maximum_net_rate": 0.0,
-        "minimum_net_rate": 0.0,
-        "tax_category": "Deutschland",
-        "valid_from": null
-      }
-    ]
+    "taxes": []
   },
   {
     "docstatus": 0,
@@ -317,22 +189,7 @@
     "name": "Landwirtschaftliche Produkte & Futtermittel",
     "old_parent": "Products",
     "parent_item_group": "Products",
-    "taxes": [
-      {
-        "item_tax_template": "AT USt 13% - TC",
-        "maximum_net_rate": 0.0,
-        "minimum_net_rate": 0.0,
-        "tax_category": "Österreich",
-        "valid_from": null
-      },
-      {
-        "item_tax_template": "DE MwSt 7% - TC",
-        "maximum_net_rate": 0.0,
-        "minimum_net_rate": 0.0,
-        "tax_category": "Deutschland",
-        "valid_from": null
-      }
-    ]
+    "taxes": []
   },
   {
     "docstatus": 0,
@@ -344,22 +201,7 @@
     "name": "Kunstgegenstände & Sammlerstücke",
     "old_parent": "Products",
     "parent_item_group": "Products",
-    "taxes": [
-      {
-        "item_tax_template": "AT USt 13% - TC",
-        "maximum_net_rate": 0.0,
-        "minimum_net_rate": 0.0,
-        "tax_category": "Österreich",
-        "valid_from": null
-      },
-      {
-        "item_tax_template": "DE MwSt 7% - TC",
-        "maximum_net_rate": 0.0,
-        "minimum_net_rate": 0.0,
-        "tax_category": "Deutschland",
-        "valid_from": null
-      }
-    ]
+    "taxes": []
   },
   {
     "docstatus": 0,
@@ -371,22 +213,7 @@
     "name": "Vermietung Wohnzwecke",
     "old_parent": "Services",
     "parent_item_group": "Services",
-    "taxes": [
-      {
-        "item_tax_template": "AT USt 10% - TC",
-        "maximum_net_rate": 0.0,
-        "minimum_net_rate": 0.0,
-        "tax_category": null,
-        "valid_from": null
-      },
-      {
-        "item_tax_template": "DE MwSt 0% - TC",
-        "maximum_net_rate": 0.0,
-        "minimum_net_rate": 0.0,
-        "tax_category": null,
-        "valid_from": null
-      }
-    ]
+    "taxes": []
   },
   {
     "docstatus": 0,
@@ -398,22 +225,7 @@
     "name": "Campingvermietung",
     "old_parent": "Services",
     "parent_item_group": "Services",
-    "taxes": [
-      {
-        "item_tax_template": "AT USt 10% - TC",
-        "maximum_net_rate": 0.0,
-        "minimum_net_rate": 0.0,
-        "tax_category": "Österreich",
-        "valid_from": null
-      },
-      {
-        "item_tax_template": "DE MwSt 7% - TC",
-        "maximum_net_rate": 0.0,
-        "minimum_net_rate": 0.0,
-        "tax_category": "Deutschland",
-        "valid_from": null
-      }
-    ]
+    "taxes": []
   },
   {
     "docstatus": 0,
@@ -421,26 +233,11 @@
     "image": null,
     "is_group": 0,
     "item_group_name": "Kranken- & Pflegeanstalten",
-    "modified": "2026-04-10 07:17:46.726158",
+    "modified": "2026-04-10 07:17:46.736178",
     "name": "Kranken- & Pflegeanstalten",
     "old_parent": "Services",
     "parent_item_group": "Services",
-    "taxes": [
-      {
-        "item_tax_template": "AT USt 0% - TC",
-        "maximum_net_rate": 0.0,
-        "minimum_net_rate": 0.0,
-        "tax_category": null,
-        "valid_from": null
-      },
-      {
-        "item_tax_template": "DE MwSt 0% - TC",
-        "maximum_net_rate": 0.0,
-        "minimum_net_rate": 0.0,
-        "tax_category": null,
-        "valid_from": null
-      }
-    ]
+    "taxes": []
   },
   {
     "docstatus": 0,
@@ -448,26 +245,11 @@
     "image": null,
     "is_group": 0,
     "item_group_name": "Reparatur Fahrräder Schuhe Kleidung",
-    "modified": "2026-04-10 07:49:14.161357",
+    "modified": "2026-04-10 07:49:14.157357",
     "name": "Reparatur Fahrräder Schuhe Kleidung",
     "old_parent": "Services",
     "parent_item_group": "Services",
-    "taxes": [
-      {
-        "item_tax_template": "AT USt 10% - TC",
-        "maximum_net_rate": 0.0,
-        "minimum_net_rate": 0.0,
-        "tax_category": null,
-        "valid_from": null
-      },
-      {
-        "item_tax_template": "DE MwSt 19% - TC",
-        "maximum_net_rate": 0.0,
-        "minimum_net_rate": 0.0,
-        "tax_category": null,
-        "valid_from": null
-      }
-    ]
+    "taxes": []
   },
   {
     "docstatus": 0,
@@ -479,22 +261,7 @@
     "name": "Elektronische Publikation",
     "old_parent": "Services",
     "parent_item_group": "Services",
-    "taxes": [
-      {
-        "item_tax_template": "AT USt 10% - TC",
-        "maximum_net_rate": 0.0,
-        "minimum_net_rate": 0.0,
-        "tax_category": null,
-        "valid_from": null
-      },
-      {
-        "item_tax_template": "DE MwSt 7% - TC",
-        "maximum_net_rate": 0.0,
-        "minimum_net_rate": 0.0,
-        "tax_category": null,
-        "valid_from": null
-      }
-    ]
+    "taxes": []
   },
   {
     "docstatus": 0,
@@ -506,22 +273,7 @@
     "name": "Gemeinnützige Leistungen",
     "old_parent": "Services",
     "parent_item_group": "Services",
-    "taxes": [
-      {
-        "item_tax_template": "AT USt 10% - TC",
-        "maximum_net_rate": 0.0,
-        "minimum_net_rate": 0.0,
-        "tax_category": null,
-        "valid_from": null
-      },
-      {
-        "item_tax_template": "DE MwSt 7% - TC",
-        "maximum_net_rate": 0.0,
-        "minimum_net_rate": 0.0,
-        "tax_category": null,
-        "valid_from": null
-      }
-    ]
+    "taxes": []
   },
   {
     "docstatus": 0,
@@ -533,22 +285,7 @@
     "name": "Künstlerische Tätigkeiten",
     "old_parent": "Services",
     "parent_item_group": "Services",
-    "taxes": [
-      {
-        "item_tax_template": "AT USt 13% - TC",
-        "maximum_net_rate": 0.0,
-        "minimum_net_rate": 0.0,
-        "tax_category": null,
-        "valid_from": null
-      },
-      {
-        "item_tax_template": "DE MwSt 7% - TC",
-        "maximum_net_rate": 0.0,
-        "minimum_net_rate": 0.0,
-        "tax_category": null,
-        "valid_from": null
-      }
-    ]
+    "taxes": []
   },
   {
     "docstatus": 0,
@@ -556,26 +293,11 @@
     "image": null,
     "is_group": 0,
     "item_group_name": "Schwimmbäder & Thermalbehandlung",
-    "modified": "2026-04-10 07:50:53.518724",
+    "modified": "2026-04-10 07:50:53.518752",
     "name": "Schwimmbäder & Thermalbehandlung",
     "old_parent": "Services",
     "parent_item_group": "Services",
-    "taxes": [
-      {
-        "item_tax_template": "AT USt 13% - TC",
-        "maximum_net_rate": 0.0,
-        "minimum_net_rate": 0.0,
-        "tax_category": null,
-        "valid_from": null
-      },
-      {
-        "item_tax_template": "DE MwSt 7% - TC",
-        "maximum_net_rate": 0.0,
-        "minimum_net_rate": 0.0,
-        "tax_category": null,
-        "valid_from": null
-      }
-    ]
+    "taxes": []
   },
   {
     "docstatus": 0,
@@ -587,22 +309,7 @@
     "name": "Filmvorführungen & Zirkus",
     "old_parent": "Services",
     "parent_item_group": "Services",
-    "taxes": [
-      {
-        "item_tax_template": "AT USt 13% - TC",
-        "maximum_net_rate": 0.0,
-        "minimum_net_rate": 0.0,
-        "tax_category": null,
-        "valid_from": null
-      },
-      {
-        "item_tax_template": "DE MwSt 7% - TC",
-        "maximum_net_rate": 0.0,
-        "minimum_net_rate": 0.0,
-        "tax_category": null,
-        "valid_from": null
-      }
-    ]
+    "taxes": []
   },
   {
     "docstatus": 0,
@@ -610,26 +317,11 @@
     "image": null,
     "is_group": 0,
     "item_group_name": "Sportveranstaltungen",
-    "modified": "2026-04-10 08:00:06.523194",
+    "modified": "2026-04-10 08:00:06.523198",
     "name": "Sportveranstaltungen",
     "old_parent": "Services",
     "parent_item_group": "Services",
-    "taxes": [
-      {
-        "item_tax_template": "AT USt 13% - TC",
-        "maximum_net_rate": 0.0,
-        "minimum_net_rate": 0.0,
-        "tax_category": null,
-        "valid_from": null
-      },
-      {
-        "item_tax_template": "DE MwSt 7% - TC",
-        "maximum_net_rate": 0.0,
-        "minimum_net_rate": 0.0,
-        "tax_category": null,
-        "valid_from": null
-      }
-    ]
+    "taxes": []
   },
   {
     "docstatus": 0,
@@ -641,22 +333,7 @@
     "name": "Speisen in der Gastronomie",
     "old_parent": "Products",
     "parent_item_group": "Products",
-    "taxes": [
-      {
-        "item_tax_template": "AT USt 10% - TC",
-        "maximum_net_rate": 0.0,
-        "minimum_net_rate": 0.0,
-        "tax_category": "Österreich",
-        "valid_from": null
-      },
-      {
-        "item_tax_template": "DE MwSt 7% - TC",
-        "maximum_net_rate": 0.0,
-        "minimum_net_rate": 0.0,
-        "tax_category": "Deutschland",
-        "valid_from": null
-      }
-    ]
+    "taxes": []
   },
   {
     "docstatus": 0,
@@ -668,22 +345,7 @@
     "name": "Milch & Milchmischgetränke",
     "old_parent": "Products",
     "parent_item_group": "Products",
-    "taxes": [
-      {
-        "item_tax_template": "AT USt 10% - TC",
-        "maximum_net_rate": 0.0,
-        "minimum_net_rate": 0.0,
-        "tax_category": "Österreich",
-        "valid_from": null
-      },
-      {
-        "item_tax_template": "DE MwSt 7% - TC",
-        "maximum_net_rate": 0.0,
-        "minimum_net_rate": 0.0,
-        "tax_category": "Deutschland",
-        "valid_from": null
-      }
-    ]
+    "taxes": []
   },
   {
     "docstatus": 0,
@@ -695,22 +357,7 @@
     "name": "Milch & Milchmischgetränke (pflanzlich)",
     "old_parent": "Products",
     "parent_item_group": "Products",
-    "taxes": [
-      {
-        "item_tax_template": "AT USt 20% - TC",
-        "maximum_net_rate": 0.0,
-        "minimum_net_rate": 0.0,
-        "tax_category": "Österreich",
-        "valid_from": null
-      },
-      {
-        "item_tax_template": "DE MwSt 19% - TC",
-        "maximum_net_rate": 0.0,
-        "minimum_net_rate": 0.0,
-        "tax_category": "Deutschland",
-        "valid_from": null
-      }
-    ]
+    "taxes": []
   },
   {
     "docstatus": 0,
@@ -722,22 +369,7 @@
     "name": "Vermietung Gewerblich",
     "old_parent": "Services",
     "parent_item_group": "Services",
-    "taxes": [
-      {
-        "item_tax_template": "AT USt 20% - TC",
-        "maximum_net_rate": 0.0,
-        "minimum_net_rate": 0.0,
-        "tax_category": null,
-        "valid_from": null
-      },
-      {
-        "item_tax_template": "DE MwSt 19% - TC",
-        "maximum_net_rate": 0.0,
-        "minimum_net_rate": 0.0,
-        "tax_category": null,
-        "valid_from": null
-      }
-    ]
+    "taxes": []
   },
   {
     "docstatus": 0,
@@ -749,22 +381,7 @@
     "name": "Produkte Normalsteuersatz",
     "old_parent": "Products",
     "parent_item_group": "Products",
-    "taxes": [
-      {
-        "item_tax_template": "AT USt 20% - TC",
-        "maximum_net_rate": 0.0,
-        "minimum_net_rate": 0.0,
-        "tax_category": "Österreich",
-        "valid_from": null
-      },
-      {
-        "item_tax_template": "DE MwSt 19% - TC",
-        "maximum_net_rate": 0.0,
-        "minimum_net_rate": 0.0,
-        "tax_category": "Deutschland",
-        "valid_from": null
-      }
-    ]
+    "taxes": []
   },
   {
     "docstatus": 0,
@@ -772,26 +389,11 @@
     "image": null,
     "is_group": 0,
     "item_group_name": "Bücher & Druckerzeugnisse",
-    "modified": "2026-04-10 10:04:45.219265",
+    "modified": "2026-04-10 10:04:45.205478",
     "name": "Bücher & Druckerzeugnisse",
     "old_parent": "Products",
     "parent_item_group": "Products",
-    "taxes": [
-      {
-        "item_tax_template": "AT USt 10% - TC",
-        "maximum_net_rate": 0.0,
-        "minimum_net_rate": 0.0,
-        "tax_category": "Österreich",
-        "valid_from": null
-      },
-      {
-        "item_tax_template": "DE MwSt 7% - TC",
-        "maximum_net_rate": 0.0,
-        "minimum_net_rate": 0.0,
-        "tax_category": "Deutschland",
-        "valid_from": null
-      }
-    ]
+    "taxes": []
   },
   {
     "docstatus": 0,
@@ -803,21 +405,6 @@
     "name": "Brennholz",
     "old_parent": "Products",
     "parent_item_group": "Products",
-    "taxes": [
-      {
-        "item_tax_template": "AT USt 13% - TC",
-        "maximum_net_rate": 0.0,
-        "minimum_net_rate": 0.0,
-        "tax_category": "Österreich",
-        "valid_from": null
-      },
-      {
-        "item_tax_template": "DE MwSt 7% - TC",
-        "maximum_net_rate": 0.0,
-        "minimum_net_rate": 0.0,
-        "tax_category": "Deutschland",
-        "valid_from": null
-      }
-    ]
+    "taxes": []
   }
 ]
