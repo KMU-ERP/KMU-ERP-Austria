@@ -16,42 +16,50 @@ import frappe
 # ─────────────────────────────────────────────────────────────────────────────────────────────────
 
 AT_SALES_TEMPLATES = [
-	{"title": "AT USt 20% – Normalsteuersatz",        "rate": 20, "account_number": "3500"},
-	{"title": "AT USt 13% – Besonderer Steuersatz",   "rate": 13, "account_number": "3500"},
-	{"title": "AT USt 10% – Ermäßigter Steuersatz",   "rate": 10, "account_number": "3500"},
-	{"title": "AT USt 0% – Steuerfrei",               "rate":  0, "account_number": "3500"},
+	{"title": "Österreich - Verkaufssteuern", "rates": [
+		{"rate": 20, "account_number": "35020"},
+		{"rate": 13, "account_number": "35013"},
+		{"rate": 10, "account_number": "35010"},
+		{"rate":  0, "account_number": "35000"},
+	]},
 ]
 
 AT_PURCHASE_TEMPLATES = [
-	{"title": "AT VSt 20% – Normalsteuersatz",        "rate": 20, "account_number": "2500"},
-	{"title": "AT VSt 13% – Besonderer Steuersatz",   "rate": 13, "account_number": "2500"},
-	{"title": "AT VSt 10% – Ermäßigter Steuersatz",   "rate": 10, "account_number": "2500"},
-	{"title": "AT VSt 0% – Steuerfrei",               "rate":  0, "account_number": "2500"},
+	{"title": "Österreich - Einkaufssteuern", "rates": [
+		{"rate": 20, "account_number": "25020"},
+		{"rate": 13, "account_number": "25013"},
+		{"rate": 10, "account_number": "25010"},
+		{"rate":  0, "account_number": "25000"},
+	]},
 ]
 
 AT_ITEM_TAX_TEMPLATES = [
-	{"title": "AT USt 20%", "rate": 20, "account_number": "3500"},
-	{"title": "AT USt 13%", "rate": 13, "account_number": "3500"},
-	{"title": "AT USt 10%", "rate": 10, "account_number": "3500"},
-	{"title": "AT USt 0%",  "rate":  0, "account_number": "3500"},
+	{"title": "AT USt 20%", "rate": 20, "account_number": "35020"},
+	{"title": "AT USt 13%", "rate": 13, "account_number": "35013"},
+	{"title": "AT USt 10%", "rate": 10, "account_number": "35010"},
+	{"title": "AT USt 0%",  "rate":  0, "account_number": "35000"},
 ]
 
 DE_SALES_TEMPLATES = [
-	{"title": "DE MwSt 19% – Regelsteuersatz",        "rate": 19, "account_number": "3500"},
-	{"title": "DE MwSt 7% – Ermäßigter Steuersatz",   "rate":  7, "account_number": "3500"},
-	{"title": "DE MwSt 0% – Steuerfrei",              "rate":  0, "account_number": "3500"},
+	{"title": "Deutschland - Verkaufssteuern", "rates": [
+		{"rate": 19, "account_number": "35019"},
+	    {"rate":  7, "account_number": "35007"},
+	    {"rate":  0, "account_number": "35000"},
+	]},
 ]
 
 DE_PURCHASE_TEMPLATES = [
-	{"title": "DE VSt 19% – Regelsteuersatz",         "rate": 19, "account_number": "2500"},
-	{"title": "DE VSt 7% – Ermäßigter Steuersatz",    "rate":  7, "account_number": "2500"},
-	{"title": "DE VSt 0% – Steuerfrei",               "rate":  0, "account_number": "2500"},
+	{"title": "Deutschland - Einkaufssteuern", "rates": [
+		{"rate": 19, "account_number": "25019"},
+		{"rate":  7, "account_number": "25007"},
+		{"rate":  0, "account_number": "25000"},
+	]},
 ]
 
 DE_ITEM_TAX_TEMPLATES = [
-	{"title": "DE MwSt 19%", "rate": 19, "account_number": "3500"},
-	{"title": "DE MwSt 7%",  "rate":  7, "account_number": "3500"},
-	{"title": "DE MwSt 0%",  "rate":  0, "account_number": "3500"},
+	{"title": "DE MwSt 19%", "rate": 19, "account_number": "35019"},
+	{"title": "DE MwSt 7%",  "rate":  7, "account_number": "35007"},
+	{"title": "DE MwSt 0%",  "rate":  0, "account_number": "35000"},
 ]
 
 
@@ -96,21 +104,27 @@ def _create_sales_template(company, tpl):
 	if frappe.db.exists("Sales Taxes and Charges Template", {"title": tpl["title"], "company": company}):
 		return
 
-	account = _get_account(company, tpl["account_number"])
-	if not account:
+	tax_rows = []
+	for rate_entry in tpl["rates"]:
+		account = _get_account(company, rate_entry["account_number"])
+		if not account:
+			continue
+		tax_rows.append({
+			"doctype": "Sales Taxes and Charges",
+			"charge_type": "On Net Total",
+			"account_head": account,
+			"rate": 0,
+			"description": tpl["title"],
+		})
+
+	if not tax_rows:
 		return
 
 	doc = frappe.get_doc({
 		"doctype": "Sales Taxes and Charges Template",
 		"title": tpl["title"],
 		"company": company,
-		"taxes": [{
-			"doctype": "Sales Taxes and Charges",
-			"charge_type": "On Net Total",
-			"account_head": account,
-			"rate": tpl["rate"],
-			"description": tpl["title"],
-		}],
+		"taxes": tax_rows,
 	})
 	doc.flags.ignore_permissions = True
 	doc.insert()
@@ -120,21 +134,27 @@ def _create_purchase_template(company, tpl):
 	if frappe.db.exists("Purchase Taxes and Charges Template", {"title": tpl["title"], "company": company}):
 		return
 
-	account = _get_account(company, tpl["account_number"])
-	if not account:
+	tax_rows = []
+	for rate_entry in tpl["rates"]:
+		account = _get_account(company, rate_entry["account_number"])
+		if not account:
+			continue
+		tax_rows.append({
+			"doctype": "Purchase Taxes and Charges",
+			"charge_type": "On Net Total",
+			"account_head": account,
+			"rate": 0,
+			"description": tpl["title"],
+		})
+
+	if not tax_rows:
 		return
 
 	doc = frappe.get_doc({
 		"doctype": "Purchase Taxes and Charges Template",
 		"title": tpl["title"],
 		"company": company,
-		"taxes": [{
-			"doctype": "Purchase Taxes and Charges",
-			"charge_type": "On Net Total",
-			"account_head": account,
-			"rate": tpl["rate"],
-			"description": tpl["title"],
-		}],
+		"taxes": tax_rows,
 	})
 	doc.flags.ignore_permissions = True
 	doc.insert()

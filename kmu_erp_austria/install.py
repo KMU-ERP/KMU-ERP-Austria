@@ -9,7 +9,7 @@ from kmu_erp_austria.setup.payment_terms import import_payment_terms
 from kmu_erp_austria.setup.tax_rules import import_tax_rules
 from kmu_erp_austria.setup.tax_templates import import_tax_templates
 from kmu_erp_austria.setup.letter_head import import_letter_head
-from kmu_erp_austria.setup.item_group_accounts_assignment import import_item_group_accounts_assignment
+from kmu_erp_austria.setup.item_group_defaults import import_item_group_defaults
 from kmu_erp_austria.setup.company_address import create_company_address
 from kmu_erp_austria.setup.default_settings import import_default_settings
 
@@ -55,7 +55,7 @@ def _import_configurations():
 	import_tax_rules()
 	import_payment_terms()
 	import_letter_head()
-	import_item_group_accounts_assignment()
+	import_item_group_defaults()
 	import_default_settings()
 
 def _import_account_plan():
@@ -70,4 +70,4 @@ def after_migrate():
 	after the migration.
 	"""
 	if frappe.is_setup_complete():
-		import_item_group_accounts_assignment()
+		import_item_group_defaults()
