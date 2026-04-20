@@ -16,50 +16,50 @@ import frappe
 # ─────────────────────────────────────────────────────────────────────────────────────────────────
 
 AT_SALES_TEMPLATES = [
-	{"title": "Österreich - Verkauf", "rates": [
-		{"rate": 20, "account_number": "3500"},
-		{"rate": 13, "account_number": "3500"},
-		{"rate": 10, "account_number": "3500"},
-		{"rate":  0, "account_number": "3500"},
+	{"title": "Österreich - Verkaufssteuern", "rates": [
+		{"rate": 20, "account_number": "35020"},
+		{"rate": 13, "account_number": "35013"},
+		{"rate": 10, "account_number": "35010"},
+		{"rate":  0, "account_number": "35000"},
 	]},
 ]
 
 AT_PURCHASE_TEMPLATES = [
-	{"title": "Österreich - Einkauf", "rates": [
-		{"rate": 20, "account_number": "2500"},
-		{"rate": 13, "account_number": "2500"},
-		{"rate": 10, "account_number": "2500"},
-		{"rate":  0, "account_number": "2500"},
+	{"title": "Österreich - Einkaufssteuern", "rates": [
+		{"rate": 20, "account_number": "25020"},
+		{"rate": 13, "account_number": "25013"},
+		{"rate": 10, "account_number": "25010"},
+		{"rate":  0, "account_number": "25000"},
 	]},
 ]
 
 AT_ITEM_TAX_TEMPLATES = [
-	{"title": "AT USt 20%", "rate": 20, "account_number": "3500"},
-	{"title": "AT USt 13%", "rate": 13, "account_number": "3500"},
-	{"title": "AT USt 10%", "rate": 10, "account_number": "3500"},
-	{"title": "AT USt 0%",  "rate":  0, "account_number": "3500"},
+	{"title": "AT USt 20%", "rate": 20, "account_number": "35020"},
+	{"title": "AT USt 13%", "rate": 13, "account_number": "35013"},
+	{"title": "AT USt 10%", "rate": 10, "account_number": "35010"},
+	{"title": "AT USt 0%",  "rate":  0, "account_number": "35000"},
 ]
 
 DE_SALES_TEMPLATES = [
-	{"title": "Deutschland - Verkauf", "rates": [
-		{"rate": 19, "account_number": "3500"},
-	    {"rate":  7, "account_number": "3500"},
-	    {"rate":  0, "account_number": "3500"},
+	{"title": "Deutschland - Verkaufssteuern", "rates": [
+		{"rate": 19, "account_number": "35019"},
+	    {"rate":  7, "account_number": "35007"},
+	    {"rate":  0, "account_number": "35000"},
 	]},
 ]
 
 DE_PURCHASE_TEMPLATES = [
-	{"title": "Deutschland - Einkauf", "rates": [
-		{"rate": 19, "account_number": "2500"},
-		{"rate":  7, "account_number": "2500"},
-		{"rate":  0, "account_number": "2500"},
+	{"title": "Deutschland - Einkaufssteuern", "rates": [
+		{"rate": 19, "account_number": "25019"},
+		{"rate":  7, "account_number": "25007"},
+		{"rate":  0, "account_number": "25000"},
 	]},
 ]
 
 DE_ITEM_TAX_TEMPLATES = [
-	{"title": "DE MwSt 19%", "rate": 19, "account_number": "3500"},
-	{"title": "DE MwSt 7%",  "rate":  7, "account_number": "3500"},
-	{"title": "DE MwSt 0%",  "rate":  0, "account_number": "3500"},
+	{"title": "DE MwSt 19%", "rate": 19, "account_number": "35019"},
+	{"title": "DE MwSt 7%",  "rate":  7, "account_number": "35007"},
+	{"title": "DE MwSt 0%",  "rate":  0, "account_number": "35000"},
 ]
 
 

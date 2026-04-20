@@ -23,7 +23,7 @@ TAX_RULES = [
 		"tax_type":             "Sales",
 		"billing_country":      "Austria",
 		"tax_category":         "Österreich",
-		"sales_tax_template":   "Österreich - Verkauf",
+		"sales_tax_template":   "Österreich - Verkaufssteuern",
 		"priority":             1,
 	},
 	{
@@ -31,7 +31,7 @@ TAX_RULES = [
 		"tax_type":             "Purchase",
 		"billing_country":      "Austria",
 		"tax_category":         "Österreich",
-		"purchase_tax_template": "Österreich - Einkauf",
+		"purchase_tax_template": "Österreich - Einkaufssteuern",
 		"priority":             1,
 	},
 	{
@@ -39,7 +39,7 @@ TAX_RULES = [
 		"tax_type":             "Sales",
 		"billing_country":      "Germany",
 		"tax_category":         "Deutschland",
-		"sales_tax_template":   "Deutschland - Verkauf",
+		"sales_tax_template":   "Deutschland - Verkaufssteuern",
 		"priority":             1,
 	},
 	{
@@ -47,7 +47,7 @@ TAX_RULES = [
 		"tax_type":             "Purchase",
 		"billing_country":      "Germany",
 		"tax_category":         "Deutschland",
-		"purchase_tax_template": "Deutschland - Einkauf",
+		"purchase_tax_template": "Deutschland - Einkaufssteuern",
 		"priority":             1,
 	},
 ]
@@ -91,6 +91,7 @@ def _create_rules_for_company(company):
 			"billing_country":        rule.get("billing_country"),
 			"sales_tax_template":     sales_template,
 			"purchase_tax_template":  purchase_template,
+			"tax_category":           rule.get("tax_category"),
 			"priority":               rule.get("priority", 1),
 		})
 		doc.flags.ignore_permissions = True
