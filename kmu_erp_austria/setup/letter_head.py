@@ -41,12 +41,6 @@ def _create_or_update_letter_head(company_name) -> str:
 		letter_head.save(ignore_permissions=True)
 		click.echo(click.style(f"  Letter head for '{company.name}' has been replaced.", fg="green"))
 	else:
-		is_default = 0
-
-		default_letter_head = frappe.get_all("Letter Head", filters={"is_default": 1})
-		if not default_letter_head:
-			is_default = 1
-
 		letter_head = frappe.get_doc(
 			{
 				"doctype": "Letter Head",
@@ -55,7 +49,7 @@ def _create_or_update_letter_head(company_name) -> str:
 				"content": html_content,
 				"footer": footer_content,
 				"company": company,
-				"is_default": is_default
+				"is_default": 1
 			})
 		letter_head.insert(ignore_permissions=True)
 		click.echo(click.style(f"  Letter head for '{company.name}' has been created.", fg="green"))
