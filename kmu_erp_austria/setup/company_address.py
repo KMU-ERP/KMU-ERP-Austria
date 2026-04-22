@@ -19,5 +19,9 @@ def create_company_address(args, company_name):
 	address.pincode = pincode or ""
 	address.country = args.get("country", "")
 	address.is_your_company_address = 1
+	address.append("links", {
+		"link_doctype": "Company",
+		"link_name": company_name
+	})
 	address.save(ignore_permissions=True)
 	click.echo(click.style(f"  Company address for '{company_name}' created successfully.", fg="green"))
