@@ -3,13 +3,25 @@ import click
 
 def import_default_settings():
 	click.echo("  Importing default settings...")
+
 	frappe.db.set_single_value("System Settings", "date_format", "dd.mm.yyyy")
 	frappe.db.set_single_value("System Settings", "number_format", "#.###,##")
 	frappe.db.set_single_value("System Settings", "currency_precision", "2")
 	frappe.db.set_single_value("System Settings", "rounding_method", "Commercial Rounding")
+	frappe.db.set_single_value("System Settings", "first_day_of_the_week", "Monday")
 	frappe.db.set_single_value("Accounts Settings", "round_row_wise_tax", 1)
-	_set_default_print_formats()
+
+	frappe.db.set_default("date_format", "dd.mm.yyyy")
+	frappe.db.set_default("number_format", "#.###,##")
+	frappe.db.set_default("currency_precision", "2")
+	frappe.db.set_default("rounding_method", "Commercial Rounding")
+	frappe.db.set_default("first_day_of_the_week", "Monday")
+
 	frappe.db.commit()
+
+	_set_default_print_formats()
+
+	frappe.clear_cache()
 	click.echo(click.style("  Default settings imported.", fg="green"))
 
 def _set_default_print_formats():
@@ -21,4 +33,11 @@ def _set_default_print_formats():
 	}
 	for doctype, print_format in defaults.items():
 		if frappe.db.exists("Print Format", print_format):
-			frappe.db.set_value("DocType", doctype, "default_print_format", print_format)
+			frappe.db.set_value(
+				"Property Setter",
+				{"doc_type": doctype, "property": "default_print_format"},
+				"value",
+				print_format
+			)
+
+	frappe.db.commit()
