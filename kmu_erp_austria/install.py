@@ -12,6 +12,7 @@ from kmu_erp_austria.setup.letter_head import import_letter_head
 from kmu_erp_austria.setup.item_group_defaults import import_item_group_defaults
 from kmu_erp_austria.setup.company_address import create_company_address
 from kmu_erp_austria.setup.default_settings import import_default_settings
+from kmu_erp_austria.setup.default_accounts import set_default_accounts_to_company
 
 def auto_erpnext_setup(args):
 	"""
@@ -42,6 +43,7 @@ def auto_erpnext_setup(args):
 	create_company_address(args, company_name)
 
 	_import_configurations()
+	set_default_accounts_to_company(company_name)
 
 def app_setup():
 	"""
