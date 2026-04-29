@@ -1079,7 +1079,7 @@
         "account_type": "Current Asset",
         "account_currency": "EUR"
       },
-      "Kassenbestand in Euro": {
+      "Kassenbestand": {
         "account_number": "2700",
         "account_type": "Cash",
         "account_currency": "EUR"
@@ -1094,7 +1094,7 @@
         "account_type": "Cash",
         "account_currency": "EUR"
       },
-      "Schecks in Euro": {
+      "Schecks": {
         "account_number": "2780",
         "account_type": "Current Asset",
         "account_currency": "EUR"
@@ -1149,7 +1149,7 @@
         "account_type": "Current Asset",
         "account_currency": "EUR"
       },
-      "Kassenbestand in Euro_": {
+      "Kassenbestand Hilfskonto": {
         "account_number": "2899",
         "account_type": "Cash",
         "account_currency": "EUR"
