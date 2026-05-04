@@ -52,6 +52,10 @@ def app_setup():
 	_import_account_plan()
 	_import_configurations()
 
+	companies = frappe.get_all("Company", pluck="name")
+	for company in companies:
+		set_default_accounts_to_company(company)
+
 def _import_configurations():
 	import_tax_templates()
 	import_tax_rules()
