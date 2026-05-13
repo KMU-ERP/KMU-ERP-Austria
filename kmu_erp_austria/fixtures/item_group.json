@@ -1,410 +1,1424 @@
 [
-  {
-    "docstatus": 0,
-    "doctype": "Item Group",
-    "image": null,
-    "is_group": 1,
-    "item_group_name": "All Item Groups",
-    "modified": "2026-03-27 11:33:43.583880",
-    "name": "All Item Groups",
-    "old_parent": "",
-    "parent_item_group": "",
-    "taxes": []
-  },
-  {
-    "docstatus": 0,
-    "doctype": "Item Group",
-    "image": null,
-    "is_group": 1,
-    "item_group_name": "Services",
-    "modified": "2026-04-09 15:50:00.136184",
-    "name": "Services",
-    "old_parent": "All Item Groups",
-    "parent_item_group": "All Item Groups",
-    "taxes": []
-  },
-  {
-    "docstatus": 0,
-    "doctype": "Item Group",
-    "image": null,
-    "is_group": 1,
-    "item_group_name": "Products",
-    "modified": "2026-04-09 15:49:29.171774",
-    "name": "Products",
-    "old_parent": "All Item Groups",
-    "parent_item_group": "All Item Groups",
-    "taxes": []
-  },
-  {
-    "docstatus": 0,
-    "doctype": "Item Group",
-    "image": null,
-    "is_group": 0,
-    "item_group_name": "Raw Material",
-    "modified": "2026-03-27 11:33:43.641703",
-    "name": "Raw Material",
-    "old_parent": "All Item Groups",
-    "parent_item_group": "All Item Groups",
-    "taxes": []
-  },
-  {
-    "docstatus": 0,
-    "doctype": "Item Group",
-    "image": null,
-    "is_group": 0,
-    "item_group_name": "Sub Assemblies",
-    "modified": "2026-03-27 11:33:43.664768",
-    "name": "Sub Assemblies",
-    "old_parent": "All Item Groups",
-    "parent_item_group": "All Item Groups",
-    "taxes": []
-  },
-  {
-    "docstatus": 0,
-    "doctype": "Item Group",
-    "image": null,
-    "is_group": 0,
-    "item_group_name": "Consumable",
-    "modified": "2026-03-27 11:33:43.676344",
-    "name": "Consumable",
-    "old_parent": "All Item Groups",
-    "parent_item_group": "All Item Groups",
-    "taxes": []
-  },
-  {
-    "docstatus": 0,
-    "doctype": "Item Group",
-    "image": null,
-    "is_group": 0,
-    "item_group_name": "Dienstleistung Normalsteuersatz",
-    "modified": "2026-04-10 10:32:42.706968",
-    "name": "Dienstleistung Normalsteuersatz",
-    "old_parent": "Services",
-    "parent_item_group": "Services",
-    "taxes": []
-  },
-  {
-    "docstatus": 0,
-    "doctype": "Item Group",
-    "image": null,
-    "is_group": 0,
-    "item_group_name": "Grundnahrungsmittel",
-    "modified": "2026-04-10 10:29:56.013178",
-    "name": "Grundnahrungsmittel",
-    "old_parent": "Products",
-    "parent_item_group": "Products",
-    "taxes": []
-  },
-  {
-    "docstatus": 0,
-    "doctype": "Item Group",
-    "image": null,
-    "is_group": 0,
-    "item_group_name": "Arzneimittel",
-    "modified": "2026-04-13 08:55:57.881060",
-    "name": "Arzneimittel",
-    "old_parent": "Products",
-    "parent_item_group": "Products",
-    "taxes": []
-  },
-  {
-    "docstatus": 0,
-    "doctype": "Item Group",
-    "image": null,
-    "is_group": 0,
-    "item_group_name": "Beherbergung",
-    "modified": "2026-04-10 10:32:23.109706",
-    "name": "Beherbergung",
-    "old_parent": "Services",
-    "parent_item_group": "Services",
-    "taxes": []
-  },
-  {
-    "docstatus": 0,
-    "doctype": "Item Group",
-    "image": null,
-    "is_group": 0,
-    "item_group_name": "Personenbeförderung Inland",
-    "modified": "2026-04-10 07:47:59.853215",
-    "name": "Personenbeförderung Inland",
-    "old_parent": "Services",
-    "parent_item_group": "Services",
-    "taxes": []
-  },
-  {
-    "docstatus": 0,
-    "doctype": "Item Group",
-    "image": null,
-    "is_group": 0,
-    "item_group_name": "Müllbeseitigung & Abfallentsorgung",
-    "modified": "2026-04-10 07:39:58.746778",
-    "name": "Müllbeseitigung & Abfallentsorgung",
-    "old_parent": "Services",
-    "parent_item_group": "Services",
-    "taxes": []
-  },
-  {
-    "docstatus": 0,
-    "doctype": "Item Group",
-    "image": null,
-    "is_group": 0,
-    "item_group_name": "Inland Luftbeförderung",
-    "modified": "2026-04-09 23:52:34.323731",
-    "name": "Inland Luftbeförderung",
-    "old_parent": "Services",
-    "parent_item_group": "Services",
-    "taxes": []
-  },
-  {
-    "docstatus": 0,
-    "doctype": "Item Group",
-    "image": null,
-    "is_group": 0,
-    "item_group_name": "Kulturelle Leistungen Theater Museum",
-    "modified": "2026-04-10 07:19:14.691423",
-    "name": "Kulturelle Leistungen Theater Museum",
-    "old_parent": "Services",
-    "parent_item_group": "Services",
-    "taxes": []
-  },
-  {
-    "docstatus": 0,
-    "doctype": "Item Group",
-    "image": null,
-    "is_group": 0,
-    "item_group_name": "Lebende Tiere & Pflanzen",
-    "modified": "2026-04-10 10:30:47.406095",
-    "name": "Lebende Tiere & Pflanzen",
-    "old_parent": "Products",
-    "parent_item_group": "Products",
-    "taxes": []
-  },
-  {
-    "docstatus": 0,
-    "doctype": "Item Group",
-    "image": null,
-    "is_group": 0,
-    "item_group_name": "Landwirtschaftliche Produkte & Futtermittel",
-    "modified": "2026-04-13 09:19:16.083048",
-    "name": "Landwirtschaftliche Produkte & Futtermittel",
-    "old_parent": "Products",
-    "parent_item_group": "Products",
-    "taxes": []
-  },
-  {
-    "docstatus": 0,
-    "doctype": "Item Group",
-    "image": null,
-    "is_group": 0,
-    "item_group_name": "Kunstgegenstände & Sammlerstücke",
-    "modified": "2026-04-10 10:30:10.136095",
-    "name": "Kunstgegenstände & Sammlerstücke",
-    "old_parent": "Products",
-    "parent_item_group": "Products",
-    "taxes": []
-  },
-  {
-    "docstatus": 0,
-    "doctype": "Item Group",
-    "image": null,
-    "is_group": 0,
-    "item_group_name": "Vermietung Wohnzwecke",
-    "modified": "2026-04-09 23:49:17.544920",
-    "name": "Vermietung Wohnzwecke",
-    "old_parent": "Services",
-    "parent_item_group": "Services",
-    "taxes": []
-  },
-  {
-    "docstatus": 0,
-    "doctype": "Item Group",
-    "image": null,
-    "is_group": 0,
-    "item_group_name": "Campingvermietung",
-    "modified": "2026-04-10 10:32:31.633928",
-    "name": "Campingvermietung",
-    "old_parent": "Services",
-    "parent_item_group": "Services",
-    "taxes": []
-  },
-  {
-    "docstatus": 0,
-    "doctype": "Item Group",
-    "image": null,
-    "is_group": 0,
-    "item_group_name": "Kranken- & Pflegeanstalten",
-    "modified": "2026-04-10 07:17:46.736178",
-    "name": "Kranken- & Pflegeanstalten",
-    "old_parent": "Services",
-    "parent_item_group": "Services",
-    "taxes": []
-  },
-  {
-    "docstatus": 0,
-    "doctype": "Item Group",
-    "image": null,
-    "is_group": 0,
-    "item_group_name": "Reparatur Fahrräder Schuhe Kleidung",
-    "modified": "2026-04-10 07:49:14.157357",
-    "name": "Reparatur Fahrräder Schuhe Kleidung",
-    "old_parent": "Services",
-    "parent_item_group": "Services",
-    "taxes": []
-  },
-  {
-    "docstatus": 0,
-    "doctype": "Item Group",
-    "image": null,
-    "is_group": 0,
-    "item_group_name": "Elektronische Publikation",
-    "modified": "2026-04-09 23:43:58.074862",
-    "name": "Elektronische Publikation",
-    "old_parent": "Services",
-    "parent_item_group": "Services",
-    "taxes": []
-  },
-  {
-    "docstatus": 0,
-    "doctype": "Item Group",
-    "image": null,
-    "is_group": 0,
-    "item_group_name": "Gemeinnützige Leistungen",
-    "modified": "2026-04-09 23:46:01.797860",
-    "name": "Gemeinnützige Leistungen",
-    "old_parent": "Services",
-    "parent_item_group": "Services",
-    "taxes": []
-  },
-  {
-    "docstatus": 0,
-    "doctype": "Item Group",
-    "image": null,
-    "is_group": 0,
-    "item_group_name": "Künstlerische Tätigkeiten",
-    "modified": "2026-04-10 07:25:25.700329",
-    "name": "Künstlerische Tätigkeiten",
-    "old_parent": "Services",
-    "parent_item_group": "Services",
-    "taxes": []
-  },
-  {
-    "docstatus": 0,
-    "doctype": "Item Group",
-    "image": null,
-    "is_group": 0,
-    "item_group_name": "Schwimmbäder & Thermalbehandlung",
-    "modified": "2026-04-10 07:50:53.518752",
-    "name": "Schwimmbäder & Thermalbehandlung",
-    "old_parent": "Services",
-    "parent_item_group": "Services",
-    "taxes": []
-  },
-  {
-    "docstatus": 0,
-    "doctype": "Item Group",
-    "image": null,
-    "is_group": 0,
-    "item_group_name": "Filmvorführungen & Zirkus",
-    "modified": "2026-04-09 23:44:48.924204",
-    "name": "Filmvorführungen & Zirkus",
-    "old_parent": "Services",
-    "parent_item_group": "Services",
-    "taxes": []
-  },
-  {
-    "docstatus": 0,
-    "doctype": "Item Group",
-    "image": null,
-    "is_group": 0,
-    "item_group_name": "Sportveranstaltungen",
-    "modified": "2026-04-10 08:00:06.523198",
-    "name": "Sportveranstaltungen",
-    "old_parent": "Services",
-    "parent_item_group": "Services",
-    "taxes": []
-  },
-  {
-    "docstatus": 0,
-    "doctype": "Item Group",
-    "image": null,
-    "is_group": 0,
-    "item_group_name": "Speisen in der Gastronomie",
-    "modified": "2026-04-10 10:31:58.262430",
-    "name": "Speisen in der Gastronomie",
-    "old_parent": "Products",
-    "parent_item_group": "Products",
-    "taxes": []
-  },
-  {
-    "docstatus": 0,
-    "doctype": "Item Group",
-    "image": null,
-    "is_group": 0,
-    "item_group_name": "Milch & Milchmischgetränke",
-    "modified": "2026-04-10 10:31:14.717896",
-    "name": "Milch & Milchmischgetränke",
-    "old_parent": "Products",
-    "parent_item_group": "Products",
-    "taxes": []
-  },
-  {
-    "docstatus": 0,
-    "doctype": "Item Group",
-    "image": null,
-    "is_group": 0,
-    "item_group_name": "Milch & Milchmischgetränke (pflanzlich)",
-    "modified": "2026-04-10 10:31:29.642127",
-    "name": "Milch & Milchmischgetränke (pflanzlich)",
-    "old_parent": "Products",
-    "parent_item_group": "Products",
-    "taxes": []
-  },
-  {
-    "docstatus": 0,
-    "doctype": "Item Group",
-    "image": null,
-    "is_group": 0,
-    "item_group_name": "Vermietung Gewerblich",
-    "modified": "2026-04-09 23:50:42.802080",
-    "name": "Vermietung Gewerblich",
-    "old_parent": "Services",
-    "parent_item_group": "Services",
-    "taxes": []
-  },
-  {
-    "docstatus": 0,
-    "doctype": "Item Group",
-    "image": null,
-    "is_group": 0,
-    "item_group_name": "Produkte Normalsteuersatz",
-    "modified": "2026-04-10 10:31:41.915149",
-    "name": "Produkte Normalsteuersatz",
-    "old_parent": "Products",
-    "parent_item_group": "Products",
-    "taxes": []
-  },
-  {
-    "docstatus": 0,
-    "doctype": "Item Group",
-    "image": null,
-    "is_group": 0,
-    "item_group_name": "Bücher & Druckerzeugnisse",
-    "modified": "2026-04-10 10:04:45.205478",
-    "name": "Bücher & Druckerzeugnisse",
-    "old_parent": "Products",
-    "parent_item_group": "Products",
-    "taxes": []
-  },
-  {
-    "docstatus": 0,
-    "doctype": "Item Group",
-    "image": null,
-    "is_group": 0,
-    "item_group_name": "Brennholz",
-    "modified": "2026-04-10 09:29:47.142252",
-    "name": "Brennholz",
-    "old_parent": "Products",
-    "parent_item_group": "Products",
-    "taxes": []
-  }
+ {
+  "docstatus": 0,
+  "doctype": "Item Group",
+  "image": null,
+  "is_group": 1,
+  "item_group_defaults": [],
+  "item_group_name": "All Item Groups",
+  "modified": "2026-03-27 11:33:43.583880",
+  "name": "All Item Groups",
+  "old_parent": "",
+  "parent_item_group": "",
+  "taxes": []
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Item Group",
+  "image": null,
+  "is_group": 1,
+  "item_group_defaults": [],
+  "item_group_name": "Services",
+  "modified": "2026-04-09 15:50:00.136184",
+  "name": "Services",
+  "old_parent": "All Item Groups",
+  "parent_item_group": "All Item Groups",
+  "taxes": []
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Item Group",
+  "image": null,
+  "is_group": 1,
+  "item_group_defaults": [],
+  "item_group_name": "Products",
+  "modified": "2026-04-09 15:49:29.171774",
+  "name": "Products",
+  "old_parent": "All Item Groups",
+  "parent_item_group": "All Item Groups",
+  "taxes": []
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Item Group",
+  "image": null,
+  "is_group": 0,
+  "item_group_defaults": [],
+  "item_group_name": "Raw Material",
+  "modified": "2026-03-27 11:33:43.641703",
+  "name": "Raw Material",
+  "old_parent": "All Item Groups",
+  "parent_item_group": "All Item Groups",
+  "taxes": []
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Item Group",
+  "image": null,
+  "is_group": 0,
+  "item_group_defaults": [],
+  "item_group_name": "Sub Assemblies",
+  "modified": "2026-03-27 11:33:43.664768",
+  "name": "Sub Assemblies",
+  "old_parent": "All Item Groups",
+  "parent_item_group": "All Item Groups",
+  "taxes": []
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Item Group",
+  "image": null,
+  "is_group": 0,
+  "item_group_defaults": [],
+  "item_group_name": "Consumable",
+  "modified": "2026-03-27 11:33:43.676344",
+  "name": "Consumable",
+  "old_parent": "All Item Groups",
+  "parent_item_group": "All Item Groups",
+  "taxes": []
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Item Group",
+  "image": null,
+  "is_group": 0,
+  "item_group_defaults": [
+   {
+    "buying_cost_center": null,
+    "company": "Test Company",
+    "default_cogs_account": null,
+    "default_discount_account": null,
+    "default_inventory_account": null,
+    "default_price_list": null,
+    "default_provisional_account": null,
+    "default_supplier": null,
+    "default_warehouse": "Stores - TC",
+    "deferred_expense_account": null,
+    "deferred_revenue_account": null,
+    "expense_account": "5700 - Fremdleistungen - TC",
+    "income_account": "4000 - Erlöse 20 % - TC",
+    "inventory_account_currency": null,
+    "purchase_expense_account": null,
+    "purchase_expense_contra_account": null,
+    "selling_cost_center": null
+   }
+  ],
+  "item_group_name": "Dienstleistung Normalsteuersatz",
+  "modified": "2026-04-27 20:34:44.269560",
+  "name": "Dienstleistung Normalsteuersatz",
+  "old_parent": "Services",
+  "parent_item_group": "Services",
+  "taxes": [
+   {
+    "item_tax_template": "AT USt 20% - TC",
+    "maximum_net_rate": 0.0,
+    "minimum_net_rate": 0.0,
+    "tax_category": "Österreich",
+    "valid_from": null
+   },
+   {
+    "item_tax_template": "DE MwSt 19% - TC",
+    "maximum_net_rate": 0.0,
+    "minimum_net_rate": 0.0,
+    "tax_category": "Deutschland",
+    "valid_from": null
+   }
+  ]
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Item Group",
+  "image": null,
+  "is_group": 0,
+  "item_group_defaults": [
+   {
+    "buying_cost_center": null,
+    "company": "Test Company",
+    "default_cogs_account": null,
+    "default_discount_account": null,
+    "default_inventory_account": null,
+    "default_price_list": null,
+    "default_provisional_account": null,
+    "default_supplier": null,
+    "default_warehouse": "Stores - TC",
+    "deferred_expense_account": null,
+    "deferred_revenue_account": null,
+    "expense_account": "5030 - Wareneinkauf 10 % - TC",
+    "income_account": "4030 - Erlöse 10 % - TC",
+    "inventory_account_currency": null,
+    "purchase_expense_account": null,
+    "purchase_expense_contra_account": null,
+    "selling_cost_center": null
+   }
+  ],
+  "item_group_name": "Grundnahrungsmittel",
+  "modified": "2026-04-27 20:34:44.059760",
+  "name": "Grundnahrungsmittel",
+  "old_parent": "Products",
+  "parent_item_group": "Products",
+  "taxes": [
+   {
+    "item_tax_template": "AT USt 10% - TC",
+    "maximum_net_rate": 0.0,
+    "minimum_net_rate": 0.0,
+    "tax_category": "Österreich",
+    "valid_from": null
+   },
+   {
+    "item_tax_template": "DE MwSt 7% - TC",
+    "maximum_net_rate": 0.0,
+    "minimum_net_rate": 0.0,
+    "tax_category": "Deutschland",
+    "valid_from": null
+   }
+  ]
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Item Group",
+  "image": null,
+  "is_group": 0,
+  "item_group_defaults": [
+   {
+    "buying_cost_center": null,
+    "company": "Test Company",
+    "default_cogs_account": null,
+    "default_discount_account": null,
+    "default_inventory_account": null,
+    "default_price_list": null,
+    "default_provisional_account": null,
+    "default_supplier": null,
+    "default_warehouse": "Stores - TC",
+    "deferred_expense_account": null,
+    "deferred_revenue_account": null,
+    "expense_account": "5700 - Fremdleistungen - TC",
+    "income_account": "4310 - Beherbergungserlöse 10 % - TC",
+    "inventory_account_currency": null,
+    "purchase_expense_account": null,
+    "purchase_expense_contra_account": null,
+    "selling_cost_center": null
+   }
+  ],
+  "item_group_name": "Beherbergung",
+  "modified": "2026-04-27 20:34:44.228711",
+  "name": "Beherbergung",
+  "old_parent": "Services",
+  "parent_item_group": "Services",
+  "taxes": [
+   {
+    "item_tax_template": "AT USt 10% - TC",
+    "maximum_net_rate": 0.0,
+    "minimum_net_rate": 0.0,
+    "tax_category": "Österreich",
+    "valid_from": null
+   },
+   {
+    "item_tax_template": "DE MwSt 7% - TC",
+    "maximum_net_rate": 0.0,
+    "minimum_net_rate": 0.0,
+    "tax_category": "Deutschland",
+    "valid_from": null
+   }
+  ]
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Item Group",
+  "image": null,
+  "is_group": 0,
+  "item_group_defaults": [
+   {
+    "buying_cost_center": null,
+    "company": "Test Company",
+    "default_cogs_account": null,
+    "default_discount_account": null,
+    "default_inventory_account": null,
+    "default_price_list": null,
+    "default_provisional_account": null,
+    "default_supplier": null,
+    "default_warehouse": "Stores - TC",
+    "deferred_expense_account": null,
+    "deferred_revenue_account": null,
+    "expense_account": "7300 - Transporte durch Dritte - TC",
+    "income_account": "4030 - Erlöse 10 % - TC",
+    "inventory_account_currency": null,
+    "purchase_expense_account": null,
+    "purchase_expense_contra_account": null,
+    "selling_cost_center": null
+   }
+  ],
+  "item_group_name": "Personenbeförderung Inland",
+  "modified": "2026-04-27 20:34:44.446541",
+  "name": "Personenbeförderung Inland",
+  "old_parent": "Services",
+  "parent_item_group": "Services",
+  "taxes": [
+   {
+    "item_tax_template": "AT USt 10% - TC",
+    "maximum_net_rate": 0.0,
+    "minimum_net_rate": 0.0,
+    "tax_category": "Österreich",
+    "valid_from": null
+   },
+   {
+    "item_tax_template": "DE MwSt 7% - TC",
+    "maximum_net_rate": 0.0,
+    "minimum_net_rate": 0.0,
+    "tax_category": "Deutschland",
+    "valid_from": null
+   }
+  ]
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Item Group",
+  "image": null,
+  "is_group": 0,
+  "item_group_defaults": [
+   {
+    "buying_cost_center": null,
+    "company": "Test Company",
+    "default_cogs_account": null,
+    "default_discount_account": null,
+    "default_inventory_account": null,
+    "default_price_list": null,
+    "default_provisional_account": null,
+    "default_supplier": null,
+    "default_warehouse": "Stores - TC",
+    "deferred_expense_account": null,
+    "deferred_revenue_account": null,
+    "expense_account": "7225 - Abfallentsorgung - TC",
+    "income_account": "4030 - Erlöse 10 % - TC",
+    "inventory_account_currency": null,
+    "purchase_expense_account": null,
+    "purchase_expense_contra_account": null,
+    "selling_cost_center": null
+   }
+  ],
+  "item_group_name": "Müllbeseitigung & Abfallentsorgung",
+  "modified": "2026-04-27 20:34:44.427768",
+  "name": "Müllbeseitigung & Abfallentsorgung",
+  "old_parent": "Services",
+  "parent_item_group": "Services",
+  "taxes": [
+   {
+    "item_tax_template": "AT USt 10% - TC",
+    "maximum_net_rate": 0.0,
+    "minimum_net_rate": 0.0,
+    "tax_category": "Österreich",
+    "valid_from": null
+   },
+   {
+    "item_tax_template": "DE MwSt 7% - TC",
+    "maximum_net_rate": 0.0,
+    "minimum_net_rate": 0.0,
+    "tax_category": "Deutschland",
+    "valid_from": null
+   }
+  ]
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Item Group",
+  "image": null,
+  "is_group": 0,
+  "item_group_defaults": [
+   {
+    "buying_cost_center": null,
+    "company": "Test Company",
+    "default_cogs_account": null,
+    "default_discount_account": null,
+    "default_inventory_account": null,
+    "default_price_list": null,
+    "default_provisional_account": null,
+    "default_supplier": null,
+    "default_warehouse": "Stores - TC",
+    "deferred_expense_account": null,
+    "deferred_revenue_account": null,
+    "expense_account": "7300 - Transporte durch Dritte - TC",
+    "income_account": "4043 - Erlöse 13 % - TC",
+    "inventory_account_currency": null,
+    "purchase_expense_account": null,
+    "purchase_expense_contra_account": null,
+    "selling_cost_center": null
+   }
+  ],
+  "item_group_name": "Inland Luftbeförderung",
+  "modified": "2026-04-27 20:34:44.349560",
+  "name": "Inland Luftbeförderung",
+  "old_parent": "Services",
+  "parent_item_group": "Services",
+  "taxes": [
+   {
+    "item_tax_template": "AT USt 13% - TC",
+    "maximum_net_rate": 0.0,
+    "minimum_net_rate": 0.0,
+    "tax_category": "Österreich",
+    "valid_from": null
+   },
+   {
+    "item_tax_template": "DE MwSt 19% - TC",
+    "maximum_net_rate": 0.0,
+    "minimum_net_rate": 0.0,
+    "tax_category": "Deutschland",
+    "valid_from": null
+   }
+  ]
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Item Group",
+  "image": null,
+  "is_group": 0,
+  "item_group_defaults": [
+   {
+    "buying_cost_center": null,
+    "company": "Test Company",
+    "default_cogs_account": null,
+    "default_discount_account": null,
+    "default_inventory_account": null,
+    "default_price_list": null,
+    "default_provisional_account": null,
+    "default_supplier": null,
+    "default_warehouse": "Stores - TC",
+    "deferred_expense_account": null,
+    "deferred_revenue_account": null,
+    "expense_account": "5700 - Fremdleistungen - TC",
+    "income_account": "4043 - Erlöse 13 % - TC",
+    "inventory_account_currency": null,
+    "purchase_expense_account": null,
+    "purchase_expense_contra_account": null,
+    "selling_cost_center": null
+   }
+  ],
+  "item_group_name": "Kulturelle Leistungen Theater Museum",
+  "modified": "2026-04-27 20:34:44.390030",
+  "name": "Kulturelle Leistungen Theater Museum",
+  "old_parent": "Services",
+  "parent_item_group": "Services",
+  "taxes": [
+   {
+    "item_tax_template": "AT USt 13% - TC",
+    "maximum_net_rate": 0.0,
+    "minimum_net_rate": 0.0,
+    "tax_category": "Österreich",
+    "valid_from": null
+   },
+   {
+    "item_tax_template": "DE MwSt 7% - TC",
+    "maximum_net_rate": 0.0,
+    "minimum_net_rate": 0.0,
+    "tax_category": "Deutschland",
+    "valid_from": null
+   }
+  ]
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Item Group",
+  "image": null,
+  "is_group": 0,
+  "item_group_defaults": [
+   {
+    "buying_cost_center": null,
+    "company": "Test Company",
+    "default_cogs_account": null,
+    "default_discount_account": null,
+    "default_inventory_account": null,
+    "default_price_list": null,
+    "default_provisional_account": null,
+    "default_supplier": null,
+    "default_warehouse": "Stores - TC",
+    "deferred_expense_account": null,
+    "deferred_revenue_account": null,
+    "expense_account": "5033 - Wareneinkauf 13 % - TC",
+    "income_account": "4043 - Erlöse 13 % - TC",
+    "inventory_account_currency": null,
+    "purchase_expense_account": null,
+    "purchase_expense_contra_account": null,
+    "selling_cost_center": null
+   }
+  ],
+  "item_group_name": "Lebende Tiere & Pflanzen",
+  "modified": "2026-04-27 20:34:44.117031",
+  "name": "Lebende Tiere & Pflanzen",
+  "old_parent": "Products",
+  "parent_item_group": "Products",
+  "taxes": [
+   {
+    "item_tax_template": "AT USt 13% - TC",
+    "maximum_net_rate": 0.0,
+    "minimum_net_rate": 0.0,
+    "tax_category": "Österreich",
+    "valid_from": null
+   },
+   {
+    "item_tax_template": "DE MwSt 7% - TC",
+    "maximum_net_rate": 0.0,
+    "minimum_net_rate": 0.0,
+    "tax_category": "Deutschland",
+    "valid_from": null
+   }
+  ]
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Item Group",
+  "image": null,
+  "is_group": 0,
+  "item_group_defaults": [
+   {
+    "buying_cost_center": null,
+    "company": "Test Company",
+    "default_cogs_account": null,
+    "default_discount_account": null,
+    "default_inventory_account": null,
+    "default_price_list": null,
+    "default_provisional_account": null,
+    "default_supplier": null,
+    "default_warehouse": "Stores - TC",
+    "deferred_expense_account": null,
+    "deferred_revenue_account": null,
+    "expense_account": "5033 - Wareneinkauf 13 % - TC",
+    "income_account": "4043 - Erlöse 13 % - TC",
+    "inventory_account_currency": null,
+    "purchase_expense_account": null,
+    "purchase_expense_contra_account": null,
+    "selling_cost_center": null
+   }
+  ],
+  "item_group_name": "Landwirtschaftliche Produkte & Futtermittel",
+  "modified": "2026-04-27 20:34:44.096834",
+  "name": "Landwirtschaftliche Produkte & Futtermittel",
+  "old_parent": "Products",
+  "parent_item_group": "Products",
+  "taxes": [
+   {
+    "item_tax_template": "AT USt 13% - TC",
+    "maximum_net_rate": 0.0,
+    "minimum_net_rate": 0.0,
+    "tax_category": "Österreich",
+    "valid_from": null
+   },
+   {
+    "item_tax_template": "DE MwSt 7% - TC",
+    "maximum_net_rate": 0.0,
+    "minimum_net_rate": 0.0,
+    "tax_category": "Deutschland",
+    "valid_from": null
+   }
+  ]
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Item Group",
+  "image": null,
+  "is_group": 0,
+  "item_group_defaults": [
+   {
+    "buying_cost_center": null,
+    "company": "Test Company",
+    "default_cogs_account": null,
+    "default_discount_account": null,
+    "default_inventory_account": null,
+    "default_price_list": null,
+    "default_provisional_account": null,
+    "default_supplier": null,
+    "default_warehouse": "Stores - TC",
+    "deferred_expense_account": null,
+    "deferred_revenue_account": null,
+    "expense_account": "5033 - Wareneinkauf 13 % - TC",
+    "income_account": "4043 - Erlöse 13 % - TC",
+    "inventory_account_currency": null,
+    "purchase_expense_account": null,
+    "purchase_expense_contra_account": null,
+    "selling_cost_center": null
+   }
+  ],
+  "item_group_name": "Kunstgegenstände & Sammlerstücke",
+  "modified": "2026-04-27 20:34:44.078432",
+  "name": "Kunstgegenstände & Sammlerstücke",
+  "old_parent": "Products",
+  "parent_item_group": "Products",
+  "taxes": [
+   {
+    "item_tax_template": "AT USt 13% - TC",
+    "maximum_net_rate": 0.0,
+    "minimum_net_rate": 0.0,
+    "tax_category": "Österreich",
+    "valid_from": null
+   },
+   {
+    "item_tax_template": "DE MwSt 7% - TC",
+    "maximum_net_rate": 0.0,
+    "minimum_net_rate": 0.0,
+    "tax_category": "Deutschland",
+    "valid_from": null
+   }
+  ]
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Item Group",
+  "image": null,
+  "is_group": 0,
+  "item_group_defaults": [
+   {
+    "buying_cost_center": null,
+    "company": "Test Company",
+    "default_cogs_account": null,
+    "default_discount_account": null,
+    "default_inventory_account": null,
+    "default_price_list": null,
+    "default_provisional_account": null,
+    "default_supplier": null,
+    "default_warehouse": "Stores - TC",
+    "deferred_expense_account": null,
+    "deferred_revenue_account": null,
+    "expense_account": "5700 - Fremdleistungen - TC",
+    "income_account": "4310 - Beherbergungserlöse 10 % - TC",
+    "inventory_account_currency": null,
+    "purchase_expense_account": null,
+    "purchase_expense_contra_account": null,
+    "selling_cost_center": null
+   }
+  ],
+  "item_group_name": "Campingvermietung",
+  "modified": "2026-04-27 20:34:44.250200",
+  "name": "Campingvermietung",
+  "old_parent": "Services",
+  "parent_item_group": "Services",
+  "taxes": [
+   {
+    "item_tax_template": "AT USt 10% - TC",
+    "maximum_net_rate": 0.0,
+    "minimum_net_rate": 0.0,
+    "tax_category": "Österreich",
+    "valid_from": null
+   },
+   {
+    "item_tax_template": "DE MwSt 7% - TC",
+    "maximum_net_rate": 0.0,
+    "minimum_net_rate": 0.0,
+    "tax_category": "Deutschland",
+    "valid_from": null
+   }
+  ]
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Item Group",
+  "image": null,
+  "is_group": 0,
+  "item_group_defaults": [
+   {
+    "buying_cost_center": null,
+    "company": "Test Company",
+    "default_cogs_account": null,
+    "default_discount_account": null,
+    "default_inventory_account": null,
+    "default_price_list": null,
+    "default_provisional_account": null,
+    "default_supplier": null,
+    "default_warehouse": "Stores - TC",
+    "deferred_expense_account": null,
+    "deferred_revenue_account": null,
+    "expense_account": "5700 - Fremdleistungen - TC",
+    "income_account": "4095 - Honorare 0 % - TC",
+    "inventory_account_currency": null,
+    "purchase_expense_account": null,
+    "purchase_expense_contra_account": null,
+    "selling_cost_center": null
+   }
+  ],
+  "item_group_name": "Kranken- & Pflegeanstalten",
+  "modified": "2026-04-27 20:34:44.369741",
+  "name": "Kranken- & Pflegeanstalten",
+  "old_parent": "Services",
+  "parent_item_group": "Services",
+  "taxes": [
+   {
+    "item_tax_template": "AT USt 0% - TC",
+    "maximum_net_rate": 0.0,
+    "minimum_net_rate": 0.0,
+    "tax_category": "Österreich",
+    "valid_from": null
+   },
+   {
+    "item_tax_template": "DE MwSt 0% - TC",
+    "maximum_net_rate": 0.0,
+    "minimum_net_rate": 0.0,
+    "tax_category": "Deutschland",
+    "valid_from": null
+   }
+  ]
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Item Group",
+  "image": null,
+  "is_group": 0,
+  "item_group_defaults": [
+   {
+    "buying_cost_center": null,
+    "company": "Test Company",
+    "default_cogs_account": null,
+    "default_discount_account": null,
+    "default_inventory_account": null,
+    "default_price_list": null,
+    "default_provisional_account": null,
+    "default_supplier": null,
+    "default_warehouse": "Stores - TC",
+    "deferred_expense_account": null,
+    "deferred_revenue_account": null,
+    "expense_account": "5700 - Fremdleistungen - TC",
+    "income_account": "4030 - Erlöse 10 % - TC",
+    "inventory_account_currency": null,
+    "purchase_expense_account": null,
+    "purchase_expense_contra_account": null,
+    "selling_cost_center": null
+   }
+  ],
+  "item_group_name": "Reparatur Fahrräder Schuhe Kleidung",
+  "modified": "2026-04-27 20:34:44.464668",
+  "name": "Reparatur Fahrräder Schuhe Kleidung",
+  "old_parent": "Services",
+  "parent_item_group": "Services",
+  "taxes": [
+   {
+    "item_tax_template": "AT USt 10% - TC",
+    "maximum_net_rate": 0.0,
+    "minimum_net_rate": 0.0,
+    "tax_category": "Österreich",
+    "valid_from": null
+   },
+   {
+    "item_tax_template": "DE MwSt 19% - TC",
+    "maximum_net_rate": 0.0,
+    "minimum_net_rate": 0.0,
+    "tax_category": "Deutschland",
+    "valid_from": null
+   }
+  ]
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Item Group",
+  "image": null,
+  "is_group": 0,
+  "item_group_defaults": [
+   {
+    "buying_cost_center": null,
+    "company": "Test Company",
+    "default_cogs_account": null,
+    "default_discount_account": null,
+    "default_inventory_account": null,
+    "default_price_list": null,
+    "default_provisional_account": null,
+    "default_supplier": null,
+    "default_warehouse": "Stores - TC",
+    "deferred_expense_account": null,
+    "deferred_revenue_account": null,
+    "expense_account": "5700 - Fremdleistungen - TC",
+    "income_account": "4030 - Erlöse 10 % - TC",
+    "inventory_account_currency": null,
+    "purchase_expense_account": null,
+    "purchase_expense_contra_account": null,
+    "selling_cost_center": null
+   }
+  ],
+  "item_group_name": "Elektronische Publikation",
+  "modified": "2026-04-27 20:34:44.288816",
+  "name": "Elektronische Publikation",
+  "old_parent": "Services",
+  "parent_item_group": "Services",
+  "taxes": [
+   {
+    "item_tax_template": "AT USt 10% - TC",
+    "maximum_net_rate": 0.0,
+    "minimum_net_rate": 0.0,
+    "tax_category": "Österreich",
+    "valid_from": null
+   },
+   {
+    "item_tax_template": "DE MwSt 7% - TC",
+    "maximum_net_rate": 0.0,
+    "minimum_net_rate": 0.0,
+    "tax_category": "Deutschland",
+    "valid_from": null
+   }
+  ]
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Item Group",
+  "image": null,
+  "is_group": 0,
+  "item_group_defaults": [
+   {
+    "buying_cost_center": null,
+    "company": "Test Company",
+    "default_cogs_account": null,
+    "default_discount_account": null,
+    "default_inventory_account": null,
+    "default_price_list": null,
+    "default_provisional_account": null,
+    "default_supplier": null,
+    "default_warehouse": "Stores - TC",
+    "deferred_expense_account": null,
+    "deferred_revenue_account": null,
+    "expense_account": "5700 - Fremdleistungen - TC",
+    "income_account": "4043 - Erlöse 13 % - TC",
+    "inventory_account_currency": null,
+    "purchase_expense_account": null,
+    "purchase_expense_contra_account": null,
+    "selling_cost_center": null
+   }
+  ],
+  "item_group_name": "Künstlerische Tätigkeiten",
+  "modified": "2026-04-27 20:34:44.409411",
+  "name": "Künstlerische Tätigkeiten",
+  "old_parent": "Services",
+  "parent_item_group": "Services",
+  "taxes": [
+   {
+    "item_tax_template": "AT USt 13% - TC",
+    "maximum_net_rate": 0.0,
+    "minimum_net_rate": 0.0,
+    "tax_category": "Österreich",
+    "valid_from": null
+   },
+   {
+    "item_tax_template": "DE MwSt 7% - TC",
+    "maximum_net_rate": 0.0,
+    "minimum_net_rate": 0.0,
+    "tax_category": "Deutschland",
+    "valid_from": null
+   }
+  ]
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Item Group",
+  "image": null,
+  "is_group": 0,
+  "item_group_defaults": [
+   {
+    "buying_cost_center": null,
+    "company": "Test Company",
+    "default_cogs_account": null,
+    "default_discount_account": null,
+    "default_inventory_account": null,
+    "default_price_list": null,
+    "default_provisional_account": null,
+    "default_supplier": null,
+    "default_warehouse": "Stores - TC",
+    "deferred_expense_account": null,
+    "deferred_revenue_account": null,
+    "expense_account": "5700 - Fremdleistungen - TC",
+    "income_account": "4043 - Erlöse 13 % - TC",
+    "inventory_account_currency": null,
+    "purchase_expense_account": null,
+    "purchase_expense_contra_account": null,
+    "selling_cost_center": null
+   }
+  ],
+  "item_group_name": "Schwimmbäder & Thermalbehandlung",
+  "modified": "2026-04-27 20:34:44.481852",
+  "name": "Schwimmbäder & Thermalbehandlung",
+  "old_parent": "Services",
+  "parent_item_group": "Services",
+  "taxes": [
+   {
+    "item_tax_template": "AT USt 13% - TC",
+    "maximum_net_rate": 0.0,
+    "minimum_net_rate": 0.0,
+    "tax_category": "Österreich",
+    "valid_from": null
+   },
+   {
+    "item_tax_template": "DE MwSt 7% - TC",
+    "maximum_net_rate": 0.0,
+    "minimum_net_rate": 0.0,
+    "tax_category": "Deutschland",
+    "valid_from": null
+   }
+  ]
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Item Group",
+  "image": null,
+  "is_group": 0,
+  "item_group_defaults": [
+   {
+    "buying_cost_center": null,
+    "company": "Test Company",
+    "default_cogs_account": null,
+    "default_discount_account": null,
+    "default_inventory_account": null,
+    "default_price_list": null,
+    "default_provisional_account": null,
+    "default_supplier": null,
+    "default_warehouse": "Stores - TC",
+    "deferred_expense_account": null,
+    "deferred_revenue_account": null,
+    "expense_account": "5700 - Fremdleistungen - TC",
+    "income_account": "4043 - Erlöse 13 % - TC",
+    "inventory_account_currency": null,
+    "purchase_expense_account": null,
+    "purchase_expense_contra_account": null,
+    "selling_cost_center": null
+   }
+  ],
+  "item_group_name": "Filmvorführungen & Zirkus",
+  "modified": "2026-04-27 20:34:44.308772",
+  "name": "Filmvorführungen & Zirkus",
+  "old_parent": "Services",
+  "parent_item_group": "Services",
+  "taxes": [
+   {
+    "item_tax_template": "AT USt 13% - TC",
+    "maximum_net_rate": 0.0,
+    "minimum_net_rate": 0.0,
+    "tax_category": "Österreich",
+    "valid_from": null
+   },
+   {
+    "item_tax_template": "DE MwSt 7% - TC",
+    "maximum_net_rate": 0.0,
+    "minimum_net_rate": 0.0,
+    "tax_category": "Deutschland",
+    "valid_from": null
+   }
+  ]
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Item Group",
+  "image": null,
+  "is_group": 0,
+  "item_group_defaults": [
+   {
+    "buying_cost_center": null,
+    "company": "Test Company",
+    "default_cogs_account": null,
+    "default_discount_account": null,
+    "default_inventory_account": null,
+    "default_price_list": null,
+    "default_provisional_account": null,
+    "default_supplier": null,
+    "default_warehouse": "Stores - TC",
+    "deferred_expense_account": null,
+    "deferred_revenue_account": null,
+    "expense_account": "5700 - Fremdleistungen - TC",
+    "income_account": "4043 - Erlöse 13 % - TC",
+    "inventory_account_currency": null,
+    "purchase_expense_account": null,
+    "purchase_expense_contra_account": null,
+    "selling_cost_center": null
+   }
+  ],
+  "item_group_name": "Sportveranstaltungen",
+  "modified": "2026-04-27 20:34:44.503539",
+  "name": "Sportveranstaltungen",
+  "old_parent": "Services",
+  "parent_item_group": "Services",
+  "taxes": [
+   {
+    "item_tax_template": "AT USt 13% - TC",
+    "maximum_net_rate": 0.0,
+    "minimum_net_rate": 0.0,
+    "tax_category": "Österreich",
+    "valid_from": null
+   },
+   {
+    "item_tax_template": "DE MwSt 7% - TC",
+    "maximum_net_rate": 0.0,
+    "minimum_net_rate": 0.0,
+    "tax_category": "Deutschland",
+    "valid_from": null
+   }
+  ]
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Item Group",
+  "image": null,
+  "is_group": 0,
+  "item_group_defaults": [
+   {
+    "buying_cost_center": null,
+    "company": "Test Company",
+    "default_cogs_account": null,
+    "default_discount_account": null,
+    "default_inventory_account": null,
+    "default_price_list": null,
+    "default_provisional_account": null,
+    "default_supplier": null,
+    "default_warehouse": "Stores - TC",
+    "deferred_expense_account": null,
+    "deferred_revenue_account": null,
+    "expense_account": "5410 - Einkauf Küche 10 % - TC",
+    "income_account": "4300 - Erlöse Küche 10 % - TC",
+    "inventory_account_currency": null,
+    "purchase_expense_account": null,
+    "purchase_expense_contra_account": null,
+    "selling_cost_center": null
+   }
+  ],
+  "item_group_name": "Speisen in der Gastronomie",
+  "modified": "2026-04-27 20:34:44.209050",
+  "name": "Speisen in der Gastronomie",
+  "old_parent": "Products",
+  "parent_item_group": "Products",
+  "taxes": [
+   {
+    "item_tax_template": "AT USt 10% - TC",
+    "maximum_net_rate": 0.0,
+    "minimum_net_rate": 0.0,
+    "tax_category": "Österreich",
+    "valid_from": null
+   },
+   {
+    "item_tax_template": "DE MwSt 7% - TC",
+    "maximum_net_rate": 0.0,
+    "minimum_net_rate": 0.0,
+    "tax_category": "Deutschland",
+    "valid_from": null
+   }
+  ]
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Item Group",
+  "image": null,
+  "is_group": 0,
+  "item_group_defaults": [
+   {
+    "buying_cost_center": null,
+    "company": "Test Company",
+    "default_cogs_account": null,
+    "default_discount_account": null,
+    "default_inventory_account": null,
+    "default_price_list": null,
+    "default_provisional_account": null,
+    "default_supplier": null,
+    "default_warehouse": "Stores - TC",
+    "deferred_expense_account": null,
+    "deferred_revenue_account": null,
+    "expense_account": "5030 - Wareneinkauf 10 % - TC",
+    "income_account": "4030 - Erlöse 10 % - TC",
+    "inventory_account_currency": null,
+    "purchase_expense_account": null,
+    "purchase_expense_contra_account": null,
+    "selling_cost_center": null
+   }
+  ],
+  "item_group_name": "Milch & Milchmischgetränke",
+  "modified": "2026-04-27 20:34:44.140222",
+  "name": "Milch & Milchmischgetränke",
+  "old_parent": "Products",
+  "parent_item_group": "Products",
+  "taxes": [
+   {
+    "item_tax_template": "AT USt 10% - TC",
+    "maximum_net_rate": 0.0,
+    "minimum_net_rate": 0.0,
+    "tax_category": "Österreich",
+    "valid_from": null
+   },
+   {
+    "item_tax_template": "DE MwSt 7% - TC",
+    "maximum_net_rate": 0.0,
+    "minimum_net_rate": 0.0,
+    "tax_category": "Deutschland",
+    "valid_from": null
+   }
+  ]
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Item Group",
+  "image": null,
+  "is_group": 0,
+  "item_group_defaults": [
+   {
+    "buying_cost_center": null,
+    "company": "Test Company",
+    "default_cogs_account": null,
+    "default_discount_account": null,
+    "default_inventory_account": null,
+    "default_price_list": null,
+    "default_provisional_account": null,
+    "default_supplier": null,
+    "default_warehouse": "Stores - TC",
+    "deferred_expense_account": null,
+    "deferred_revenue_account": null,
+    "expense_account": "5030 - Wareneinkauf 10 % - TC",
+    "income_account": "4030 - Erlöse 10 % - TC",
+    "inventory_account_currency": null,
+    "purchase_expense_account": null,
+    "purchase_expense_contra_account": null,
+    "selling_cost_center": null
+   }
+  ],
+  "item_group_name": "Milch & Milchmischgetränke (pflanzlich)",
+  "modified": "2026-04-27 20:34:44.163008",
+  "name": "Milch & Milchmischgetränke (pflanzlich)",
+  "old_parent": "Products",
+  "parent_item_group": "Products",
+  "taxes": [
+   {
+    "item_tax_template": "AT USt 20% - TC",
+    "maximum_net_rate": 0.0,
+    "minimum_net_rate": 0.0,
+    "tax_category": "Österreich",
+    "valid_from": null
+   },
+   {
+    "item_tax_template": "DE MwSt 19% - TC",
+    "maximum_net_rate": 0.0,
+    "minimum_net_rate": 0.0,
+    "tax_category": "Deutschland",
+    "valid_from": null
+   }
+  ]
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Item Group",
+  "image": null,
+  "is_group": 0,
+  "item_group_defaults": [
+   {
+    "buying_cost_center": null,
+    "company": "Test Company",
+    "default_cogs_account": null,
+    "default_discount_account": null,
+    "default_inventory_account": null,
+    "default_price_list": null,
+    "default_provisional_account": null,
+    "default_supplier": null,
+    "default_warehouse": "Stores - TC",
+    "deferred_expense_account": null,
+    "deferred_revenue_account": null,
+    "expense_account": "7400 - Mietaufwand unbewegliche Wirtschaftsgüter 20 % - TC",
+    "income_account": "4850 - Miet- und Pachterlöse 20 % - TC",
+    "inventory_account_currency": null,
+    "purchase_expense_account": null,
+    "purchase_expense_contra_account": null,
+    "selling_cost_center": null
+   }
+  ],
+  "item_group_name": "Vermietung Gewerblich",
+  "modified": "2026-04-27 20:34:44.525311",
+  "name": "Vermietung Gewerblich",
+  "old_parent": "Services",
+  "parent_item_group": "Services",
+  "taxes": [
+   {
+    "item_tax_template": "AT USt 20% - TC",
+    "maximum_net_rate": 0.0,
+    "minimum_net_rate": 0.0,
+    "tax_category": "Österreich",
+    "valid_from": null
+   },
+   {
+    "item_tax_template": "DE MwSt 19% - TC",
+    "maximum_net_rate": 0.0,
+    "minimum_net_rate": 0.0,
+    "tax_category": "Deutschland",
+    "valid_from": null
+   }
+  ]
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Item Group",
+  "image": null,
+  "is_group": 0,
+  "item_group_defaults": [
+   {
+    "buying_cost_center": null,
+    "company": "Test Company",
+    "default_cogs_account": null,
+    "default_discount_account": null,
+    "default_inventory_account": null,
+    "default_price_list": null,
+    "default_provisional_account": null,
+    "default_supplier": null,
+    "default_warehouse": "Stores - TC",
+    "deferred_expense_account": null,
+    "deferred_revenue_account": null,
+    "expense_account": "5030 - Wareneinkauf 10 % - TC",
+    "income_account": "4030 - Erlöse 10 % - TC",
+    "inventory_account_currency": null,
+    "purchase_expense_account": null,
+    "purchase_expense_contra_account": null,
+    "selling_cost_center": null
+   }
+  ],
+  "item_group_name": "Bücher & Druckerzeugnisse",
+  "modified": "2026-04-27 20:34:44.037325",
+  "name": "Bücher & Druckerzeugnisse",
+  "old_parent": "Products",
+  "parent_item_group": "Products",
+  "taxes": [
+   {
+    "item_tax_template": "AT USt 10% - TC",
+    "maximum_net_rate": 0.0,
+    "minimum_net_rate": 0.0,
+    "tax_category": "Österreich",
+    "valid_from": null
+   },
+   {
+    "item_tax_template": "DE MwSt 7% - TC",
+    "maximum_net_rate": 0.0,
+    "minimum_net_rate": 0.0,
+    "tax_category": "Deutschland",
+    "valid_from": null
+   }
+  ]
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Item Group",
+  "image": null,
+  "is_group": 0,
+  "item_group_defaults": [
+   {
+    "buying_cost_center": null,
+    "company": "Test Company",
+    "default_cogs_account": null,
+    "default_discount_account": null,
+    "default_inventory_account": null,
+    "default_price_list": null,
+    "default_provisional_account": null,
+    "default_supplier": null,
+    "default_warehouse": "Stores - TC",
+    "deferred_expense_account": null,
+    "deferred_revenue_account": null,
+    "expense_account": "7401 - Mietaufwand unbewegliche Wirtschaftsgüter 10 % - TC",
+    "income_account": "4851 - Miet- und Pachterlöse 10 % - TC",
+    "inventory_account_currency": null,
+    "purchase_expense_account": null,
+    "purchase_expense_contra_account": null,
+    "selling_cost_center": null
+   }
+  ],
+  "item_group_name": "Vermietung Wohnzwecke",
+  "modified": "2026-04-27 20:34:44.546103",
+  "name": "Vermietung Wohnzwecke",
+  "old_parent": "Services",
+  "parent_item_group": "Services",
+  "taxes": [
+   {
+    "item_tax_template": "AT USt 10% - TC",
+    "maximum_net_rate": 0.0,
+    "minimum_net_rate": 0.0,
+    "tax_category": "Österreich",
+    "valid_from": null
+   },
+   {
+    "item_tax_template": "DE MwSt 0% - TC",
+    "maximum_net_rate": 0.0,
+    "minimum_net_rate": 0.0,
+    "tax_category": "Deutschland",
+    "valid_from": null
+   }
+  ]
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Item Group",
+  "image": null,
+  "is_group": 0,
+  "item_group_defaults": [
+   {
+    "buying_cost_center": null,
+    "company": "Test Company",
+    "default_cogs_account": null,
+    "default_discount_account": null,
+    "default_inventory_account": null,
+    "default_price_list": null,
+    "default_provisional_account": null,
+    "default_supplier": null,
+    "default_warehouse": "Stores - TC",
+    "deferred_expense_account": null,
+    "deferred_revenue_account": null,
+    "expense_account": "5780 - Aufwand für satzungsmäßige Aufgabenerfüllung - TC",
+    "income_account": "4095 - Honorare 0 % - TC",
+    "inventory_account_currency": null,
+    "purchase_expense_account": null,
+    "purchase_expense_contra_account": null,
+    "selling_cost_center": null
+   }
+  ],
+  "item_group_name": "Gemeinnützige Leistungen",
+  "modified": "2026-04-27 20:34:44.327600",
+  "name": "Gemeinnützige Leistungen",
+  "old_parent": "Services",
+  "parent_item_group": "Services",
+  "taxes": [
+   {
+    "item_tax_template": "AT USt 0% - TC",
+    "maximum_net_rate": 0.0,
+    "minimum_net_rate": 0.0,
+    "tax_category": "Österreich",
+    "valid_from": null
+   },
+   {
+    "item_tax_template": "DE MwSt 0% - TC",
+    "maximum_net_rate": 0.0,
+    "minimum_net_rate": 0.0,
+    "tax_category": "Deutschland",
+    "valid_from": null
+   }
+  ]
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Item Group",
+  "image": null,
+  "is_group": 0,
+  "item_group_defaults": [
+   {
+    "buying_cost_center": null,
+    "company": "Test Company",
+    "default_cogs_account": null,
+    "default_discount_account": null,
+    "default_inventory_account": null,
+    "default_price_list": null,
+    "default_provisional_account": null,
+    "default_supplier": null,
+    "default_warehouse": "Stores - TC",
+    "deferred_expense_account": null,
+    "deferred_revenue_account": null,
+    "expense_account": "5030 - Wareneinkauf 10 % - TC",
+    "income_account": "4030 - Erlöse 10 % - TC",
+    "inventory_account_currency": null,
+    "purchase_expense_account": null,
+    "purchase_expense_contra_account": null,
+    "selling_cost_center": null
+   }
+  ],
+  "item_group_name": "Arzneimittel",
+  "modified": "2026-04-27 20:34:43.887807",
+  "name": "Arzneimittel",
+  "old_parent": "Products",
+  "parent_item_group": "Products",
+  "taxes": [
+   {
+    "item_tax_template": "AT USt 10% - TC",
+    "maximum_net_rate": 0.0,
+    "minimum_net_rate": 0.0,
+    "tax_category": "Österreich",
+    "valid_from": null
+   },
+   {
+    "item_tax_template": "DE MwSt 19% - TC",
+    "maximum_net_rate": 0.0,
+    "minimum_net_rate": 0.0,
+    "tax_category": "Deutschland",
+    "valid_from": null
+   }
+  ]
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Item Group",
+  "image": null,
+  "is_group": 0,
+  "item_group_defaults": [
+   {
+    "buying_cost_center": null,
+    "company": "Test Company",
+    "default_cogs_account": null,
+    "default_discount_account": null,
+    "default_inventory_account": null,
+    "default_price_list": null,
+    "default_provisional_account": null,
+    "default_supplier": null,
+    "default_warehouse": "Stores - TC",
+    "deferred_expense_account": null,
+    "deferred_revenue_account": null,
+    "expense_account": "5033 - Wareneinkauf 13 % - TC",
+    "income_account": "4043 - Erlöse 13 % - TC",
+    "inventory_account_currency": null,
+    "purchase_expense_account": null,
+    "purchase_expense_contra_account": null,
+    "selling_cost_center": null
+   }
+  ],
+  "item_group_name": "Brennholz",
+  "modified": "2026-04-27 20:34:44.004847",
+  "name": "Brennholz",
+  "old_parent": "Products",
+  "parent_item_group": "Products",
+  "taxes": [
+   {
+    "item_tax_template": "AT USt 13% - TC",
+    "maximum_net_rate": 0.0,
+    "minimum_net_rate": 0.0,
+    "tax_category": "Österreich",
+    "valid_from": null
+   },
+   {
+    "item_tax_template": "DE MwSt 7% - TC",
+    "maximum_net_rate": 0.0,
+    "minimum_net_rate": 0.0,
+    "tax_category": "Deutschland",
+    "valid_from": null
+   }
+  ]
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Item Group",
+  "image": null,
+  "is_group": 0,
+  "item_group_defaults": [
+   {
+    "buying_cost_center": null,
+    "company": "Test Company",
+    "default_cogs_account": null,
+    "default_discount_account": null,
+    "default_inventory_account": null,
+    "default_price_list": null,
+    "default_provisional_account": null,
+    "default_supplier": null,
+    "default_warehouse": "Stores - TC",
+    "deferred_expense_account": null,
+    "deferred_revenue_account": null,
+    "expense_account": "5000 - Wareneinkauf 20 % - TC",
+    "income_account": "4000 - Erlöse 20 % - TC",
+    "inventory_account_currency": null,
+    "purchase_expense_account": null,
+    "purchase_expense_contra_account": null,
+    "selling_cost_center": null
+   }
+  ],
+  "item_group_name": "Produkte Normalsteuersatz",
+  "modified": "2026-04-27 20:34:44.186470",
+  "name": "Produkte Normalsteuersatz",
+  "old_parent": "Products",
+  "parent_item_group": "Products",
+  "taxes": [
+   {
+    "item_tax_template": "AT USt 20% - TC",
+    "maximum_net_rate": 0.0,
+    "minimum_net_rate": 0.0,
+    "tax_category": "Österreich",
+    "valid_from": null
+   },
+   {
+    "item_tax_template": "DE MwSt 19% - TC",
+    "maximum_net_rate": 0.0,
+    "minimum_net_rate": 0.0,
+    "tax_category": "Deutschland",
+    "valid_from": null
+   }
+  ]
+ }
 ]
