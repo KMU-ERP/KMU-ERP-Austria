@@ -1295,54 +1295,6 @@
     "default_warehouse": "Stores - TC",
     "deferred_expense_account": null,
     "deferred_revenue_account": null,
-    "expense_account": "5030 - Wareneinkauf 10 % - TC",
-    "income_account": "4030 - Erlöse 10 % - TC",
-    "inventory_account_currency": null,
-    "purchase_expense_account": null,
-    "purchase_expense_contra_account": null,
-    "selling_cost_center": null
-   }
-  ],
-  "item_group_name": "Arzneimittel",
-  "modified": "2026-04-27 20:34:43.887807",
-  "name": "Arzneimittel",
-  "old_parent": "Products",
-  "parent_item_group": "Products",
-  "taxes": [
-   {
-    "item_tax_template": "AT USt 10% - TC",
-    "maximum_net_rate": 0.0,
-    "minimum_net_rate": 0.0,
-    "tax_category": "Österreich",
-    "valid_from": null
-   },
-   {
-    "item_tax_template": "DE MwSt 19% - TC",
-    "maximum_net_rate": 0.0,
-    "minimum_net_rate": 0.0,
-    "tax_category": "Deutschland",
-    "valid_from": null
-   }
-  ]
- },
- {
-  "docstatus": 0,
-  "doctype": "Item Group",
-  "image": null,
-  "is_group": 0,
-  "item_group_defaults": [
-   {
-    "buying_cost_center": null,
-    "company": "Test Company",
-    "default_cogs_account": null,
-    "default_discount_account": null,
-    "default_inventory_account": null,
-    "default_price_list": null,
-    "default_provisional_account": null,
-    "default_supplier": null,
-    "default_warehouse": "Stores - TC",
-    "deferred_expense_account": null,
-    "deferred_revenue_account": null,
     "expense_account": "5033 - Wareneinkauf 13 % - TC",
     "income_account": "4043 - Erlöse 13 % - TC",
     "inventory_account_currency": null,
@@ -1407,6 +1359,54 @@
   "taxes": [
    {
     "item_tax_template": "AT USt 20% - TC",
+    "maximum_net_rate": 0.0,
+    "minimum_net_rate": 0.0,
+    "tax_category": "Österreich",
+    "valid_from": null
+   },
+   {
+    "item_tax_template": "DE MwSt 19% - TC",
+    "maximum_net_rate": 0.0,
+    "minimum_net_rate": 0.0,
+    "tax_category": "Deutschland",
+    "valid_from": null
+   }
+  ]
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Item Group",
+  "image": null,
+  "is_group": 0,
+  "item_group_defaults": [
+   {
+    "buying_cost_center": null,
+    "company": "Test Company",
+    "default_cogs_account": null,
+    "default_discount_account": null,
+    "default_inventory_account": null,
+    "default_price_list": null,
+    "default_provisional_account": null,
+    "default_supplier": null,
+    "default_warehouse": "Stores - TC",
+    "deferred_expense_account": null,
+    "deferred_revenue_account": null,
+    "expense_account": "5030 - Wareneinkauf 10 % - TC",
+    "income_account": "4030 - Erlöse 10 % - TC",
+    "inventory_account_currency": null,
+    "purchase_expense_account": null,
+    "purchase_expense_contra_account": null,
+    "selling_cost_center": null
+   }
+  ],
+  "item_group_name": "Arzneimittel",
+  "modified": "2026-04-27 20:34:43.887807",
+  "name": "Arzneimittel",
+  "old_parent": "Products",
+  "parent_item_group": "Products",
+  "taxes": [
+   {
+    "item_tax_template": "AT USt 10% - TC",
     "maximum_net_rate": 0.0,
     "minimum_net_rate": 0.0,
     "tax_category": "Österreich",
