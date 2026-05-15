@@ -808,10 +808,41 @@
         "account_type": "Current Asset",
         "account_currency": "EUR"
       },
-      "Vorsteuer": {
-        "account_number": "2500",
+      "Vorsteuer 0%": {
+        "account_number": "25000",
         "account_type": "Tax",
-        "account_currency": "EUR"
+        "account_currency": "EUR",
+        "tax_rate": 0
+      },
+      "Vorsteuer 7%": {
+        "account_number": "25007",
+        "account_type": "Tax",
+        "account_currency": "EUR",
+        "tax_rate": 7
+      },
+      "Vorsteuer 10%": {
+        "account_number": "25010",
+        "account_type": "Tax",
+        "account_currency": "EUR",
+        "tax_rate": 10
+      },
+      "Vorsteuer 13%": {
+        "account_number": "25013",
+        "account_type": "Tax",
+        "account_currency": "EUR",
+        "tax_rate": 13
+      },
+      "Vorsteuer 19%": {
+        "account_number": "25019",
+        "account_type": "Tax",
+        "account_currency": "EUR",
+        "tax_rate": 19
+      },
+      "Vorsteuer 20%": {
+        "account_number": "25020",
+        "account_type": "Tax",
+        "account_currency": "EUR",
+        "tax_rate": 20
       },
       "Vorsteuer aus ig. Erwerb": {
         "account_number": "2501",
@@ -1048,8 +1079,8 @@
         "account_type": "Current Asset",
         "account_currency": "EUR"
       },
-      "Kassenbestand in Euro": {
-        "account_number": "2899",
+      "Kassenbestand": {
+        "account_number": "2700",
         "account_type": "Cash",
         "account_currency": "EUR"
       },
@@ -1063,7 +1094,7 @@
         "account_type": "Cash",
         "account_currency": "EUR"
       },
-      "Schecks in Euro": {
+      "Schecks": {
         "account_number": "2780",
         "account_type": "Current Asset",
         "account_currency": "EUR"
@@ -1116,6 +1147,11 @@
       "Schwebende Geldbewegungen": {
         "account_number": "2895",
         "account_type": "Current Asset",
+        "account_currency": "EUR"
+      },
+      "Kassenbestand Hilfskonto": {
+        "account_number": "2899",
+        "account_type": "Cash",
         "account_currency": "EUR"
       },
       "aktive Rechnungsabgrenzungsposten": {
@@ -1537,10 +1573,41 @@
         "account_type": "Liability",
         "account_currency": "EUR"
       },
-      "Umsatzsteuer": {
-        "account_number": "3500",
+      "Umsatzsteuer 0%": {
+        "account_number": "35000",
         "account_type": "Tax",
-        "account_currency": "EUR"
+        "account_currency": "EUR",
+        "tax_rate": 0
+      },
+      "Umsatzsteuer 7%": {
+        "account_number": "35007",
+        "account_type": "Tax",
+        "account_currency": "EUR",
+        "tax_rate": 7
+      },
+      "Umsatzsteuer 10%": {
+        "account_number": "35010",
+        "account_type": "Tax",
+        "account_currency": "EUR",
+        "tax_rate": 10
+      },
+      "Umsatzsteuer 13%": {
+        "account_number": "35013",
+        "account_type": "Tax",
+        "account_currency": "EUR",
+        "tax_rate": 13
+      },
+      "Umsatzsteuer 19%": {
+        "account_number": "35019",
+        "account_type": "Tax",
+        "account_currency": "EUR",
+        "tax_rate": 19
+      },
+      "Umsatzsteuer 20%": {
+        "account_number": "35020",
+        "account_type": "Tax",
+        "account_currency": "EUR",
+        "tax_rate": 20
       },
       "Umsatzsteuer aus ig. Erwerb": {
         "account_number": "3501",

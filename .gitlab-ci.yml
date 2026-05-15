@@ -1,0 +1,46 @@
+stages:
+  - test
+
+test:
+  stage: test
+  image: frappe/bench:latest
+
+  services:
+    - name: mariadb:11.8
+      alias: mariadb
+      variables:
+        MYSQL_ROOT_PASSWORD: "root"
+    - name: redis:alpine
+      alias: redis-cache
+    - name: redis:alpine
+      alias: redis-queue
+
+  variables:
+    DB_HOST: "mariadb"
+
+  before_script:
+    - bench init /home/frappe/frappe-bench
+      --skip-redis-config-generation
+      --frappe-branch version-16
+      --python python3
+      --skip-assets
+    - cd /home/frappe/frappe-bench
+    - bench set-config -g redis_cache redis://redis-cache:6379
+    - bench set-config -g redis_queue redis://redis-queue:6379
+    - bench new-site test.localhost
+      --db-host ${DB_HOST}
+      --db-port 3306
+      --db-root-password root
+      --admin-password admin
+      --no-mariadb-socket
+    - bench get-app erpnext --branch version-16
+    - git config --global url."https://gitlab-ci-token:${CI_JOB_TOKEN}@code.ransoft.at/".insteadOf "https://code.ransoft.at/"
+    - bench get-app koolcontrol_frappe_backend $CI_PROJECT_URL --branch $CI_COMMIT_REF_NAME
+    - bench setup requirements
+    - bench --site test.localhost install-app erpnext kmu_erp_austria
+
+  script:
+    - echo "Running Unit Tests..."
+    - cd /home/frappe/frappe-bench
+    - bench --site test.localhost set-config allow_tests true
+    - bench --site test.localhost run-tests --app kmu_erp_austria

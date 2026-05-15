@@ -1,0 +1,29 @@
+Parent Item Group;Item Group;Revenue Account;Expense Account;Tax AT;Tax DE
+Products;Arzneimittel;4030 - Erlöse 10 %;5030 - Wareneinkauf 10 %;AT USt 10%;DE MwSt 19%
+Products;Brennholz;4043 - Erlöse 13 %;5033 - Wareneinkauf 13 %;AT USt 13%;DE MwSt 7%
+Products;Bücher & Druckerzeugnisse;4030 - Erlöse 10 %;5030 - Wareneinkauf 10 %;AT USt 10%;DE MwSt 7%
+Products;Grundnahrungsmittel;4030 - Erlöse 10 %;5030 - Wareneinkauf 10 %;AT USt 10%;DE MwSt 7%
+Products;Kunstgegenstände & Sammlerstücke;4043 - Erlöse 13 %;5033 - Wareneinkauf 13 %;AT USt 13%;DE MwSt 7%
+Products;Landwirtschaftliche Produkte & Futtermittel;4043 - Erlöse 13 %;5033 - Wareneinkauf 13 %;AT USt 13%;DE MwSt 7%
+Products;Lebende Tiere & Pflanzen;4043 - Erlöse 13 %;5033 - Wareneinkauf 13 %;AT USt 13%;DE MwSt 7%
+Products;Milch & Milchmischgetränke;4030 - Erlöse 10 %;5030 - Wareneinkauf 10 %;AT USt 10%;DE MwSt 7%
+Products;Milch & Milchmischgetränke (pflanzlich);4030 - Erlöse 10 %;5030 - Wareneinkauf 10 %;AT USt 20%;DE MwSt 19%
+Products;Produkte Normalsteuersatz;4000 - Erlöse 20 %;5000 - Wareneinkauf 20 %;AT USt 20%;DE MwSt 19%
+Products;Speisen in der Gastronomie;4300 - Erlöse Küche 10 %;5410 - Einkauf Küche 10 %;AT USt 10%;DE MwSt 7%
+Services;Beherbergung;4310 - Beherbergungserlöse 10 %;5700 - Fremdleistungen;AT USt 10%;DE MwSt 7%
+Services;Campingvermietung;4310 - Beherbergungserlöse 10 %;5700 - Fremdleistungen;AT USt 10%;DE MwSt 7%
+Services;Dienstleistung Normalsteuersatz;4000 - Erlöse 20 %;5700 - Fremdleistungen;AT USt 20%;DE MwSt 19%
+Services;Elektronische Publikation;4030 - Erlöse 10 %;5700 - Fremdleistungen;AT USt 10%;DE MwSt 7%
+Services;Filmvorführungen & Zirkus;4043 - Erlöse 13 %;5700 - Fremdleistungen;AT USt 13%;DE MwSt 7%
+Services;Gemeinnützige Leistungen;4095 - Honorare 0 %;5780 - Aufwand für satzungsmäßige Aufgabenerfüllung;AT USt 0%;DE MwSt 0%
+Services;Inland Luftbeförderung;4043 - Erlöse 13 %;7300 - Transporte durch Dritte;AT USt 13%;DE MwSt 19%
+Services;Kranken- & Pflegeanstalten;4095 - Honorare 0 %;5700 - Fremdleistungen;AT USt 0%;DE MwSt 0%
+Services;Kulturelle Leistungen Theater Museum;4043 - Erlöse 13 %;5700 - Fremdleistungen;AT USt 13%;DE MwSt 7%
+Services;Künstlerische Tätigkeiten;4043 - Erlöse 13 %;5700 - Fremdleistungen;AT USt 13%;DE MwSt 7%
+Services;Müllbeseitigung & Abfallentsorgung;4030 - Erlöse 10 %;7225 - Abfallentsorgung;AT USt 10%;DE MwSt 7%
+Services;Personenbeförderung Inland;4030 - Erlöse 10 %;7300 - Transporte durch Dritte;AT USt 10%;DE MwSt 7%
+Services;Reparatur Fahrräder Schuhe Kleidung;4030 - Erlöse 10 %;5700 - Fremdleistungen;AT USt 10%;DE MwSt 19%
+Services;Schwimmbäder & Thermalbehandlung;4043 - Erlöse 13 %;5700 - Fremdleistungen;AT USt 13%;DE MwSt 7%
+Services;Sportveranstaltungen;4043 - Erlöse 13 %;5700 - Fremdleistungen;AT USt 13%;DE MwSt 7%
+Services;Vermietung Gewerblich;4850 - Miet- und Pachterlöse 20 %;7400 - Mietaufwand unbewegliche Wirtschaftsgüter 20 %;AT USt 20%;DE MwSt 19%
+Services;Vermietung Wohnzwecke;4851 - Miet- und Pachterlöse 10 %;7401 - Mietaufwand unbewegliche Wirtschaftsgüter 10 %;AT USt 10%;DE MwSt 0%

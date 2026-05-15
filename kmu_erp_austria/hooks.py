@@ -5,6 +5,15 @@ app_description = "Frappe app with austrian default settings"
 app_email = "office@ransoft.at"
 app_license = "mit"
 
+
+# Fixtures
+fixtures = [
+	{"dt": "Print Format", "filters": [["name", "in", ["Angebot - KMU ERP Austria", "Auftragsbestätigung - KMU ERP Austria",  "Lieferschein - KMU ERP Austria", "Ausgangsrechnung - KMU ERP Austria"]]]},
+	"Item Group",
+	"Tax Category",
+	"Address Template"
+]
+
 # Apps
 # ------------------
 
@@ -85,8 +94,7 @@ app_license = "mit"
 # Installation
 # ------------
 
-before_install = "kmu_erp_austria.install.before_install"
-after_install = "kmu_erp_austria.install.after_install"
+after_migrate = ["kmu_erp_austria.install.after_migrate"]
 
 # Uninstallation
 # ------------
@@ -132,13 +140,11 @@ after_install = "kmu_erp_austria.install.after_install"
 # ---------------
 # Hook on document methods and events
 
-# doc_events = {
-# 	"*": {
-# 		"on_update": "method",
-# 		"on_cancel": "method",
-# 		"on_trash": "method"
-# 	}
-# }
+doc_events = {
+ 	"Company": {
+ 		"on_update": "kmu_erp_austria.setup.letter_head.on_company_update"
+ 	}
+}
 
 # Scheduled Tasks
 # ---------------

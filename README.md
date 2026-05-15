@@ -1,39 +1,20 @@
 ### Kmu Erp Austria
 
-Frappe app with austrian default setting
+ERPNext APP with Austrian default settings.
+
+## Dev Container Setup in IntelliJ
+
+[Hier](https://code.ransoft.at/ran-soft/intern/wiki/-/wikis/ERPNext/Frappe-Docker-Dev-Container-Setup-in-IntelliJ) wird beschrieben wie du ein Frappe Docker Projekt mithilfe von Dev Container in IntelliJ aufmachen kannst.
 
 ### Installation
 
 You can install this app using the [bench](https://github.com/frappe/bench) CLI:
 
 ```bash
-cd $PATH_TO_YOUR_BENCH
-bench get-app $URL_OF_THIS_REPO --branch version-16
-bench install-app kmu_erp_austria
+cd /development/frappe-bench
+bench get-app https://<username>:<personal_access_token>@code.ransoft.at/ran-soft/intern/kmu-erp/kmu-erp-austria.git --branch main
+bench --site development.localhost install-app koolcontrol_frappe_backend
 ```
-
-### Contributing
-
-This app uses `pre-commit` for code formatting and linting. Please [install pre-commit](https://pre-commit.com/#installation) and enable it for this repository:
-
-```bash
-cd apps/kmu_erp_austria
-pre-commit install
-```
-
-Pre-commit is configured to use the following tools for checking and formatting your code:
-
-- ruff
-- eslint
-- prettier
-- pyupgrade
-### CI
-
-This app can use GitHub Actions for CI. The following workflows are configured:
-
-- CI: Installs this app and runs unit tests on every push to `develop` branch.
-- Linters: Runs [Frappe Semgrep Rules](https://github.com/frappe/semgrep-rules) and [pip-audit](https://pypi.org/project/pip-audit/) on every pull request.
-
 
 ### License
 
