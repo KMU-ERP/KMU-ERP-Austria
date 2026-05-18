@@ -6,7 +6,6 @@ import frappe
 from frappe.desk.page.setup_wizard.setup_wizard import setup_complete
 from kmu_erp_austria.setup.account_plan import import_account_plan_for_companies, register_account_plan_in_wizard
 from kmu_erp_austria.setup.payment_terms import import_payment_terms
-from kmu_erp_austria.setup.tax_rules import import_tax_rules
 from kmu_erp_austria.setup.tax_templates import import_tax_templates
 from kmu_erp_austria.setup.letter_head import import_letter_head
 from kmu_erp_austria.setup.item_group_defaults import import_item_group_defaults
@@ -58,7 +57,6 @@ def app_setup():
 
 def _import_configurations():
 	import_tax_templates()
-	import_tax_rules()
 	import_payment_terms()
 	import_letter_head()
 	import_item_group_defaults()
