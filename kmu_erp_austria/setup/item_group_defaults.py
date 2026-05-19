@@ -15,10 +15,39 @@ def import_item_group_defaults():
 		click.echo(click.style("  NOTE: No company found - item group accounts assignments skipped", fg="yellow"))
 		return
 
+	remove_invalid_item_group_defaults()
+
 	for company in companies:
 		click.echo(f"  Assigning default accounts and tax templates to item groups for company: {company}")
 		_assign_defaults(company)
 		click.echo(click.style(f"  Completed assigning defaults to item groups for company: {company}", fg="green"))
+
+
+def remove_invalid_item_group_defaults():
+	removed = 0
+
+	for item_group_name in frappe.get_all("Item Group", pluck="name"):
+		doc = frappe.get_doc("Item Group", item_group_name)
+		modified = False
+
+		for row in list(doc.get("item_group_defaults") or []):
+			if _has_missing_item_default_link(row):
+				doc.remove(row)
+				modified = True
+				removed += 1
+
+		for row in list(doc.get("taxes") or []):
+			if _has_missing_item_tax_link(row):
+				doc.remove(row)
+				modified = True
+				removed += 1
+
+		if modified:
+			doc.save(ignore_permissions=True)
+
+	if removed:
+		frappe.db.commit()
+		click.echo(click.style(f"  Removed {removed} invalid item group defaults/taxes.", fg="yellow"))
 
 
 def _assign_defaults(company):
@@ -85,3 +114,26 @@ def _assign_defaults(company):
 
 			if modified:
 				doc.save(ignore_permissions=True)
+
+
+def _has_missing_item_default_link(row):
+	links = {
+		"company": "Company",
+		"default_warehouse": "Warehouse",
+		"income_account": "Account",
+		"expense_account": "Account",
+		"default_inventory_account": "Account",
+		"default_cogs_account": "Account",
+		"default_supplier": "Supplier",
+		"buying_cost_center": "Cost Center",
+		"selling_cost_center": "Cost Center",
+	}
+	return any(row.get(field) and not frappe.db.exists(doctype, row.get(field)) for field, doctype in links.items())
+
+
+def _has_missing_item_tax_link(row):
+	links = {
+		"item_tax_template": "Item Tax Template",
+		"tax_category": "Tax Category",
+	}
+	return any(row.get(field) and not frappe.db.exists(doctype, row.get(field)) for field, doctype in links.items())
