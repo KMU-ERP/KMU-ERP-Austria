@@ -88,6 +88,11 @@ def mark_app_setup_completed():
 	frappe.db.commit()
 	click.echo(click.style("  KMU ERP Austria setup marked as completed.", fg="green"))
 
+def unmark_app_setup_completed():
+	frappe.db.set_global(APP_SETUP_COMPLETED_KEY, "0")
+	frappe.db.commit()
+	click.echo(click.style("  KMU ERP Austria setup marked as not completed.", fg="yellow"))
+
 def after_migrate():
 	"""
 	Important for fixtures. If the bench command `bench migrate` is used, the system will automatically
@@ -98,4 +103,4 @@ def after_migrate():
 	if not frappe.is_setup_complete():
 		return
 
-	import_item_group_defaults()
+	app_setup()
