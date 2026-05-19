@@ -13,6 +13,9 @@ from kmu_erp_austria.setup.company_address import create_company_address
 from kmu_erp_austria.setup.default_settings import import_default_settings
 from kmu_erp_austria.setup.default_accounts import set_default_accounts_to_company
 
+APP_SETUP_COMPLETED_KEY = "kmu_erp_austria_app_setup_completed"
+
+
 def auto_erpnext_setup(args):
 	"""
 	Handles auto setup of kmu_erp_austria app.
@@ -20,6 +23,10 @@ def auto_erpnext_setup(args):
 	Tax Templates, Tax rules, Letter Head, Item Group Accounts Assignment will be imported.
 	:param args: Arguments for Completion of Wizard
 	"""
+	if is_app_setup_completed():
+		click.echo("  KMU ERP Austria setup already completed - skipping setup.")
+		return
+
 	if "erpnext" not in frappe.get_installed_apps():
 		click.echo(click.style("ERROR: ERPNext must be installed before kmu_erp_austria.", fg="red", bold=True))
 		click.echo(click.style("Please run 'bench get-app erpnext --branch <VERSION>' first.", fg="red"))
@@ -43,17 +50,24 @@ def auto_erpnext_setup(args):
 
 	_import_configurations()
 	set_default_accounts_to_company(company_name)
+	mark_app_setup_completed()
 
 def app_setup():
 	"""
 	Handles app setup after completion of the wizard. For the use case that the app is installed after some time using ERPNext.
 	"""
+	if is_app_setup_completed():
+		click.echo("  KMU ERP Austria setup already completed - skipping setup.")
+		return
+
 	_import_account_plan()
 	_import_configurations()
 
 	companies = frappe.get_all("Company", pluck="name")
 	for company in companies:
 		set_default_accounts_to_company(company)
+
+	mark_app_setup_completed()
 
 def _import_configurations():
 	import_tax_templates()
@@ -66,6 +80,14 @@ def _import_account_plan():
 	register_account_plan_in_wizard()
 	import_account_plan_for_companies()
 
+def is_app_setup_completed():
+	return frappe.db.get_global(APP_SETUP_COMPLETED_KEY) == "1"
+
+def mark_app_setup_completed():
+	frappe.db.set_global(APP_SETUP_COMPLETED_KEY, "1")
+	frappe.db.commit()
+	click.echo(click.style("  KMU ERP Austria setup marked as completed.", fg="green"))
+
 def after_migrate():
 	"""
 	Important for fixtures. If the bench command `bench migrate` is used, the system will automatically
@@ -73,5 +95,7 @@ def after_migrate():
 	the revenue and expense accounts, as they are assigned later. So it is important to import Item Group Accounts Assignment
 	after the migration.
 	"""
-	if frappe.is_setup_complete():
-		import_item_group_defaults()
+	if not frappe.is_setup_complete():
+		return
+
+	app_setup()
