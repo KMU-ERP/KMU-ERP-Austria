@@ -98,4 +98,4 @@ def after_migrate():
 	if not frappe.is_setup_complete():
 		return
 
-	app_setup()
+	import_item_group_defaults()
