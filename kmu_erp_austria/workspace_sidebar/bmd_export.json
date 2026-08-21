@@ -1,0 +1,108 @@
+{
+ "app": "kmu_erp_austria",
+ "doctype": "Workspace Sidebar",
+ "header_icon": "file-export",
+ "items": [
+  {
+   "icon": "home",
+   "label": "Home",
+   "link_to": "BMD Export",
+   "link_type": "Workspace",
+   "type": "Link"
+  },
+  {
+   "icon": "file-export",
+   "label": "BMD Export Assistant",
+   "link_to": "bmd-export-assistant",
+   "link_type": "Page",
+   "type": "Link"
+  },
+  {
+   "icon": "list",
+   "label": "BMD Export Batches",
+   "link_to": "BMD Export Batch",
+   "link_type": "DocType",
+   "type": "Link"
+  },
+  {
+   "icon": "settings",
+   "label": "BMD Export Settings",
+   "link_to": "BMD Export Settings",
+   "link_type": "DocType",
+   "type": "Link"
+  },
+  {
+   "icon": "help-circle",
+   "label": "BMD Export Help",
+   "link_to": "bmd-export-help",
+   "link_type": "Page",
+   "type": "Link"
+  },
+  {
+   "collapsible": 1,
+   "indent": 1,
+   "label": "Configuration",
+   "type": "Section Break"
+  },
+  {
+   "child": 1,
+   "icon": "file",
+   "label": "Export Profiles",
+   "link_to": "BMD Export Profile",
+   "link_type": "DocType",
+   "type": "Link"
+  },
+  {
+   "child": 1,
+   "icon": "accounting",
+   "label": "BMD Accounts",
+   "link_to": "BMD Account",
+   "link_type": "DocType",
+   "type": "Link"
+  },
+  {
+   "child": 1,
+   "icon": "link",
+   "label": "Account Mappings",
+   "link_to": "BMD Account Mapping",
+   "link_type": "DocType",
+   "type": "Link"
+  },
+  {
+   "child": 1,
+   "icon": "users",
+   "label": "Party Mappings",
+   "link_to": "BMD Party Mapping",
+   "link_type": "DocType",
+   "type": "Link"
+  },
+  {
+   "child": 1,
+   "icon": "percentage",
+   "label": "Tax Mappings",
+   "link_to": "BMD Tax Mapping",
+   "link_type": "DocType",
+   "type": "Link"
+  },
+  {
+   "child": 1,
+   "icon": "organization",
+   "label": "Dimension Mappings",
+   "link_to": "BMD Dimension Mapping",
+   "link_type": "DocType",
+   "type": "Link"
+  },
+  {
+   "child": 1,
+   "icon": "table",
+   "label": "Missing Mappings",
+   "link_to": "BMD Missing Mappings",
+   "link_type": "Report",
+   "type": "Link"
+  }
+ ],
+ "module": "BMD Export",
+ "name": "BMD Export",
+ "standard": 1,
+ "title": "BMD Export"
+}

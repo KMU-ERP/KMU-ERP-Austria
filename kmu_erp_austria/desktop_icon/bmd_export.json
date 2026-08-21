@@ -1,0 +1,20 @@
+{
+ "app": "kmu_erp_austria",
+ "doctype": "Desktop Icon",
+ "hidden": 0,
+ "icon_type": "Link",
+ "idx": 30,
+ "label": "BMD Export",
+ "link_to": "BMD Export",
+ "link_type": "Workspace Sidebar",
+ "logo_url": "/assets/kmu_erp_austria/images/bmd-export-logo.svg",
+ "name": "BMD Export",
+ "parent_icon": "",
+ "restrict_removal": 0,
+ "roles": [
+  {"role": "BMD Export User"},
+  {"role": "BMD Export Manager"},
+  {"role": "System Manager"}
+ ],
+ "standard": 1
+}

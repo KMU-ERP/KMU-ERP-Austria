@@ -1,0 +1,23 @@
+{
+ "actions": [], "autoname": "hash", "doctype": "DocType", "engine": "InnoDB",
+ "field_order": ["mapping_section", "company", "party_type", "party", "bmd_person_account", "validity_section", "active", "valid_from", "valid_to", "priority"],
+ "fields": [
+  {"description": "Maps one ERPNext customer or supplier to its BMD person account.", "fieldname": "mapping_section", "fieldtype": "Section Break", "label": "Party Mapping"},
+  {"description": "Company for which this party mapping is evaluated.", "fieldname": "company", "fieldtype": "Link", "in_list_view": 1, "in_standard_filter": 1, "label": "Company", "options": "Company", "reqd": 1},
+  {"description": "Selects whether the linked party is a customer or supplier.", "fieldname": "party_type", "fieldtype": "Select", "in_list_view": 1, "label": "Party Type", "options": "Customer\nSupplier", "reqd": 1},
+  {"description": "ERPNext customer or supplier to resolve during export.", "fieldname": "party", "fieldtype": "Dynamic Link", "in_list_view": 1, "label": "Party", "options": "party_type", "reqd": 1},
+  {"description": "Numeric BMD customer or supplier account written to the booking row.", "fieldname": "bmd_person_account", "fieldtype": "Data", "in_list_view": 1, "label": "BMD Person Account", "reqd": 1},
+  {"description": "Optional date range and precedence for this party mapping.", "fieldname": "validity_section", "fieldtype": "Section Break", "label": "Validity"},
+  {"default": "1", "description": "Inactive mappings are ignored during preview and export.", "fieldname": "active", "fieldtype": "Check", "in_list_view": 1, "label": "Active"},
+  {"description": "First posting date on which this mapping may be used; empty means no lower limit.", "fieldname": "valid_from", "fieldtype": "Date", "label": "Valid From"},
+  {"description": "Last posting date on which this mapping may be used; empty means no upper limit.", "fieldname": "valid_to", "fieldtype": "Date", "label": "Valid To"},
+  {"default": "0", "description": "Higher values win when multiple valid mappings would otherwise rank equally.", "fieldname": "priority", "fieldtype": "Int", "label": "Priority"}
+ ],
+ "links": [], "module": "BMD Export", "name": "BMD Party Mapping",
+ "permissions": [
+  {"read": 1, "role": "BMD Export User"},
+  {"create": 1, "delete": 1, "export": 1, "import": 1, "print": 1, "read": 1, "report": 1, "write": 1, "role": "BMD Export Manager"},
+  {"create": 1, "delete": 1, "export": 1, "import": 1, "print": 1, "read": 1, "report": 1, "write": 1, "role": "System Manager"}
+ ],
+ "sort_field": "modified", "sort_order": "DESC", "states": []
+}

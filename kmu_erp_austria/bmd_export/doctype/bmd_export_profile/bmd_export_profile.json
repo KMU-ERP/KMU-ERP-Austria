@@ -1,0 +1,44 @@
+{
+ "actions": [],
+ "allow_rename": 0,
+ "autoname": "field:profile_name",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "general_section", "profile_name", "is_active", "is_standard", "format_section", "delimiter",
+  "encoding", "decimal_separator", "date_format", "line_ending", "precision_section",
+  "money_precision", "tax_rate_precision", "exchange_rate_precision", "quantity_precision",
+  "columns_section", "columns"
+ ],
+ "fields": [
+  {"description": "Identification and availability of this reusable export profile.", "fieldname": "general_section", "fieldtype": "Section Break", "label": "General"},
+  {"description": "Unique name shown when selecting an export profile in company settings.", "fieldname": "profile_name", "fieldtype": "Data", "in_list_view": 1, "label": "Profile Name", "reqd": 1, "unique": 1},
+  {"default": "1", "description": "Inactive profiles cannot be selected for new exports.", "fieldname": "is_active", "fieldtype": "Check", "in_list_view": 1, "label": "Active"},
+  {"default": "0", "description": "Marks the immutable profile installed and maintained by the app.", "fieldname": "is_standard", "fieldtype": "Check", "label": "Standard Profile", "read_only": 1},
+  {"description": "Technical CSV format expected by the target BMD import definition.", "fieldname": "format_section", "fieldtype": "Section Break", "label": "CSV Format"},
+  {"default": ";", "description": "Character separating fields in each CSV row.", "fieldname": "delimiter", "fieldtype": "Select", "label": "Delimiter", "options": ";\n,\n\\t", "reqd": 1},
+  {"default": "utf-8-sig", "description": "Character encoding used to create the CSV file.", "fieldname": "encoding", "fieldtype": "Select", "label": "Encoding", "options": "utf-8-sig\ncp1252", "reqd": 1},
+  {"default": ".", "description": "Character used between integer and fractional digits.", "fieldname": "decimal_separator", "fieldtype": "Select", "label": "Decimal Separator", "options": ".\n,", "reqd": 1},
+  {"default": "%d.%m.%Y", "description": "Python strftime pattern used for exported dates.", "fieldname": "date_format", "fieldtype": "Data", "label": "Date Format", "reqd": 1},
+  {"default": "CRLF", "description": "Line ending required by the BMD import environment.", "fieldname": "line_ending", "fieldtype": "Select", "label": "Line Ending", "options": "CRLF\nLF", "reqd": 1},
+  {"description": "Number of decimal places written for each numeric value type.", "fieldname": "precision_section", "fieldtype": "Section Break", "label": "Decimal Precision"},
+  {"default": "2", "description": "Decimal places used for monetary amounts.", "fieldname": "money_precision", "fieldtype": "Int", "label": "Money Precision", "reqd": 1},
+  {"default": "3", "description": "Decimal places used for tax percentages.", "fieldname": "tax_rate_precision", "fieldtype": "Int", "label": "Tax Rate Precision", "reqd": 1},
+  {"default": "8", "description": "Decimal places used for foreign exchange rates.", "fieldname": "exchange_rate_precision", "fieldtype": "Int", "label": "Exchange Rate Precision", "reqd": 1},
+  {"default": "6", "description": "Decimal places used for exported quantities.", "fieldname": "quantity_precision", "fieldtype": "Int", "label": "Quantity Precision", "reqd": 1},
+  {"description": "Defines the exact BMD fields and their order in the CSV header.", "fieldname": "columns_section", "fieldtype": "Section Break", "label": "BMD Columns"},
+  {"description": "Ordered list of supported BMD field names; required fields must remain present.", "fieldname": "columns", "fieldtype": "Table", "label": "Columns", "options": "BMD Export Profile Column", "reqd": 1}
+ ],
+ "links": [],
+ "module": "BMD Export",
+ "name": "BMD Export Profile",
+ "permissions": [
+  {"read": 1, "role": "BMD Export User"},
+  {"create": 1, "delete": 1, "email": 1, "export": 1, "print": 1, "read": 1, "report": 1, "share": 1, "write": 1, "role": "BMD Export Manager"},
+  {"create": 1, "delete": 1, "email": 1, "export": 1, "print": 1, "read": 1, "report": 1, "share": 1, "write": 1, "role": "System Manager"}
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "profile_name"
+}

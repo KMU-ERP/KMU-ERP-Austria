@@ -1,0 +1,16 @@
+{
+ "content": null,
+ "doctype": "Page",
+ "module": "BMD Export",
+ "name": "bmd-export-help",
+ "page_name": "bmd-export-help",
+ "roles": [
+  {"role": "BMD Export User"},
+  {"role": "BMD Export Manager"},
+  {"role": "System Manager"}
+ ],
+ "script": null,
+ "standard": "Yes",
+ "style": null,
+ "title": "BMD Export Help"
+}

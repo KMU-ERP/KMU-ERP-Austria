@@ -104,3 +104,7 @@ def after_migrate():
 		return
 
 	app_setup()
+
+	from kmu_erp_austria.bmd_export.setup import ensure_bmd_export_defaults
+
+	ensure_bmd_export_defaults()

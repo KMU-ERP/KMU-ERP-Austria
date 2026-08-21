@@ -1,0 +1,42 @@
+{
+ "app": "kmu_erp_austria",
+ "charts": [],
+ "content": "[{\"id\":\"bmd-head\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>BMD Export</b></span>\",\"col\":12}},{\"id\":\"bmd-assistant\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"BMD Export Assistant\",\"col\":4}},{\"id\":\"bmd-batches\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"BMD Export Batches\",\"col\":4}},{\"id\":\"bmd-help\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"BMD Export Help\",\"col\":4}},{\"id\":\"bmd-card\",\"type\":\"card\",\"data\":{\"card_name\":\"BMD Configuration\",\"col\":12}}]",
+ "custom_blocks": [],
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "file-export",
+ "is_hidden": 0,
+ "label": "BMD Export",
+ "links": [
+  {"hidden": 0, "is_query_report": 0, "label": "BMD Configuration", "link_count": 8, "type": "Card Break"},
+  {"hidden": 0, "is_query_report": 0, "label": "Export Settings", "link_count": 0, "link_to": "BMD Export Settings", "link_type": "DocType", "type": "Link"},
+  {"hidden": 0, "is_query_report": 0, "label": "Export Profiles", "link_count": 0, "link_to": "BMD Export Profile", "link_type": "DocType", "type": "Link"},
+  {"hidden": 0, "is_query_report": 0, "label": "BMD Accounts", "link_count": 0, "link_to": "BMD Account", "link_type": "DocType", "type": "Link"},
+  {"hidden": 0, "is_query_report": 0, "label": "Account Mappings", "link_count": 0, "link_to": "BMD Account Mapping", "link_type": "DocType", "type": "Link"},
+  {"hidden": 0, "is_query_report": 0, "label": "Party Mappings", "link_count": 0, "link_to": "BMD Party Mapping", "link_type": "DocType", "type": "Link"},
+  {"hidden": 0, "is_query_report": 0, "label": "Tax Mappings", "link_count": 0, "link_to": "BMD Tax Mapping", "link_type": "DocType", "type": "Link"},
+  {"hidden": 0, "is_query_report": 0, "label": "Dimension Mappings", "link_count": 0, "link_to": "BMD Dimension Mapping", "link_type": "DocType", "type": "Link"},
+  {"hidden": 0, "is_query_report": 1, "label": "Missing Mappings", "link_count": 0, "link_to": "BMD Missing Mappings", "link_type": "Report", "type": "Link"}
+ ],
+ "module": "BMD Export",
+ "name": "BMD Export",
+ "number_cards": [],
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [
+  {"role": "BMD Export User"},
+  {"role": "BMD Export Manager"},
+  {"role": "System Manager"}
+ ],
+ "sequence_id": 30.0,
+ "shortcuts": [
+  {"color": "Blue", "doc_view": "", "label": "BMD Export Assistant", "link_to": "bmd-export-assistant", "type": "Page"},
+  {"color": "Grey", "doc_view": "List", "label": "BMD Export Batches", "link_to": "BMD Export Batch", "type": "DocType"},
+  {"color": "Green", "doc_view": "", "label": "BMD Export Help", "link_to": "bmd-export-help", "type": "Page"}
+ ],
+ "title": "BMD Export",
+ "type": "Workspace"
+}

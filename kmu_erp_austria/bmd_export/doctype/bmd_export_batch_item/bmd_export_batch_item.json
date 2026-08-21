@@ -1,0 +1,34 @@
+{
+ "actions": [], "autoname": "hash", "doctype": "DocType", "engine": "InnoDB",
+ "field_order": [
+  "invoice_section", "batch", "company", "voucher_type", "voucher_name", "posting_date", "status", "summary_section",
+  "booking_line_count", "document_line_count", "net_total", "tax_total", "gross_total", "fingerprint",
+  "document_hashes_json", "errors_json", "warnings_json"
+ ],
+ "fields": [
+  {"description": "Source invoice and validation state within its BMD export batch.", "fieldname": "invoice_section", "fieldtype": "Section Break", "label": "Invoice"},
+  {"description": "Parent export batch containing this invoice result.", "fieldname": "batch", "fieldtype": "Link", "in_list_view": 1, "in_standard_filter": 1, "label": "Batch", "options": "BMD Export Batch", "reqd": 1},
+  {"description": "Company inherited from the parent export batch.", "fieldname": "company", "fieldtype": "Link", "in_standard_filter": 1, "label": "Company", "options": "Company", "reqd": 1},
+  {"description": "ERPNext invoice DocType, normally Sales Invoice or Purchase Invoice.", "fieldname": "voucher_type", "fieldtype": "Link", "in_list_view": 1, "label": "Voucher Type", "options": "DocType", "reqd": 1},
+  {"description": "Direct link to the source ERPNext invoice.", "fieldname": "voucher_name", "fieldtype": "Dynamic Link", "in_list_view": 1, "label": "Voucher", "options": "voucher_type", "reqd": 1},
+  {"description": "Posting date used to select date-dependent mappings.", "fieldname": "posting_date", "fieldtype": "Date", "in_list_view": 1, "label": "Posting Date"},
+  {"description": "Result of validation or completed export generation for this invoice.", "fieldname": "status", "fieldtype": "Select", "in_list_view": 1, "label": "Status", "options": "Valid\nInvalid\nExported\nSkipped", "read_only": 1},
+  {"description": "Generated row counts, reconciled totals and technical validation details.", "fieldname": "summary_section", "fieldtype": "Section Break", "label": "Summary"},
+  {"fieldname": "booking_line_count", "fieldtype": "Int", "label": "Booking Lines", "read_only": 1},
+  {"fieldname": "document_line_count", "fieldtype": "Int", "label": "Document Lines", "read_only": 1},
+  {"fieldname": "net_total", "fieldtype": "Currency", "label": "Net Total", "read_only": 1},
+  {"fieldname": "tax_total", "fieldtype": "Currency", "label": "Tax Total", "read_only": 1},
+  {"fieldname": "gross_total", "fieldtype": "Currency", "label": "Gross Total", "read_only": 1},
+  {"fieldname": "fingerprint", "fieldtype": "Data", "label": "Fingerprint", "read_only": 1},
+  {"fieldname": "document_hashes_json", "fieldtype": "Code", "label": "Document Hashes", "options": "JSON", "read_only": 1},
+  {"fieldname": "errors_json", "fieldtype": "Code", "label": "Errors", "options": "JSON", "read_only": 1},
+  {"fieldname": "warnings_json", "fieldtype": "Code", "label": "Warnings", "options": "JSON", "read_only": 1}
+ ],
+ "links": [], "module": "BMD Export", "name": "BMD Export Batch Item",
+ "permissions": [
+  {"read": 1, "report": 1, "role": "BMD Export User"},
+  {"export": 1, "read": 1, "report": 1, "role": "BMD Export Manager"},
+  {"delete": 1, "export": 1, "read": 1, "report": 1, "role": "System Manager"}
+ ],
+ "sort_field": "creation", "sort_order": "ASC", "states": []
+}

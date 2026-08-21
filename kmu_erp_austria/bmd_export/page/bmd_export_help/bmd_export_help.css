@@ -1,0 +1,90 @@
+.bmd-help {
+	display: grid;
+	grid-template-columns: minmax(210px, 260px) minmax(0, 1fr);
+	gap: 1.5rem;
+	padding: 1rem 0 3rem;
+}
+
+.bmd-help-nav {
+	align-self: start;
+	position: sticky;
+	top: 1rem;
+	padding: 1rem;
+}
+
+.bmd-help-nav-title {
+	font-weight: 600;
+	margin-bottom: 0.5rem;
+}
+
+.bmd-help-nav-links {
+	display: flex;
+	flex-direction: column;
+	gap: 0.25rem;
+}
+
+.bmd-help-nav-link {
+	border-radius: var(--border-radius);
+	color: var(--text-muted);
+	padding: 0.5rem 0.75rem;
+	text-decoration: none;
+}
+
+.bmd-help-nav-link:hover,
+.bmd-help-nav-link.active {
+	background: var(--control-bg);
+	color: var(--text-color);
+	text-decoration: none;
+}
+
+.bmd-help-content {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+
+.bmd-help-content section {
+	scroll-margin-top: 1rem;
+	padding: 1.5rem;
+}
+
+.bmd-help-content h2 {
+	margin-top: 0;
+}
+
+.bmd-help-content li {
+	margin-bottom: 0.4rem;
+}
+
+.bmd-help-content pre {
+	background: var(--subtle-fg);
+	border-radius: var(--border-radius);
+	padding: 0.75rem;
+}
+
+.bmd-help-actions {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.5rem;
+	margin-top: 1rem;
+}
+
+@media (max-width: 767px) {
+	.bmd-help {
+		display: block;
+	}
+
+	.bmd-help-nav {
+		margin-bottom: 1rem;
+		position: static;
+	}
+
+	.bmd-help-nav-links {
+		flex-direction: row;
+		overflow-x: auto;
+	}
+
+	.bmd-help-nav-link {
+		white-space: nowrap;
+	}
+}

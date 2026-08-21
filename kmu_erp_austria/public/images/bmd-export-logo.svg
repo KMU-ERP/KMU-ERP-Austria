@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="25.4mm"
+   height="25.4mm"
+   viewBox="0 0 25.4 25.4"
+   version="1.1"
+   id="svg5"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg">
+  <defs id="defs2">
+    <linearGradient id="linearGradient26385">
+      <stop
+         style="stop-color:#dfeae2;stop-opacity:1"
+         offset="0"
+         id="stop26381" />
+      <stop
+         style="stop-color:#efeddc;stop-opacity:1"
+         offset="1"
+         id="stop26383" />
+    </linearGradient>
+    <linearGradient
+       xlink:href="#linearGradient26385"
+       id="linearGradient26387"
+       x1="81.124249"
+       y1="104.06562"
+       x2="106.52425"
+       y2="104.06562"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g id="layer1" transform="translate(-81.124249,-91.365621)">
+    <circle
+       style="fill:url(#linearGradient26387);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.3"
+       id="path846"
+       cx="93.824249"
+       cy="104.06562"
+       r="12.7" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:Arial;letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="93.795135"
+       y="100.65993"
+       id="text5177"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.76111px;font-family:Arial;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="93.795135"
+         y="100.65993"
+         id="tspan5179"
+         dy="2.03">KMU</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.46667px;font-family:Arial;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="93.795135"
+         y="110.99686"
+         id="tspan17279"
+         dy="0">ERP</tspan></text>
+  </g>
+</svg>

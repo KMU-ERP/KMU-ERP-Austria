@@ -1,0 +1,25 @@
+{
+ "actions": [],
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": ["field_name"],
+ "fields": [
+  {
+   "fieldname": "field_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "BMD Field Name",
+   "description": "Technical BMD column name written to the CSV header.",
+   "reqd": 1
+  }
+ ],
+ "istable": 1,
+ "links": [],
+ "module": "BMD Export",
+ "name": "BMD Export Profile Column",
+ "permissions": [],
+ "sort_field": "idx",
+ "sort_order": "ASC",
+ "states": []
+}

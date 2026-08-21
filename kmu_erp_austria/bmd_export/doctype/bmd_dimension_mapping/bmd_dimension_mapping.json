@@ -1,0 +1,26 @@
+{
+ "actions": [], "autoname": "hash", "doctype": "DocType", "engine": "InnoDB",
+ "field_order": ["source_section", "company", "source_type", "source_field", "source_value", "target_section", "target_field", "bmd_value", "validity_section", "active", "valid_from", "valid_to", "priority"],
+ "fields": [
+  {"description": "Selects the ERPNext dimension value that should be translated for BMD KORE.", "fieldname": "source_section", "fieldtype": "Section Break", "label": "ERPNext Source"},
+  {"description": "Company for which this dimension mapping is evaluated.", "fieldname": "company", "fieldtype": "Link", "in_list_view": 1, "in_standard_filter": 1, "label": "Company", "options": "Company", "reqd": 1},
+  {"description": "ERPNext source category: Cost Center, Project or a custom Accounting Dimension.", "fieldname": "source_type", "fieldtype": "Select", "in_list_view": 1, "label": "Source Type", "options": "Cost Center\nProject\nAccounting Dimension", "reqd": 1},
+  {"depends_on": "eval:doc.source_type == 'Accounting Dimension'", "description": "ERPNext fieldname of the enabled custom Accounting Dimension, for example business_unit.", "fieldname": "source_field", "fieldtype": "Data", "label": "Accounting Dimension Field"},
+  {"description": "Exact ERPNext value that must match the invoice item.", "fieldname": "source_value", "fieldtype": "Data", "in_list_view": 1, "label": "ERPNext Value", "reqd": 1},
+  {"description": "Defines the BMD KORE field and value written by this mapping.", "fieldname": "target_section", "fieldtype": "Section Break", "label": "BMD Target"},
+  {"description": "Supported technical BMD KORE field receiving the mapped value.", "fieldname": "target_field", "fieldtype": "Select", "in_list_view": 1, "label": "BMD Target Field", "options": "kost\nkotraeger\nkoabteilung\nkodimension\nkogeschaeftsbereich", "reqd": 1},
+  {"description": "Value written to the selected BMD KORE field.", "fieldname": "bmd_value", "fieldtype": "Data", "in_list_view": 1, "label": "BMD Value", "reqd": 1},
+  {"description": "Optional date range and precedence for this dimension mapping.", "fieldname": "validity_section", "fieldtype": "Section Break", "label": "Validity"},
+  {"default": "1", "description": "Inactive mappings are ignored during preview and export.", "fieldname": "active", "fieldtype": "Check", "label": "Active"},
+  {"description": "First posting date on which this mapping may be used; empty means no lower limit.", "fieldname": "valid_from", "fieldtype": "Date", "label": "Valid From"},
+  {"description": "Last posting date on which this mapping may be used; empty means no upper limit.", "fieldname": "valid_to", "fieldtype": "Date", "label": "Valid To"},
+  {"default": "0", "description": "Higher values win when multiple mappings target the same BMD field.", "fieldname": "priority", "fieldtype": "Int", "label": "Priority"}
+ ],
+ "links": [], "module": "BMD Export", "name": "BMD Dimension Mapping",
+ "permissions": [
+  {"read": 1, "role": "BMD Export User"},
+  {"create": 1, "delete": 1, "export": 1, "import": 1, "print": 1, "read": 1, "report": 1, "write": 1, "role": "BMD Export Manager"},
+  {"create": 1, "delete": 1, "export": 1, "import": 1, "print": 1, "read": 1, "report": 1, "write": 1, "role": "System Manager"}
+ ],
+ "sort_field": "modified", "sort_order": "DESC", "states": []
+}

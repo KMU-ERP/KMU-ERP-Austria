@@ -1,0 +1,91 @@
+.bmd-modern-form .std-form-layout > .form-layout > .form-page {
+	background:
+		linear-gradient(135deg, color-mix(in srgb, var(--primary) 5%, transparent), transparent 42%),
+		var(--subtle-fg);
+	padding: 0.75rem 0 1.5rem;
+}
+
+.bmd-modern-form .form-section.card-section,
+.bmd-modern-form .form-dashboard-section {
+	background: var(--card-bg);
+	border: 1px solid var(--border-color);
+	border-radius: 12px;
+	box-shadow: 0 2px 8px rgba(15, 23, 42, 0.04);
+	margin: 0.75rem 1rem;
+	overflow: hidden;
+	padding-bottom: 0.5rem;
+}
+
+.bmd-modern-form .form-section.card-section > .section-head,
+.bmd-modern-form .form-dashboard-section > .section-head {
+	background: transparent !important;
+	border: 0 !important;
+	font-size: 1.125rem;
+	font-weight: 650;
+	letter-spacing: 0.01em;
+	line-height: 1.4;
+	margin-bottom: 0.25rem !important;
+	padding-bottom: 0.65rem;
+	padding-top: 1rem;
+}
+
+.bmd-modern-form .form-section-description {
+	background: transparent !important;
+	border: 0 !important;
+	border-radius: 0;
+	line-height: 1.5;
+	margin-bottom: 0.75rem !important;
+	margin-top: 0.25rem !important;
+	padding: 0 0.8rem;
+}
+
+.bmd-modern-form .control-label {
+	color: var(--text-color);
+	font-weight: 600;
+}
+
+.bmd-modern-form .help-box,
+.bmd-modern-form .form-column-description {
+	color: var(--text-muted);
+	font-size: var(--text-sm);
+	line-height: 1.45;
+	margin-top: 0.35rem;
+}
+
+.bmd-modern-form .form-control,
+.bmd-modern-form .control-input-wrapper,
+.bmd-modern-form .link-field.ui-front,
+.bmd-modern-form .awesomplete > input {
+	border-radius: 8px;
+}
+
+.bmd-modern-form .form-grid {
+	border: 1px solid var(--border-color);
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.bmd-modern-form .form-tabs-list {
+	background: var(--card-bg);
+	border: 1px solid var(--border-color);
+	border-radius: 10px;
+	gap: 0.25rem;
+	margin: 0.75rem 1rem 0;
+	padding: 0.3rem;
+}
+
+.bmd-modern-form .form-tabs-list .nav-link {
+	border-radius: 7px;
+}
+
+@media (max-width: 767px) {
+	.bmd-modern-form .form-section.card-section,
+	.bmd-modern-form .form-dashboard-section,
+	.bmd-modern-form .form-tabs-list {
+		border-left: 0;
+		border-radius: 0;
+		border-right: 0;
+		margin-left: 0;
+		margin-right: 0;
+	}
+}

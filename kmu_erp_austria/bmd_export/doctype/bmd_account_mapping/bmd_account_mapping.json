@@ -1,0 +1,29 @@
+{
+ "actions": [],
+ "autoname": "hash",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": ["mapping_section", "company", "erpnext_account", "bmd_account", "active", "validity_section", "valid_from", "valid_to", "priority", "conditions_section", "country", "tax_category", "item_group"],
+ "fields": [
+  {"description": "Maps one ERPNext income or expense account to a BMD general-ledger account.", "fieldname": "mapping_section", "fieldtype": "Section Break", "label": "Account Mapping"},
+  {"description": "Company for which this mapping is evaluated.", "fieldname": "company", "fieldtype": "Link", "in_list_view": 1, "in_standard_filter": 1, "label": "Company", "options": "Company", "reqd": 1},
+  {"description": "ERPNext income or expense account used on the invoice item.", "fieldname": "erpnext_account", "fieldtype": "Link", "in_list_view": 1, "label": "ERPNext Account", "options": "Account", "reqd": 1},
+  {"description": "Active BMD account number written as the contra account.", "fieldname": "bmd_account", "fieldtype": "Link", "in_list_view": 1, "label": "BMD Account", "options": "BMD Account", "reqd": 1},
+  {"default": "1", "description": "Inactive mappings are ignored during preview and export.", "fieldname": "active", "fieldtype": "Check", "in_list_view": 1, "label": "Active"},
+  {"description": "Optional date range and precedence used to resolve competing mappings.", "fieldname": "validity_section", "fieldtype": "Section Break", "label": "Validity"},
+  {"description": "First posting date on which this mapping may be used; empty means no lower limit.", "fieldname": "valid_from", "fieldtype": "Date", "label": "Valid From"},
+  {"description": "Last posting date on which this mapping may be used; empty means no upper limit.", "fieldname": "valid_to", "fieldtype": "Date", "label": "Valid To"},
+  {"default": "0", "description": "Higher values win when otherwise equally specific mappings match.", "fieldname": "priority", "fieldtype": "Int", "label": "Priority"},
+  {"description": "When filled, all conditions must match the invoice item before this mapping applies.", "fieldname": "conditions_section", "fieldtype": "Section Break", "label": "Optional Conditions"},
+  {"description": "Restricts the mapping to invoices for this country.", "fieldname": "country", "fieldtype": "Link", "label": "Country", "options": "Country"},
+  {"description": "Restricts the mapping to this ERPNext tax category.", "fieldname": "tax_category", "fieldtype": "Link", "label": "Tax Category", "options": "Tax Category"},
+  {"description": "Restricts the mapping to invoice items in this item group.", "fieldname": "item_group", "fieldtype": "Link", "label": "Item Group", "options": "Item Group"}
+ ],
+ "links": [], "module": "BMD Export", "name": "BMD Account Mapping",
+ "permissions": [
+  {"read": 1, "role": "BMD Export User"},
+  {"create": 1, "delete": 1, "export": 1, "import": 1, "print": 1, "read": 1, "report": 1, "write": 1, "role": "BMD Export Manager"},
+  {"create": 1, "delete": 1, "export": 1, "import": 1, "print": 1, "read": 1, "report": 1, "write": 1, "role": "System Manager"}
+ ],
+ "sort_field": "modified", "sort_order": "DESC", "states": []
+}

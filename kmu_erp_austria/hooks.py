@@ -9,6 +9,7 @@ app_license = "mit"
 # Fixtures
 fixtures = [
 	{"dt": "Print Format", "filters": [["name", "in", ["Angebot - KMU ERP Austria", "Auftragsbestätigung - KMU ERP Austria",  "Lieferschein - KMU ERP Austria", "Ausgangsrechnung - KMU ERP Austria"]]]},
+	{"dt": "Role", "filters": [["name", "in", ["BMD Export User", "BMD Export Manager"]]]},
 	"Item Group",
 	"Tax Category",
 	"Address Template"
@@ -34,7 +35,7 @@ fixtures = [
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/kmu_erp_austria/css/kmu_erp_austria.css"
+app_include_css = "/assets/kmu_erp_austria/css/bmd_export.css"
 # app_include_js = "/assets/kmu_erp_austria/js/kmu_erp_austria.js"
 
 # include js, css files in header of web template
@@ -52,7 +53,17 @@ fixtures = [
 # page_js = {"page" : "public/js/file.js"}
 
 # include js in doctype views
-# doctype_js = {"doctype" : "public/js/doctype.js"}
+doctype_js = {
+	"BMD Account": "public/js/bmd_form.js",
+	"BMD Account Mapping": "public/js/bmd_form.js",
+	"BMD Dimension Mapping": "public/js/bmd_form.js",
+	"BMD Export Batch": "public/js/bmd_form.js",
+	"BMD Export Batch Item": "public/js/bmd_form.js",
+	"BMD Export Profile": "public/js/bmd_form.js",
+	"BMD Export Settings": "public/js/bmd_form.js",
+	"BMD Party Mapping": "public/js/bmd_form.js",
+	"BMD Tax Mapping": "public/js/bmd_form.js",
+}
 # doctype_list_js = {"doctype" : "public/js/doctype_list.js"}
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
 # doctype_calendar_js = {"doctype" : "public/js/doctype_calendar.js"}
@@ -149,13 +160,13 @@ doc_events = {
 # Scheduled Tasks
 # ---------------
 
-# scheduler_events = {
+scheduler_events = {
 # 	"all": [
 # 		"kmu_erp_austria.tasks.all"
 # 	],
-# 	"daily": [
-# 		"kmu_erp_austria.tasks.daily"
-# 	],
+	"daily": [
+		"kmu_erp_austria.bmd_export.services.retention.cleanup_expired_artifacts"
+	],
 # 	"hourly": [
 # 		"kmu_erp_austria.tasks.hourly"
 # 	],
@@ -165,7 +176,7 @@ doc_events = {
 # 	"monthly": [
 # 		"kmu_erp_austria.tasks.monthly"
 # 	],
-# }
+}
 
 # Testing
 # -------
@@ -255,4 +266,3 @@ doc_events = {
 # ------------
 # List of apps whose translatable strings should be excluded from this app's translations.
 # ignore_translatable_strings_from = []
-

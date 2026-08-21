@@ -1,0 +1,31 @@
+{
+ "actions": [],
+ "autoname": "hash",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": ["account_section", "company", "account_number", "account_name", "account_type", "active", "source_section", "source", "import_date"],
+ "fields": [
+  {"description": "BMD account-master entry available as a target for account mappings.", "fieldname": "account_section", "fieldtype": "Section Break", "label": "BMD Account"},
+  {"description": "ERPNext company whose BMD chart of accounts contains this account.", "fieldname": "company", "fieldtype": "Link", "in_list_view": 1, "in_standard_filter": 1, "label": "Company", "options": "Company", "reqd": 1},
+  {"description": "Numeric account identifier used by BMD NTCS.", "fieldname": "account_number", "fieldtype": "Data", "in_list_view": 1, "label": "BMD Account Number", "reqd": 1, "search_index": 1},
+  {"description": "Human-readable name imported from or maintained for the BMD account.", "fieldname": "account_name", "fieldtype": "Data", "in_list_view": 1, "label": "Account Name", "reqd": 1},
+  {"description": "Optional source classification from the BMD account master.", "fieldname": "account_type", "fieldtype": "Data", "label": "Account Type"},
+  {"default": "1", "description": "Only active BMD accounts can be resolved by mappings.", "fieldname": "active", "fieldtype": "Check", "in_list_view": 1, "label": "Active"},
+  {"description": "Tracks where and when this account-master entry was imported.", "fieldname": "source_section", "fieldtype": "Section Break", "label": "Source"},
+  {"description": "Optional name of the source file, export or account-master version.", "fieldname": "source", "fieldtype": "Data", "label": "Source"},
+  {"description": "Timestamp of the latest account import that created or updated this entry.", "fieldname": "import_date", "fieldtype": "Datetime", "label": "Imported At", "read_only": 1}
+ ],
+ "links": [],
+ "module": "BMD Export",
+ "name": "BMD Account",
+ "permissions": [
+  {"read": 1, "role": "BMD Export User"},
+  {"create": 1, "delete": 1, "export": 1, "import": 1, "print": 1, "read": 1, "report": 1, "write": 1, "role": "BMD Export Manager"},
+  {"create": 1, "delete": 1, "export": 1, "import": 1, "print": 1, "read": 1, "report": 1, "write": 1, "role": "System Manager"}
+ ],
+ "search_fields": "account_number,account_name",
+ "sort_field": "account_number",
+ "sort_order": "ASC",
+ "states": [],
+ "title_field": "account_name"
+}

@@ -1,0 +1,42 @@
+{
+ "actions": [], "autoname": "hash", "doctype": "DocType", "engine": "InnoDB",
+ "field_order": [
+  "matching_section", "company", "transaction_type", "tax_category", "country", "country_group", "tax_rate",
+  "erp_tax_account", "bmd_section", "bmd_tax_code", "amount_source", "sign_rule", "export_tax",
+  "tax_included_in_gross", "input_tax_deductible", "default_branch", "oss_target_country",
+  "oss_schema", "oss_uid", "validity_section", "valid_from", "valid_to", "priority", "active"
+ ],
+ "fields": [
+  {"description": "Conditions used to select the correct tax treatment for each invoice item.", "fieldname": "matching_section", "fieldtype": "Section Break", "label": "Matching Rules"},
+  {"description": "Company for which this tax mapping is evaluated.", "fieldname": "company", "fieldtype": "Link", "in_list_view": 1, "in_standard_filter": 1, "label": "Company", "options": "Company", "reqd": 1},
+  {"default": "Both", "description": "Restricts the mapping to sales, purchases or both transaction directions.", "fieldname": "transaction_type", "fieldtype": "Select", "in_list_view": 1, "label": "Transaction Type", "options": "Sales\nPurchase\nBoth", "reqd": 1},
+  {"description": "Optional ERPNext Tax Category condition increasing mapping specificity.", "fieldname": "tax_category", "fieldtype": "Link", "label": "Tax Category", "options": "Tax Category"},
+  {"description": "Optional customer or supplier country condition.", "fieldname": "country", "fieldtype": "Link", "label": "Country", "options": "Country"},
+  {"description": "Optional derived group such as Domestic, EU or Third Country.", "fieldname": "country_group", "fieldtype": "Data", "label": "Country Group"},
+  {"description": "Tax percentage matched with three-decimal precision.", "fieldname": "tax_rate", "fieldtype": "Float", "in_list_view": 1, "label": "Tax Rate", "precision": "3", "reqd": 1},
+  {"description": "Optional ERPNext tax account condition from the item tax detail.", "fieldname": "erp_tax_account", "fieldtype": "Link", "label": "ERPNext Tax Account", "options": "Account"},
+  {"description": "Values written to BMD when the matching rules select this tax mapping.", "fieldname": "bmd_section", "fieldtype": "Section Break", "label": "BMD Result"},
+  {"description": "BMD tax code written to the booking row; maximum four characters.", "fieldname": "bmd_tax_code", "fieldtype": "Data", "in_list_view": 1, "label": "BMD Tax Code"},
+  {"default": "ERP Item Tax Detail", "description": "Determines whether tax comes from ERPNext, is calculated from net amount, or is zero.", "fieldname": "amount_source", "fieldtype": "Select", "label": "Tax Amount Source", "options": "ERP Item Tax Detail\nNet Amount x Rate\nZero", "reqd": 1},
+  {"default": "Standard Input Tax", "description": "Controls the sign of the exported BMD tax amount.", "fieldname": "sign_rule", "fieldtype": "Select", "label": "BMD Tax Sign Rule", "options": "Standard Output Tax\nStandard Input Tax\nOutput-side Tax\nZero", "reqd": 1},
+  {"default": "1", "description": "Exactly one matching tax component per invoice item must be marked for BMD export.", "fieldname": "export_tax", "fieldtype": "Check", "label": "Use as BMD Tax Component"},
+  {"default": "1", "description": "Adds this tax component to the gross booking amount exported to BMD.", "fieldname": "tax_included_in_gross", "fieldtype": "Check", "label": "Tax Included in BMD Amount"},
+  {"default": "1", "description": "Documents whether this purchase tax is deductible for the intended BMD treatment.", "fieldname": "input_tax_deductible", "fieldtype": "Check", "label": "Input Tax Deductible"},
+  {"description": "BMD branch written for bookings using this tax mapping.", "fieldname": "default_branch", "fieldtype": "Data", "label": "BMD Branch"},
+  {"description": "BMD OSS destination-country code for applicable EU distance sales.", "fieldname": "oss_target_country", "fieldtype": "Data", "label": "OSS Target Country"},
+  {"description": "BMD OSS schema identifier required by the target import.", "fieldname": "oss_schema", "fieldtype": "Data", "label": "OSS Schema"},
+  {"description": "VAT identification number written to the BMD OSS field.", "fieldname": "oss_uid", "fieldtype": "Data", "label": "OSS UID"},
+  {"description": "Optional date range, precedence and activation state for this tax mapping.", "fieldname": "validity_section", "fieldtype": "Section Break", "label": "Validity"},
+  {"description": "First posting date on which this mapping may be used; empty means no lower limit.", "fieldname": "valid_from", "fieldtype": "Date", "label": "Valid From"},
+  {"description": "Last posting date on which this mapping may be used; empty means no upper limit.", "fieldname": "valid_to", "fieldtype": "Date", "label": "Valid To"},
+  {"default": "0", "description": "Higher values win when otherwise equally specific mappings match.", "fieldname": "priority", "fieldtype": "Int", "label": "Priority"},
+  {"default": "1", "description": "Inactive mappings are ignored during preview and export.", "fieldname": "active", "fieldtype": "Check", "in_list_view": 1, "label": "Active"}
+ ],
+ "links": [], "module": "BMD Export", "name": "BMD Tax Mapping",
+ "permissions": [
+  {"read": 1, "role": "BMD Export User"},
+  {"create": 1, "delete": 1, "export": 1, "import": 1, "print": 1, "read": 1, "report": 1, "write": 1, "role": "BMD Export Manager"},
+  {"create": 1, "delete": 1, "export": 1, "import": 1, "print": 1, "read": 1, "report": 1, "write": 1, "role": "System Manager"}
+ ],
+ "sort_field": "modified", "sort_order": "DESC", "states": []
+}

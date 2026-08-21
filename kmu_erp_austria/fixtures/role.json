@@ -1,0 +1,14 @@
+[
+ {
+  "desk_access": 1,
+  "doctype": "Role",
+  "name": "BMD Export User",
+  "role_name": "BMD Export User"
+ },
+ {
+  "desk_access": 1,
+  "doctype": "Role",
+  "name": "BMD Export Manager",
+  "role_name": "BMD Export Manager"
+ }
+]
