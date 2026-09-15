@@ -1468,6 +1468,11 @@
         "account_type": "Payable",
         "account_currency": "EUR"
       },
+      "Erhaltene, noch nicht fakturierte Lieferungen": {
+        "account_number": "3305",
+        "account_type": "Stock Received But Not Billed",
+        "account_currency": "EUR"
+      },
       "Abgrenzungen von Verbindlichkeiten aus Lieferungen und Leistungen": {
         "account_number": "3350",
         "account_type": "Payable",
