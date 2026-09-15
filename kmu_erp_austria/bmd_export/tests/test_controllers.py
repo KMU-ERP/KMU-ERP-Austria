@@ -5,13 +5,25 @@ import unittest
 import frappe
 from frappe.tests import IntegrationTestCase
 
+from kmu_erp_austria.bmd_export.setup import ensure_bmd_export_defaults
+
 
 @unittest.skipUnless(getattr(frappe.local, "site", None), "requires an initialized Frappe site")
 class TestBMDControllers(IntegrationTestCase):
 	def setUp(self):
 		super().setUp()
 		frappe.set_user("Administrator")
-		self.company = frappe.get_all("Company", pluck="name", limit=1)[0]
+		company = frappe.get_doc(
+			{
+				"doctype": "Company",
+				"company_name": "Company For Testing",
+				"abbr": "CFT",
+				"default_currency": "EUR",
+				"country": "Austria",
+			}
+		).insert(ignore_permissions=True, ignore_if_duplicate=True)
+		self.company = company.name
+		ensure_bmd_export_defaults()
 
 	def make_batch(self, **values):
 		return frappe.get_doc(
