@@ -13,6 +13,11 @@ class TestBMDControllers(IntegrationTestCase):
 	def setUp(self):
 		super().setUp()
 		frappe.set_user("Administrator")
+		warehouse_type = frappe.get_doc(
+			{"doctype": "Warehouse Type",
+			 "name": "Transit"
+			}
+		).insert(ignore_permissions=True, ignore_if_duplicate=True)
 		company = frappe.get_doc(
 			{
 				"doctype": "Company",
