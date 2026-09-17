@@ -9,8 +9,8 @@ def execute():
 		account_name = frappe.db.get_value(
 			"Account",
 			{
-				"account_name": "Erhaltene, noch nicht fakturierte Lieferungen",
-				"account_number": "3305",
+				"account_name": "Verbindlichkeiten, nicht fakturierte Leistungen",
+				"account_number": "3310",
 				"company": company.name,
 			},
 			"name",
@@ -24,8 +24,8 @@ def execute():
 
 			account = frappe.get_doc({
 				"doctype": "Account",
-				"account_name": "Erhaltene, noch nicht fakturierte Lieferungen",
-				"account_number": "3305",
+				"account_name": "Verbindlichkeiten, nicht fakturierte Leistungen",
+				"account_number": "3310",
 				"company": company.name,
 				"account_currency": "EUR",
 				"parent_account": parent_account,

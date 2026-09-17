@@ -56,7 +56,7 @@ DEFAULT_ACCOUNTS = [
 	},
 	{
 		"field_name": "stock_received_but_not_billed",
-		"account_name": "3305 - Erhaltene, noch nicht fakturierte Lieferungen"
+		"account_name": "3310 - Verbindlichkeiten, nicht fakturierte Leistungen"
 	}
 ]
 
