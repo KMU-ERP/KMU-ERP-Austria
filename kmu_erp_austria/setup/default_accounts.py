@@ -54,6 +54,10 @@ DEFAULT_ACCOUNTS = [
 		"field_name": "capital_work_in_progress_account",
 		"account_name": "0710 - Anlagen in Bau"
 	},
+	{
+		"field_name": "stock_received_but_not_billed",
+		"account_name": "3310 - Verbindlichkeiten, nicht fakturierte Leistungen"
+	}
 ]
 
 def set_default_accounts_to_company(company_name):
